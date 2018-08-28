@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF42202931": {
+    "contest_id": 1020,
+    "language": "FPC",
+    "path": "codeforces\\1020\\A.pas",
+    "problem_index": "A",
+    "problem_name": "New Building for SIS",
+    "problem_url": "https://codeforces.com/contest/1020/problem/A",
+    "submission_id": "CF42202931",
+    "submission_url": "https://codeforces.com/contest/1020/submission/42202931",
+    "tags": [
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Aug/28/2018 16:47"
+  },
   "CF42368255": {
     "contest_id": 1037,
     "language": "FPC",
