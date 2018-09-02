@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF42382980": {
+    "contest_id": 1037,
+    "language": "FPC",
+    "path": "codeforces\\1037\\C.pas",
+    "problem_index": "C",
+    "problem_name": "Equalize",
+    "problem_url": "https://codeforces.com/contest/1037/problem/C",
+    "submission_id": "CF42382980",
+    "submission_url": "https://codeforces.com/contest/1037/submission/42382980",
+    "tags": [
+      "dp",
+      "greedy",
+      "strings",
+      "*1300"
+    ],
+    "timestamp": "Sep/02/2018 22:18"
+  },
   "CF42624145": {
     "contest_id": 1036,
     "language": "FPC",
