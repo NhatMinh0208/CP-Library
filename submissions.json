@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF42368255": {
+    "contest_id": 1037,
+    "language": "FPC",
+    "path": "codeforces\\1037\\A.pas",
+    "problem_index": "A",
+    "problem_name": "Packets",
+    "problem_url": "https://codeforces.com/contest/1037/problem/A",
+    "submission_id": "CF42368255",
+    "submission_url": "https://codeforces.com/contest/1037/submission/42368255",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Sep/02/2018 21:42"
+  },
   "CF42382980": {
     "contest_id": 1037,
     "language": "FPC",
