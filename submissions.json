@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF58520437": {
+    "contest_id": 59,
+    "language": "GNU C++17",
+    "path": "codeforces\\59\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Title",
+    "problem_url": "https://codeforces.com/contest/59/problem/C",
+    "submission_id": "CF58520437",
+    "submission_url": "https://codeforces.com/contest/59/submission/58520437",
+    "tags": [
+      "expression parsing",
+      "*1600"
+    ],
+    "timestamp": "Aug/10/2019 11:12"
+  },
   "CF58521159": {
     "contest_id": 621,
     "language": "GNU C++17",
