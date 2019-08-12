@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF58675220": {
+    "contest_id": 534,
+    "language": "GNU C++17",
+    "path": "codeforces\\534\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Polycarpus' Dice",
+    "problem_url": "https://codeforces.com/contest/534/problem/C",
+    "submission_id": "CF58675220",
+    "submission_url": "https://codeforces.com/contest/534/submission/58675220",
+    "tags": [
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Aug/12/2019 23:13"
+  },
   "CF58705272": {
     "contest_id": 1200,
     "language": "GNU C++17",
