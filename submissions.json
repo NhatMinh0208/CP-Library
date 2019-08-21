@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF59229683": {
+    "contest_id": 812,
+    "language": "GNU C++17",
+    "path": "codeforces\\812\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Sagheer, the Hausmeister",
+    "problem_url": "https://codeforces.com/contest/812/problem/B",
+    "submission_id": "CF59229683",
+    "submission_url": "https://codeforces.com/contest/812/submission/59229683",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "dp",
+      "*1600"
+    ],
+    "timestamp": "Aug/21/2019 21:59"
+  },
   "CF59231068": {
     "contest_id": 484,
     "language": "GNU C++17",
