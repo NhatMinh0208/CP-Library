@@ -56,17 +56,14 @@ int can(){
 }
 int main()
 {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
-    ll ok=0;
+    ll tot=0;
     for(int i=0;i<3;i++){
         cin >> x[i] >> y[i];
-       ok+=x[i] * y[i];
+        tot+=x[i] * y[i];
     }
     for(ll i=1;i<=1000;i++){
-        if(i*i>ok)return cout << -1,0;
-        if(i*i==ok){
+        if(i*i>tot)return cout << -1,0;
+        if(i*i==tot){
             n=i;
             break;
         }
