@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF59621469": {
+    "contest_id": 150,
+    "language": "GNU C++17",
+    "path": "codeforces\\150\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Win or Freeze",
+    "problem_url": "https://codeforces.com/contest/150/problem/A",
+    "submission_id": "CF59621469",
+    "submission_url": "https://codeforces.com/contest/150/submission/59621469",
+    "tags": [
+      "games",
+      "math",
+      "number theory",
+      "*1400"
+    ],
+    "timestamp": "Aug/28/2019 21:21"
+  },
   "CF59622501": {
     "contest_id": 924,
     "language": "GNU C++17",
