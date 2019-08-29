@@ -1048,6 +1048,24 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF59669796": {
+    "contest_id": 416,
+    "language": "GNU C++17",
+    "path": "codeforces\\416\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Booking System",
+    "problem_url": "https://codeforces.com/contest/416/problem/C",
+    "submission_id": "CF59669796",
+    "submission_url": "https://codeforces.com/contest/416/submission/59669796",
+    "tags": [
+      "binary search",
+      "dp",
+      "greedy",
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Aug/29/2019 22:34"
+  },
   "CF59701548": {
     "contest_id": 979,
     "language": "GNU C++17",
