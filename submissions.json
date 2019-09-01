@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF59846161": {
+    "contest_id": 595,
+    "language": "GNU C++17",
+    "path": "codeforces\\595\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Pasha and Phone",
+    "problem_url": "https://codeforces.com/contest/595/problem/B",
+    "submission_id": "CF59846161",
+    "submission_url": "https://codeforces.com/contest/595/submission/59846161",
+    "tags": [
+      "binary search",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Sep/01/2019 16:34"
+  },
   "CF59850312": {
     "contest_id": 372,
     "language": "GNU C++17",
