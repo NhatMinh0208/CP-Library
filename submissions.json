@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF60117188": {
+    "contest_id": 26,
+    "language": "GNU C++17",
+    "path": "codeforces\\26\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Almost Prime",
+    "problem_url": "https://codeforces.com/contest/26/problem/A",
+    "submission_id": "CF60117188",
+    "submission_url": "https://codeforces.com/contest/26/submission/60117188",
+    "tags": [
+      "number theory",
+      "*900"
+    ],
+    "timestamp": "Sep/05/2019 22:59"
+  },
   "CF60150182": {
     "contest_id": 20,
     "language": "GNU C++17",
