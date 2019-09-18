@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF60777276": {
+    "contest_id": 656,
+    "language": "GNU C++17",
+    "path": "codeforces\\656\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Rosetta Problem",
+    "problem_url": "https://codeforces.com/contest/656/problem/D",
+    "submission_id": "CF60777276",
+    "submission_url": "https://codeforces.com/contest/656/submission/60777276",
+    "tags": [
+      "*special problem",
+      "*2100"
+    ],
+    "timestamp": "Sep/18/2019 21:53"
+  },
   "CF60826324": {
     "contest_id": 741,
     "language": "GNU C++17",
