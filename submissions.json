@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF60775733": {
+    "contest_id": 290,
+    "language": "GNU C++17",
+    "path": "codeforces\\290\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Orange",
+    "problem_url": "https://codeforces.com/contest/290/problem/D",
+    "submission_id": "CF60775733",
+    "submission_url": "https://codeforces.com/contest/290/submission/60775733",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Sep/18/2019 21:18"
+  },
   "CF60776323": {
     "contest_id": 784,
     "language": "GNU C++17",
