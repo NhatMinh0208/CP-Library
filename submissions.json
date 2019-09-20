@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF60937931": {
+    "contest_id": 656,
+    "language": "PyPy 3",
+    "path": "codeforces\\656\\G.py",
+    "problem_index": "G",
+    "problem_name": "You're a Professional",
+    "problem_url": "https://codeforces.com/contest/656/problem/G",
+    "submission_id": "CF60937931",
+    "submission_url": "https://codeforces.com/contest/656/submission/60937931",
+    "tags": [
+      "*special problem",
+      "*1900"
+    ],
+    "timestamp": "Sep/20/2019 23:01"
+  },
   "CF60938525": {
     "contest_id": 409,
     "language": "GNU C++17",
