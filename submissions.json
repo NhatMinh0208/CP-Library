@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF61026054": {
+    "contest_id": 171,
+    "language": "GNU C++17",
+    "path": "codeforces\\171\\G.cpp",
+    "problem_index": "G",
+    "problem_name": "Mysterious numbers - 2",
+    "problem_url": "https://codeforces.com/contest/171/problem/G",
+    "submission_id": "CF61026054",
+    "submission_url": "https://codeforces.com/contest/171/submission/61026054",
+    "tags": [
+      "*special problem",
+      "*1600"
+    ],
+    "timestamp": "Sep/21/2019 23:01"
+  },
   "CF61075110": {
     "contest_id": 171,
     "language": "GNU C++17",
