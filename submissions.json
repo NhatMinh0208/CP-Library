@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF61077694": {
+    "contest_id": 171,
+    "language": "GNU C++17",
+    "path": "codeforces\\171\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Broken checker",
+    "problem_url": "https://codeforces.com/contest/171/problem/D",
+    "submission_id": "CF61077694",
+    "submission_url": "https://codeforces.com/contest/171/submission/61077694",
+    "tags": [
+      "*special problem",
+      "brute force",
+      "*1300"
+    ],
+    "timestamp": "Sep/22/2019 22:08"
+  },
   "CF61077808": {
     "contest_id": 171,
     "language": "GNU C++17",
