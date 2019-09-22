@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF61075110": {
+    "contest_id": 171,
+    "language": "GNU C++17",
+    "path": "codeforces\\171\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Star",
+    "problem_url": "https://codeforces.com/contest/171/problem/B",
+    "submission_id": "CF61075110",
+    "submission_url": "https://codeforces.com/contest/171/submission/61075110",
+    "tags": [
+      "*special problem",
+      "combinatorics",
+      "*1300"
+    ],
+    "timestamp": "Sep/22/2019 21:07"
+  },
   "CF61077194": {
     "contest_id": 171,
     "language": "GNU C++17",
