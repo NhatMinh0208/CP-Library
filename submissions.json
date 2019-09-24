@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF61227277": {
+    "contest_id": 1219,
+    "language": "GNU C++17",
+    "path": "codeforces\\1219\\G.cpp",
+    "problem_index": "G",
+    "problem_name": "Harvester",
+    "problem_url": "https://codeforces.com/contest/1219/problem/G",
+    "submission_id": "CF61227277",
+    "submission_url": "https://codeforces.com/contest/1219/submission/61227277",
+    "tags": [
+      "implementation",
+      "*2000"
+    ],
+    "timestamp": "Sep/24/2019 22:35"
+  },
   "CF61274587": {
     "contest_id": 1156,
     "language": "GNU C++17",
