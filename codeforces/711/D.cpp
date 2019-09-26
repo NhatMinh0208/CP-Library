@@ -28,9 +28,7 @@ INT calc_p(int n) {
 }
  
 int main() {
-	ios::sync_with_stdio(0);
-	cin.tie(0);
-	cout.tie(0);
+	
 	int N, i, nn, u, v;
 	
 	cin>>N;
