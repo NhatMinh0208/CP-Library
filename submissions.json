@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF61330720": {
+    "contest_id": 329,
+    "language": "GNU C++17",
+    "path": "codeforces\\329\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Biridian Forest",
+    "problem_url": "https://codeforces.com/contest/329/problem/B",
+    "submission_id": "CF61330720",
+    "submission_url": "https://codeforces.com/contest/329/submission/61330720",
+    "tags": [
+      "dfs and similar",
+      "shortest paths",
+      "*1500"
+    ],
+    "timestamp": "Sep/26/2019 21:55"
+  },
   "CF61332005": {
     "contest_id": 711,
     "language": "GNU C++17",
