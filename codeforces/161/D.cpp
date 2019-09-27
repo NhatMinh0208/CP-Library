@@ -1,6 +1,6 @@
-#include <bits/stdc++.h>
+#include<iostream>
+#include<vector>
 using namespace std;
-#define endl "\n"
 long long dp[50005][505]={0};
 vector<int>v[50005];
 bool mark[50005]={0};
@@ -22,9 +22,6 @@ void dfs(int x)
 }
 int main()
 {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
     cin>>n>>k;
     for(int i=0;i<n-1;i++)
     {
