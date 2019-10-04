@@ -46,5 +46,5 @@ int main()
 	dfs2(1);
 	
 	memset(visited, 0, sizeof(visited));
-	 cout<<dfs(1)<<endl;
+	cout<<dfs(1)<<endl;
 }
