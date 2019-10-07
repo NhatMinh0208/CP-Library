@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF62034567": {
+    "contest_id": 487,
+    "language": "GNU C++17",
+    "path": "codeforces\\487\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Conveyor Belts",
+    "problem_url": "https://codeforces.com/contest/487/problem/D",
+    "submission_id": "CF62034567",
+    "submission_url": "https://codeforces.com/contest/487/submission/62034567",
+    "tags": [
+      "data structures",
+      "*2700"
+    ],
+    "timestamp": "Oct/07/2019 10:03"
+  },
   "CF62064195": {
     "contest_id": 1149,
     "language": "GNU C++17",
