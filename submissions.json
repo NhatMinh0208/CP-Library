@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF62574790": {
+    "contest_id": 476,
+    "language": "GNU C++17",
+    "path": "codeforces\\476\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Dreamoon and Sums",
+    "problem_url": "https://codeforces.com/contest/476/problem/C",
+    "submission_id": "CF62574790",
+    "submission_url": "https://codeforces.com/contest/476/submission/62574790",
+    "tags": [
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Oct/14/2019 22:34"
+  },
   "CF62575190": {
     "contest_id": 494,
     "language": "GNU C++17",
