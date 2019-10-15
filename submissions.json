@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF62629247": {
+    "contest_id": 459,
+    "language": "GNU C++17",
+    "path": "codeforces\\459\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Pashmak and Parmida's problem",
+    "problem_url": "https://codeforces.com/contest/459/problem/D",
+    "submission_id": "CF62629247",
+    "submission_url": "https://codeforces.com/contest/459/submission/62629247",
+    "tags": [
+      "data structures",
+      "divide and conquer",
+      "sortings",
+      "*1800"
+    ],
+    "timestamp": "Oct/15/2019 21:57"
+  },
   "CF62630517": {
     "contest_id": 625,
     "language": "GNU C++17",
