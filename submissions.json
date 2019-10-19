@@ -1048,6 +1048,26 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF62900772": {
+    "contest_id": 493,
+    "language": "GNU C++17",
+    "path": "codeforces\\493\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Vasya and Basketball",
+    "problem_url": "https://codeforces.com/contest/493/problem/C",
+    "submission_id": "CF62900772",
+    "submission_url": "https://codeforces.com/contest/493/submission/62900772",
+    "tags": [
+      "binary search",
+      "brute force",
+      "data structures",
+      "implementation",
+      "sortings",
+      "two pointers",
+      "*1600"
+    ],
+    "timestamp": "Oct/19/2019 11:03"
+  },
   "CF62902429": {
     "contest_id": 706,
     "language": "GNU C++17",
