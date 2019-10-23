@@ -1048,6 +1048,24 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF63249166": {
+    "contest_id": 573,
+    "language": "GNU C++11",
+    "path": "codeforces\\573\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Bear and Blocks",
+    "problem_url": "https://codeforces.com/contest/573/problem/B",
+    "submission_id": "CF63249166",
+    "submission_url": "https://codeforces.com/contest/573/submission/63249166",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Oct/23/2019 22:30"
+  },
   "CF63250417": {
     "contest_id": 552,
     "language": "GNU C++11",
