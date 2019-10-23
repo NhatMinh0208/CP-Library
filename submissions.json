@@ -1048,6 +1048,26 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF63250417": {
+    "contest_id": 552,
+    "language": "GNU C++11",
+    "path": "codeforces\\552\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Vanya and Scales",
+    "problem_url": "https://codeforces.com/contest/552/problem/C",
+    "submission_id": "CF63250417",
+    "submission_url": "https://codeforces.com/contest/552/submission/63250417",
+    "tags": [
+      "brute force",
+      "dp",
+      "greedy",
+      "math",
+      "meet-in-the-middle",
+      "number theory",
+      "*1900"
+    ],
+    "timestamp": "Oct/23/2019 22:51"
+  },
   "CF63251603": {
     "contest_id": 484,
     "language": "GNU C++11",
