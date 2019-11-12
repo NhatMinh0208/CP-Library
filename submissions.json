@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF64752770": {
+    "contest_id": 479,
+    "language": "GNU C++17",
+    "path": "codeforces\\479\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Long Jumps",
+    "problem_url": "https://codeforces.com/contest/479/problem/D",
+    "submission_id": "CF64752770",
+    "submission_url": "https://codeforces.com/contest/479/submission/64752770",
+    "tags": [
+      "binary search",
+      "greedy",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Nov/12/2019 22:50"
+  },
   "CF64803048": {
     "contest_id": 1257,
     "language": "GNU C++17",
