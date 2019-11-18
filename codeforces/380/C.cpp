@@ -1,6 +1,6 @@
+
 #include <bits/stdc++.h>
 using namespace std;
-#define endl "\n"
 #define mp make_pair
 string s;
 int sizee;
@@ -46,9 +46,6 @@ pair<int,pair<int,int>> query(int i, int j, int idx = 1, int l = 0, int r = size
 }
  
 int main(){
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
 	cin >> s;
 	sizee = s.size();
 	st.assign(4*sizee,pair<int,pair<int,int>>(0,make_pair(0,0)));
