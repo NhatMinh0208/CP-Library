@@ -15,5 +15,5 @@ int main()
 		fail=fail*(1-p[i]);
 		prob=max(prob,suc);
 	}
-	cout<<fixed<<setprecision(13)<<prob<<endl;
+	cout<<fixed<<setprecision(12)<<prob<<endl;
 }
