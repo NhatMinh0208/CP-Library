@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF65670183": {
+    "contest_id": 1152,
+    "language": "GNU C++17",
+    "path": "codeforces\\1152\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Neko does Maths",
+    "problem_url": "https://codeforces.com/contest/1152/problem/C",
+    "submission_id": "CF65670183",
+    "submission_url": "https://codeforces.com/contest/1152/submission/65670183",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*1800"
+    ],
+    "timestamp": "Nov/24/2019 22:36"
+  },
   "CF65712161": {
     "contest_id": 1063,
     "language": "GNU C++17",
