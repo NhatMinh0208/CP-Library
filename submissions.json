@@ -1048,6 +1048,24 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF65841697": {
+    "contest_id": 1063,
+    "language": "GNU C++17",
+    "path": "codeforces\\1063\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Dwarves, Hats and Extrasensory Abilities",
+    "problem_url": "https://codeforces.com/contest/1063/problem/C",
+    "submission_id": "CF65841697",
+    "submission_url": "https://codeforces.com/contest/1063/submission/65841697",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "geometry",
+      "interactive",
+      "*1900"
+    ],
+    "timestamp": "Nov/27/2019 21:23"
+  },
   "CF65867936": {
     "contest_id": 1114,
     "language": "GNU C++17",
