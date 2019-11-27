@@ -1048,6 +1048,24 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF65867936": {
+    "contest_id": 1114,
+    "language": "GNU C++17",
+    "path": "codeforces\\1114\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Arithmetic Progression",
+    "problem_url": "https://codeforces.com/contest/1114/problem/E",
+    "submission_id": "CF65867936",
+    "submission_url": "https://codeforces.com/contest/1114/submission/65867936",
+    "tags": [
+      "binary search",
+      "interactive",
+      "number theory",
+      "probabilities",
+      "*2200"
+    ],
+    "timestamp": "Nov/27/2019 22:42"
+  },
   "CF65872126": {
     "contest_id": 1260,
     "language": "GNU C++17",
