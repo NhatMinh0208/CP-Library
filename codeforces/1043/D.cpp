@@ -1,9 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 const int N=1e5+11,M=12;
 int a[M][N],b[M][N],n,m,h[N];
-
 bool chk(int x,int y){
 	int z=a[1][b[1][x]+y],j;
 	if(!z)return 0;
@@ -11,7 +9,6 @@ bool chk(int x,int y){
 		if(a[j][b[j][x]+y]!=z)return 0;
 	return 1;
 }
-
 int main(){
 	ios_base::sync_with_stdio(0);
 	cin.tie(0);
