@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF68201951": {
+    "contest_id": 808,
+    "language": "GNU C++17",
+    "path": "codeforces\\808\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Array Division",
+    "problem_url": "https://codeforces.com/contest/808/problem/D",
+    "submission_id": "CF68201951",
+    "submission_url": "https://codeforces.com/contest/808/submission/68201951",
+    "tags": [
+      "binary search",
+      "data structures",
+      "implementation",
+      "*1900"
+    ],
+    "timestamp": "Jan/04/2020 23:15"
+  },
   "CF68245718": {
     "contest_id": 1287,
     "language": "GNU C++17",
