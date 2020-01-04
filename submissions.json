@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF68144520": {
+    "contest_id": 1058,
+    "language": "GNU C++17",
+    "path": "codeforces\\1058\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Vasya and Triangle",
+    "problem_url": "https://codeforces.com/contest/1058/problem/D",
+    "submission_id": "CF68144520",
+    "submission_url": "https://codeforces.com/contest/1058/submission/68144520",
+    "tags": [
+      "geometry",
+      "*1800"
+    ],
+    "timestamp": "Jan/04/2020 10:07"
+  },
   "CF68144747": {
     "contest_id": 552,
     "language": "GNU C++17",
