@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF68146386": {
+    "contest_id": 617,
+    "language": "GNU C++17",
+    "path": "codeforces\\617\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Polyline",
+    "problem_url": "https://codeforces.com/contest/617/problem/D",
+    "submission_id": "CF68146386",
+    "submission_url": "https://codeforces.com/contest/617/submission/68146386",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Jan/04/2020 11:40"
+  },
   "CF68201315": {
     "contest_id": 766,
     "language": "GNU C++17",
