@@ -1048,6 +1048,25 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF68269955": {
+    "contest_id": 1287,
+    "language": "GNU C++17",
+    "path": "codeforces\\1287\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Numbers on Tree",
+    "problem_url": "https://codeforces.com/contest/1287/problem/D",
+    "submission_id": "CF68269955",
+    "submission_url": "https://codeforces.com/contest/1287/submission/68269955",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "dfs and similar",
+      "graphs",
+      "trees",
+      "*1800"
+    ],
+    "timestamp": "Jan/05/2020 22:31"
+  },
   "CF68316472": {
     "contest_id": 763,
     "language": "GNU C++17",
