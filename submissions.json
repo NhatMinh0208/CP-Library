@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF68361694": {
+    "contest_id": 729,
+    "language": "GNU C++17",
+    "path": "codeforces\\729\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Sea Battle",
+    "problem_url": "https://codeforces.com/contest/729/problem/D",
+    "submission_id": "CF68361694",
+    "submission_url": "https://codeforces.com/contest/729/submission/68361694",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "Jan/07/2020 21:19"
+  },
   "CF68363008": {
     "contest_id": 899,
     "language": "GNU C++17",
