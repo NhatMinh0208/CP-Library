@@ -1048,6 +1048,25 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF68363008": {
+    "contest_id": 899,
+    "language": "GNU C++17",
+    "path": "codeforces\\899\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Segments Removal",
+    "problem_url": "https://codeforces.com/contest/899/problem/E",
+    "submission_id": "CF68363008",
+    "submission_url": "https://codeforces.com/contest/899/submission/68363008",
+    "tags": [
+      "data structures",
+      "dsu",
+      "flows",
+      "implementation",
+      "two pointers",
+      "*2000"
+    ],
+    "timestamp": "Jan/07/2020 21:50"
+  },
   "CF68364279": {
     "contest_id": 1066,
     "language": "GNU C++17",
