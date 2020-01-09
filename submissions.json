@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF68455625": {
+    "contest_id": 368,
+    "language": "GNU C++17",
+    "path": "codeforces\\368\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Sereja ans Anagrams",
+    "problem_url": "https://codeforces.com/contest/368/problem/D",
+    "submission_id": "CF68455625",
+    "submission_url": "https://codeforces.com/contest/368/submission/68455625",
+    "tags": [
+      "data structures",
+      "two pointers",
+      "*1900"
+    ],
+    "timestamp": "Jan/09/2020 23:06"
+  },
   "CF68498229": {
     "contest_id": 1285,
     "language": "GNU C++17",
