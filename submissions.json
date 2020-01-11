@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF68611312": {
+    "contest_id": 659,
+    "language": "GNU C++17",
+    "path": "codeforces\\659\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Bicycle Race",
+    "problem_url": "https://codeforces.com/contest/659/problem/D",
+    "submission_id": "CF68611312",
+    "submission_url": "https://codeforces.com/contest/659/submission/68611312",
+    "tags": [
+      "geometry",
+      "implementation",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Jan/11/2020 22:48"
+  },
   "CF68665047": {
     "contest_id": 104,
     "language": "GNU C++17",
