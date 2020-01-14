@@ -1048,6 +1048,25 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF68759858": {
+    "contest_id": 551,
+    "language": "GNU C++17",
+    "path": "codeforces\\551\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "GukiZ and Binary Operations",
+    "problem_url": "https://codeforces.com/contest/551/problem/D",
+    "submission_id": "CF68759858",
+    "submission_url": "https://codeforces.com/contest/551/submission/68759858",
+    "tags": [
+      "combinatorics",
+      "implementation",
+      "math",
+      "matrices",
+      "number theory",
+      "*2100"
+    ],
+    "timestamp": "Jan/14/2020 15:25"
+  },
   "CF68763083": {
     "contest_id": 222,
     "language": "GNU C++17",
