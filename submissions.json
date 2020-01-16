@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF68945237": {
+    "contest_id": 1064,
+    "language": "GNU C++17",
+    "path": "codeforces\\1064\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Oh Those Palindromes",
+    "problem_url": "https://codeforces.com/contest/1064/problem/C",
+    "submission_id": "CF68945237",
+    "submission_url": "https://codeforces.com/contest/1064/submission/68945237",
+    "tags": [
+      "constructive algorithms",
+      "*1300"
+    ],
+    "timestamp": "Jan/16/2020 22:54"
+  },
   "CF68946265": {
     "contest_id": 1064,
     "language": "GNU C++17",
