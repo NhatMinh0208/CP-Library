@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF69195804": {
+    "contest_id": 195,
+    "language": "GNU C++17",
+    "path": "codeforces\\195\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Analyzing Polyline",
+    "problem_url": "https://codeforces.com/contest/195/problem/D",
+    "submission_id": "CF69195804",
+    "submission_url": "https://codeforces.com/contest/195/submission/69195804",
+    "tags": [
+      "geometry",
+      "math",
+      "sortings",
+      "*1900"
+    ],
+    "timestamp": "Jan/20/2020 21:53"
+  },
   "CF69196351": {
     "contest_id": 560,
     "language": "GNU C++17",
