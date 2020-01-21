@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF69219323": {
+    "contest_id": 94,
+    "language": "GNU C++17",
+    "path": "codeforces\\94\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "End of Exams",
+    "problem_url": "https://codeforces.com/contest/94/problem/D",
+    "submission_id": "CF69219323",
+    "submission_url": "https://codeforces.com/contest/94/submission/69219323",
+    "tags": [
+      "greedy",
+      "math",
+      "*1900"
+    ],
+    "timestamp": "Jan/21/2020 10:28"
+  },
   "CF69228227": {
     "contest_id": 672,
     "language": "GNU C++17",
