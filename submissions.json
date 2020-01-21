@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF69228227": {
+    "contest_id": 672,
+    "language": "GNU C++17",
+    "path": "codeforces\\672\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Robin Hood",
+    "problem_url": "https://codeforces.com/contest/672/problem/D",
+    "submission_id": "CF69228227",
+    "submission_url": "https://codeforces.com/contest/672/submission/69228227",
+    "tags": [
+      "binary search",
+      "greedy",
+      "*2000"
+    ],
+    "timestamp": "Jan/21/2020 15:17"
+  },
   "CF69292597": {
     "contest_id": 688,
     "language": "GNU C++17",
