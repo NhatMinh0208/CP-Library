@@ -1048,6 +1048,24 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF69302290": {
+    "contest_id": 1071,
+    "language": "GNU C++17",
+    "path": "codeforces\\1071\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Minimum path",
+    "problem_url": "https://codeforces.com/contest/1071/problem/B",
+    "submission_id": "CF69302290",
+    "submission_url": "https://codeforces.com/contest/1071/submission/69302290",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "hashing",
+      "*1900"
+    ],
+    "timestamp": "Jan/22/2020 21:11"
+  },
   "CF69321130": {
     "contest_id": 442,
     "language": "GNU C++17",
