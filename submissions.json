@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF69460312": {
+    "contest_id": 1033,
+    "language": "GNU C++17",
+    "path": "codeforces\\1033\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Divisors",
+    "problem_url": "https://codeforces.com/contest/1033/problem/D",
+    "submission_id": "CF69460312",
+    "submission_url": "https://codeforces.com/contest/1033/submission/69460312",
+    "tags": [
+      "interactive",
+      "math",
+      "number theory",
+      "*2000"
+    ],
+    "timestamp": "Jan/24/2020 17:28"
+  },
   "CF69460849": {
     "contest_id": 242,
     "language": "GNU C++17",
