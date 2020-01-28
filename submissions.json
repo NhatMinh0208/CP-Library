@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF69678328": {
+    "contest_id": 352,
+    "language": "GNU C++17",
+    "path": "codeforces\\352\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Jeff and Furik",
+    "problem_url": "https://codeforces.com/contest/352/problem/D",
+    "submission_id": "CF69678328",
+    "submission_url": "https://codeforces.com/contest/352/submission/69678328",
+    "tags": [
+      "math",
+      "*1900"
+    ],
+    "timestamp": "Jan/28/2020 21:52"
+  },
   "CF69734355": {
     "contest_id": 197,
     "language": "GNU C++17",
