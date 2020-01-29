@@ -5,14 +5,14 @@ using namespace std;
 #define endl "\n"
 #define sect 3200
 struct el { string word; long long x, y, dir; };
-long long n, m, k, cnt, i, j, a = 1e10, b = 0, c=0, x[300000],y[300000],diff[300000];
+long long n, m, k, cnt, i, j, a = 1e10, b = 0, c=0, x[300000],y[300000];
 char mp[1000][1000];
 string name[8] = { "N","NE","E","SE","S","SW","W","NW" };
 	long long sum[300001],prex[300001],prey[300001];
 vector<long long> aa,bb;
 int cmp (long long a, long long b)
 {
-	return ((diff[a])<(diff[b]));
+	return ((x[a]-y[a])<(x[b]-y[b]));
 }
 int main()
 {
@@ -24,7 +24,6 @@ int main()
 	{
 		cin>>x[i]>>y[i];
 		aa.push_back(i);
-		diff[i]=x[i]-y[i];
 	}
 	sort (aa.begin(),aa.end(),cmp);
 	for (i=1;i<=n;i++)
