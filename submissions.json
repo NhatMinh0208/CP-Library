@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF69736230": {
+    "contest_id": 1060,
+    "language": "GNU C++17",
+    "path": "codeforces\\1060\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Social Circles",
+    "problem_url": "https://codeforces.com/contest/1060/problem/D",
+    "submission_id": "CF69736230",
+    "submission_url": "https://codeforces.com/contest/1060/submission/69736230",
+    "tags": [
+      "greedy",
+      "math",
+      "*1900"
+    ],
+    "timestamp": "Jan/29/2020 21:38"
+  },
   "CF69756267": {
     "contest_id": 1043,
     "language": "GNU C++17",
