@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF69734355": {
+    "contest_id": 197,
+    "language": "GNU C++17",
+    "path": "codeforces\\197\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Infinite Maze",
+    "problem_url": "https://codeforces.com/contest/197/problem/D",
+    "submission_id": "CF69734355",
+    "submission_url": "https://codeforces.com/contest/197/submission/69734355",
+    "tags": [
+      "graphs",
+      "hashing",
+      "*2000"
+    ],
+    "timestamp": "Jan/29/2020 21:14"
+  },
   "CF69736230": {
     "contest_id": 1060,
     "language": "GNU C++17",
