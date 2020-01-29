@@ -1048,6 +1048,24 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF69757576": {
+    "contest_id": 1043,
+    "language": "GNU C++17",
+    "path": "codeforces\\1043\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Train Hard, Win Easy",
+    "problem_url": "https://codeforces.com/contest/1043/problem/E",
+    "submission_id": "CF69757576",
+    "submission_url": "https://codeforces.com/contest/1043/submission/69757576",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "sortings",
+      "*1900"
+    ],
+    "timestamp": "Jan/29/2020 22:24"
+  },
   "CF69807320": {
     "contest_id": 9,
     "language": "GNU C++17",
