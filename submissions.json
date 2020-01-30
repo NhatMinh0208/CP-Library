@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF69852048": {
+    "contest_id": 298,
+    "language": "GNU C++17",
+    "path": "codeforces\\298\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Fish Weight",
+    "problem_url": "https://codeforces.com/contest/298/problem/D",
+    "submission_id": "CF69852048",
+    "submission_url": "https://codeforces.com/contest/298/submission/69852048",
+    "tags": [
+      "greedy",
+      "math",
+      "sortings",
+      "*1600"
+    ],
+    "timestamp": "Jan/30/2020 22:55"
+  },
   "CF69874454": {
     "contest_id": 255,
     "language": "GNU C++17",
