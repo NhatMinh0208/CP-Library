@@ -1048,6 +1048,24 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF69844527": {
+    "contest_id": 604,
+    "language": "GNU C++17",
+    "path": "codeforces\\604\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Moodular Arithmetic",
+    "problem_url": "https://codeforces.com/contest/604/problem/D",
+    "submission_id": "CF69844527",
+    "submission_url": "https://codeforces.com/contest/604/submission/69844527",
+    "tags": [
+      "combinatorics",
+      "dsu",
+      "math",
+      "number theory",
+      "*1800"
+    ],
+    "timestamp": "Jan/30/2020 21:00"
+  },
   "CF69846577": {
     "contest_id": 189,
     "language": "GNU C++17",
