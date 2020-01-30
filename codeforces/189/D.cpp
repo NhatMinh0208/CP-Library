@@ -9,9 +9,6 @@ int n, m, r;
 int dp[67][67][67], a[67][67], d[67][67];
  
 int main() {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
     cin>>n>>m>>r;
   for(int i = 0; i <= 60; i++) {
     for(int j = 0; j <= 60; j++) {

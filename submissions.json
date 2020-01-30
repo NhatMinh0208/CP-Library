@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF69846577": {
+    "contest_id": 189,
+    "language": "GNU C++17",
+    "path": "codeforces\\189\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "AlgoRace",
+    "problem_url": "https://codeforces.com/contest/189/problem/D",
+    "submission_id": "CF69846577",
+    "submission_url": "https://codeforces.com/contest/189/submission/69846577",
+    "tags": [
+      "dp",
+      "shortest paths",
+      "*1800"
+    ],
+    "timestamp": "Jan/30/2020 21:29"
+  },
   "CF69846704": {
     "contest_id": 189,
     "language": "GNU C++17",
