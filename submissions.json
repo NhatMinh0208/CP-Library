@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF69809652": {
+    "contest_id": 122,
+    "language": "GNU C++17",
+    "path": "codeforces\\122\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Lucky Transformation",
+    "problem_url": "https://codeforces.com/contest/122/problem/D",
+    "submission_id": "CF69809652",
+    "submission_url": "https://codeforces.com/contest/122/submission/69809652",
+    "tags": [
+      "brute force",
+      "*1500"
+    ],
+    "timestamp": "Jan/30/2020 10:46"
+  },
   "CF69844527": {
     "contest_id": 604,
     "language": "GNU C++17",
