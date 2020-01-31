@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF69876019": {
+    "contest_id": 313,
+    "language": "GNU C++17",
+    "path": "codeforces\\313\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Ilya and Roads",
+    "problem_url": "https://codeforces.com/contest/313/problem/D",
+    "submission_id": "CF69876019",
+    "submission_url": "https://codeforces.com/contest/313/submission/69876019",
+    "tags": [
+      "dp",
+      "*2100"
+    ],
+    "timestamp": "Jan/31/2020 11:03"
+  },
   "CF69889228": {
     "contest_id": 1017,
     "language": "GNU C++17",
