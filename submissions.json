@@ -1048,6 +1048,24 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF69892677": {
+    "contest_id": 651,
+    "language": "GNU C++17",
+    "path": "codeforces\\651\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Image Preview",
+    "problem_url": "https://codeforces.com/contest/651/problem/D",
+    "submission_id": "CF69892677",
+    "submission_url": "https://codeforces.com/contest/651/submission/69892677",
+    "tags": [
+      "binary search",
+      "brute force",
+      "dp",
+      "two pointers",
+      "*1900"
+    ],
+    "timestamp": "Jan/31/2020 17:36"
+  },
   "CF69893540": {
     "contest_id": 340,
     "language": "GNU C++17",
