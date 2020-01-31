@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF69911814": {
+    "contest_id": 363,
+    "language": "GNU C++17",
+    "path": "codeforces\\363\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Renting Bikes",
+    "problem_url": "https://codeforces.com/contest/363/problem/D",
+    "submission_id": "CF69911814",
+    "submission_url": "https://codeforces.com/contest/363/submission/69911814",
+    "tags": [
+      "binary search",
+      "greedy",
+      "*1800"
+    ],
+    "timestamp": "Jan/31/2020 22:36"
+  },
   "CF69935872": {
     "contest_id": 478,
     "language": "GNU C++17",
