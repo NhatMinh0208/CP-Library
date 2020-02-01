@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF69936995": {
+    "contest_id": 1059,
+    "language": "GNU C++17",
+    "path": "codeforces\\1059\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Nature Reserve",
+    "problem_url": "https://codeforces.com/contest/1059/problem/D",
+    "submission_id": "CF69936995",
+    "submission_url": "https://codeforces.com/contest/1059/submission/69936995",
+    "tags": [
+      "binary search",
+      "geometry",
+      "ternary search",
+      "*2200"
+    ],
+    "timestamp": "Feb/01/2020 11:23"
+  },
   "CF69950932": {
     "contest_id": 550,
     "language": "GNU C++17",
