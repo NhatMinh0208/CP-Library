@@ -1048,6 +1048,24 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF69973180": {
+    "contest_id": 681,
+    "language": "GNU C++17",
+    "path": "codeforces\\681\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Gifts by the List",
+    "problem_url": "https://codeforces.com/contest/681/problem/D",
+    "submission_id": "CF69973180",
+    "submission_url": "https://codeforces.com/contest/681/submission/69973180",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "trees",
+      "*2000"
+    ],
+    "timestamp": "Feb/01/2020 21:19"
+  },
   "CF69977079": {
     "contest_id": 1205,
     "language": "GNU C++17",
