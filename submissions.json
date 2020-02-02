@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF70005497": {
+    "contest_id": 1016,
+    "language": "GNU C++17",
+    "path": "codeforces\\1016\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Rest In The Shades",
+    "problem_url": "https://codeforces.com/contest/1016/problem/E",
+    "submission_id": "CF70005497",
+    "submission_url": "https://codeforces.com/contest/1016/submission/70005497",
+    "tags": [
+      "binary search",
+      "geometry",
+      "*2400"
+    ],
+    "timestamp": "Feb/02/2020 11:36"
+  },
   "CF70020907": {
     "contest_id": 80,
     "language": "GNU C++17",
