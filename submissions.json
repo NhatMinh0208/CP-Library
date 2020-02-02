@@ -1048,6 +1048,25 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF70076319": {
+    "contest_id": 1290,
+    "language": "GNU C++17",
+    "path": "codeforces\\1290\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Irreducible Anagrams",
+    "problem_url": "https://codeforces.com/contest/1290/problem/B",
+    "submission_id": "CF70076319",
+    "submission_url": "https://codeforces.com/contest/1290/submission/70076319",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "data structures",
+      "strings",
+      "two pointers",
+      "*1800"
+    ],
+    "timestamp": "Feb/02/2020 23:01"
+  },
   "CF70129475": {
     "contest_id": 161,
     "language": "GNU C++17",
