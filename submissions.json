@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF70239322": {
+    "contest_id": 961,
+    "language": "GNU C++17",
+    "path": "codeforces\\961\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Pair Of Lines",
+    "problem_url": "https://codeforces.com/contest/961/problem/D",
+    "submission_id": "CF70239322",
+    "submission_url": "https://codeforces.com/contest/961/submission/70239322",
+    "tags": [
+      "geometry",
+      "*2000"
+    ],
+    "timestamp": "Feb/04/2020 21:20"
+  },
   "CF70263499": {
     "contest_id": 222,
     "language": "GNU C++17",
