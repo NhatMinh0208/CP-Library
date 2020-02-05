@@ -1048,6 +1048,25 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF70364543": {
+    "contest_id": 431,
+    "language": "GNU C++17",
+    "path": "codeforces\\431\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Random Task",
+    "problem_url": "https://codeforces.com/contest/431/problem/D",
+    "submission_id": "CF70364543",
+    "submission_url": "https://codeforces.com/contest/431/submission/70364543",
+    "tags": [
+      "binary search",
+      "bitmasks",
+      "combinatorics",
+      "dp",
+      "math",
+      "*2100"
+    ],
+    "timestamp": "Feb/05/2020 20:55"
+  },
   "CF70424262": {
     "contest_id": 689,
     "language": "GNU C++17",
