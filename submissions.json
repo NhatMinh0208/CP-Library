@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF70348117": {
+    "contest_id": 309,
+    "language": "GNU C++17",
+    "path": "codeforces\\309\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Memory for Arrays",
+    "problem_url": "https://codeforces.com/contest/309/problem/C",
+    "submission_id": "CF70348117",
+    "submission_url": "https://codeforces.com/contest/309/submission/70348117",
+    "tags": [
+      "binary search",
+      "bitmasks",
+      "greedy",
+      "*1900"
+    ],
+    "timestamp": "Feb/05/2020 17:07"
+  },
   "CF70348778": {
     "contest_id": 665,
     "language": "GNU C++17",
