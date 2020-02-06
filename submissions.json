@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF70429443": {
+    "contest_id": 709,
+    "language": "GNU C++17",
+    "path": "codeforces\\709\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Recover the String",
+    "problem_url": "https://codeforces.com/contest/709/problem/D",
+    "submission_id": "CF70429443",
+    "submission_url": "https://codeforces.com/contest/709/submission/70429443",
+    "tags": [
+      "greedy",
+      "math",
+      "*1900"
+    ],
+    "timestamp": "Feb/06/2020 18:01"
+  },
   "CF70489263": {
     "contest_id": 873,
     "language": "GNU C++17",
