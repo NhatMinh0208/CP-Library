@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF70510606": {
+    "contest_id": 801,
+    "language": "GNU C++17",
+    "path": "codeforces\\801\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Volatile Kite",
+    "problem_url": "https://codeforces.com/contest/801/problem/D",
+    "submission_id": "CF70510606",
+    "submission_url": "https://codeforces.com/contest/801/submission/70510606",
+    "tags": [
+      "brute force",
+      "geometry",
+      "greedy",
+      "*1800"
+    ],
+    "timestamp": "Feb/07/2020 21:45"
+  },
   "CF70537999": {
     "contest_id": 592,
     "language": "GNU C++17",
