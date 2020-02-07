@@ -1048,6 +1048,24 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF70496131": {
+    "contest_id": 110,
+    "language": "GNU C++17",
+    "path": "codeforces\\110\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Lucky Probability",
+    "problem_url": "https://codeforces.com/contest/110/problem/D",
+    "submission_id": "CF70496131",
+    "submission_url": "https://codeforces.com/contest/110/submission/70496131",
+    "tags": [
+      "brute force",
+      "combinatorics",
+      "dfs and similar",
+      "probabilities",
+      "*1900"
+    ],
+    "timestamp": "Feb/07/2020 17:38"
+  },
   "CF70510606": {
     "contest_id": 801,
     "language": "GNU C++17",
