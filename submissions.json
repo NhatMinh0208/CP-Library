@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF70572262": {
+    "contest_id": 26,
+    "language": "GNU C++17",
+    "path": "codeforces\\26\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Tickets",
+    "problem_url": "https://codeforces.com/contest/26/problem/D",
+    "submission_id": "CF70572262",
+    "submission_url": "https://codeforces.com/contest/26/submission/70572262",
+    "tags": [
+      "combinatorics",
+      "math",
+      "probabilities",
+      "*2400"
+    ],
+    "timestamp": "Feb/08/2020 21:41"
+  },
   "CF70719536": {
     "contest_id": 1276,
     "language": "GNU C++17",
