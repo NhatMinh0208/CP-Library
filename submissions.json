@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF70763021": {
+    "contest_id": 718,
+    "language": "GNU C++17",
+    "path": "codeforces\\718\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Efim and Strange Grade",
+    "problem_url": "https://codeforces.com/contest/718/problem/A",
+    "submission_id": "CF70763021",
+    "submission_url": "https://codeforces.com/contest/718/submission/70763021",
+    "tags": [
+      "dp",
+      "implementation",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "Feb/11/2020 10:00"
+  },
   "CF70857781": {
     "contest_id": 1303,
     "language": "GNU C++17",
