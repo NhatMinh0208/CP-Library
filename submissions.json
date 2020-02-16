@@ -1048,6 +1048,24 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF71228867": {
+    "contest_id": 567,
+    "language": "GNU C++17",
+    "path": "codeforces\\567\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "One-Dimensional Battle Ships",
+    "problem_url": "https://codeforces.com/contest/567/problem/D",
+    "submission_id": "CF71228867",
+    "submission_url": "https://codeforces.com/contest/567/submission/71228867",
+    "tags": [
+      "binary search",
+      "data structures",
+      "greedy",
+      "sortings",
+      "*1700"
+    ],
+    "timestamp": "Feb/16/2020 21:32"
+  },
   "CF71286444": {
     "contest_id": 68,
     "language": "GNU C++17",
