@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF71286444": {
+    "contest_id": 68,
+    "language": "GNU C++17",
+    "path": "codeforces\\68\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Synchrophasotron",
+    "problem_url": "https://codeforces.com/contest/68/problem/C",
+    "submission_id": "CF71286444",
+    "submission_url": "https://codeforces.com/contest/68/submission/71286444",
+    "tags": [
+      "brute force",
+      "*2200"
+    ],
+    "timestamp": "Feb/17/2020 22:22"
+  },
   "CF71676356": {
     "contest_id": 1313,
     "language": "GNU C++17",
