@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF72074955": {
+    "contest_id": 58,
+    "language": "GNU C++17",
+    "path": "codeforces\\58\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Calendar",
+    "problem_url": "https://codeforces.com/contest/58/problem/D",
+    "submission_id": "CF72074955",
+    "submission_url": "https://codeforces.com/contest/58/submission/72074955",
+    "tags": [
+      "greedy",
+      "strings",
+      "*2000"
+    ],
+    "timestamp": "Feb/29/2020 12:03"
+  },
   "CF72108830": {
     "contest_id": 533,
     "language": "GNU C++17",
