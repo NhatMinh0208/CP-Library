@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF74834113": {
+    "contest_id": 414,
+    "language": "GNU C++17",
+    "path": "codeforces\\414\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Mashmokh and Reverse Operation",
+    "problem_url": "https://codeforces.com/contest/414/problem/C",
+    "submission_id": "CF74834113",
+    "submission_url": "https://codeforces.com/contest/414/submission/74834113",
+    "tags": [
+      "combinatorics",
+      "divide and conquer",
+      "*2100"
+    ],
+    "timestamp": "Mar/30/2020 21:45"
+  },
   "CF74835296": {
     "contest_id": 474,
     "language": "GNU C++17",
