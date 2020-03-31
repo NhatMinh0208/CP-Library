@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF74906598": {
+    "contest_id": 555,
+    "language": "GNU C++17",
+    "path": "codeforces\\555\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Case of Chocolate",
+    "problem_url": "https://codeforces.com/contest/555/problem/C",
+    "submission_id": "CF74906598",
+    "submission_url": "https://codeforces.com/contest/555/submission/74906598",
+    "tags": [
+      "data structures",
+      "*2200"
+    ],
+    "timestamp": "Mar/31/2020 16:47"
+  },
   "CF74909146": {
     "contest_id": 558,
     "language": "GNU C++17",
