@@ -1,24 +1,28 @@
-/*
-khoi orz, go check out his algo
--normie-
-*/
+//----------NMFF0B0H----------//
 #include <bits/stdc++.h>
-using namespace std;
+#define IM using
+#define GAY namespace
+#define LOL std;
+IM GAY LOL
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
 using namespace __gnu_pbds;
-#define rep(i,n) for(int64_t i=0;i < (int64_t)(n);i++)
-#pragma comment(linker, "/stack:200000000")
-#pragma GCC optimize("Ofast")
-#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,tune=native")
-#define FILE_IN "birds.inp"
-#define FILE_OUT "birds.out"
-#define ofile freopen(FILE_IN,"r",stdin);freopen(FILE_OUT,"w",stdout)
-#define fio ios::sync_with_stdio(0);cin.tie(0);cout.tie(0)
-#define nfio cin.tie(0);cout.tie(0)
-#define max(x,y) (((x)>(y))?(x):(y))
-#define min(x,y) (((x)<(y))?(x):(y))
-#define ord(a,b,c) ((a>=b)and(b>=c))
+#define rep(i, n) for (int64_t i = 0; i < (int64_t)(n); i++)
+#define FILE_IN "polygon.inp"
+#define FILE_OUT "polygon.out"
+#define ofile                     \
+    freopen(FILE_IN, "r", stdin); \
+    freopen(FILE_OUT, "w", stdout)
+#define fio                  \
+    ios::sync_with_stdio(0); \
+    cin.tie(0);              \
+    cout.tie(0)
+#define nfio    \
+    cin.tie(0); \
+    cout.tie(0)
+#define max(x, y) (((x) > (y)) ? (x) : (y))
+#define min(x, y) (((x) < (y)) ? (x) : (y))
+#define ord(a, b, c) ((a >= b) and (b >= c))
 #define MOD (ll(1000000007))
 #define MAX 300001
 #define mag 320
@@ -27,251 +31,19 @@ using namespace __gnu_pbds;
 #define p3 second.second
 #define fi first
 #define se second
-#define pow2(x) (ll(1)<<x)
-#define pii pair<int,int>
-#define piii pair<int,pii>
-#define For(i,__,___) for(int i=__;i<=___;i++)
-#define Rep(i,__,___) for(int i=__;i>=___;i--)
-#define ordered_set tree<long long,null_type,less<long long>,rb_tree_tag,tree_order_statistics_node_update>
+#define pow2(x) (ll(1) << x)
+#define pii pair<int, int>
+#define piii pair<int, pii>
+#define For(i, __, ___) for (int i = __; i <= ___; i++)
+#define Rep(i, __, ___) for (int i = __; i >= ___; i--)
+#define ordered_set tree<long long, null_type, less<long long>, rb_tree_tag, tree_order_statistics_node_update>
 #define endl "\n"
+#define vi vector<int>
 #define bi BigInt
-#define ll long long
-#define pi 3.1415926535897
-//------START-----------//
-// Normie's implementation of Dinic max flow.
-// NOTE: if you need to work with numbers > 1e9, change int_t from int to ll and MAXINT to 1e18+7
-#define MAXN 1101 // maximum number of vertices you will be using
-#define int_t int
-#define MAXINT 1000000007
-struct edge
-// Structure to represent a directed graph edge.
-// u  : outgoing vertex
-// v  : incoming vertex
-// cap: remaining capacity of vertex
-// rev: This edge's reverse edge id.
-{
-	int_t u,v,cap,rev;
-	edge(int_t uu, int_t vv, int_t revv, int_t capp=0) // constructor
-	{
-		u=uu;
-		v=vv;
-		rev=revv;
-		cap=capp;	
-	} 
-};
-struct dinic_graph
-// Structure to reppresent a directed flow graph.
-{
-	private:
-	
-	vector<edge> lis;                          // List of edges in graph.
-	vector<edge> lis_t;                        // A copy of lis, for use with the algorithms.
-	vector<int_t> adj[MAXN];                   // Adjacency list for each vertex. Edges are identified by their id as stored in [lis]
-	vector<int_t> layer_adj[MAXN];             // Adjacency list in layer graph, for use with the algorithms
-	int_t n;                                   // Actual number of vertices.
-	int_t s,t;                                 // Source and sink of graph.
-	int_t res;                                 // The current result, for use with the algorithms.
-	int_t dis[MAXN];                           // The distance between vertices and s, for use with the algorithms.
-	int_t ptr[MAXN];                           // Pointer of current non-zero edge from a vertex, for use with DFS.
-	deque<int_t> bruh;                         // Queue for bfs to use 
-	vector<int_t> least;                       // Vector of edges with least capacity in graph, for use with DFS.
-	
-	void proc(int_t cur)                       // Relaxes a vertex.
-	{
-		for (int_t g: adj[cur])
-		{
-			// Positive capacity and not visited yet
-			if ((lis_t[g].cap)and(dis[lis_t[g].v]==MAXINT)) 
-			{
-				// Relaxes along this edge
-				dis[lis_t[g].v]=dis[cur]+1;
-				bruh.push_back(lis_t[g].v);
-			}
-		}
-	}
-	
-	void build_layer()                         // Builds the layer graph for the Dinic algo to use
-	{
-		for (int_t i=0;i<n;i++) dis[i]=MAXINT;
-		// Initializes the bfs.
-		dis[s]=0;
-		bruh.push_back(s);
-		while(bruh.size())
-		{
-			proc(bruh.front()) ;                // Processes the vertex with lowest distance,
-			bruh.pop_front();                   // then removes it from queue.
-		}
-		// Creates layer graph adjacency list with eligible edges
-		for (int_t i=0;i<n;i++)
-		layer_adj[i].clear();                  // Resets adjacency list
-		for (int_t i=0;i<lis_t.size();i++)
-		{
-			if (dis[lis_t[i].v]-dis[lis_t[i].u]==1)
-			{
-				layer_adj[lis_t[i].u].push_back(i); 
-			} 
-		}
-	}
-	
-	// DFS possible blocking flows.
-	// cur: current vertex.
-	// siz: Maximum flow value of current blocking flow at vertex cur.
-	int_t dfs(int_t cur, int_t siz)
-	{
-		if (siz==0) return 0;                  // We hit an empty edge.
-		if (cur==t) return siz;                // We hit the sink.
-		for (ptr[cur]=ptr[cur];ptr[cur]<layer_adj[cur].size();ptr[cur]++) // Traverse the edges until we find a suitable next edge
-		{
-			int_t edgeid=layer_adj[cur][ptr[cur]];               // current edge id
-			if (!lis_t[edgeid].cap) continue;  // Empty edge.
-			int_t attempt=dfs(lis_t[edgeid].v, 
-			min(siz,lis_t[edgeid].cap));       // Attempt to find flow down this edge.
-			if (!attempt) continue;                              // Attempt failed.
-			lis_t[edgeid].cap-=attempt;        // Attempt succeed, update the edges with the flow value and return it.
-			lis_t[lis_t[edgeid].rev].cap+=attempt;
-			return attempt;
-		}
-		// No more edges to traverse -> this vertex is unusable
-		return 0;
-	}
-	
-	public:
-	
-	void debug() // just some debugging
-	{
-	    cout<<n<<' '<<s<<' '<<t<<endl;
-	    for (int_t i=0;i<lis_t.size();i++)
-	    {
-	    	cout<<i<<' '<<lis_t[i].u<<' '<<lis_t[i].v<<' '<<lis_t[i].cap<<' '<<lis_t[i].rev<<endl;
-		}
-		for (int_t i=0;i<n;i++)
-		{
-			cout<<i<<' ';
-			for (int_t g: adj[i]) cout<<g<<' ';
-			cout<<endl;
-		}
-		for (int_t i=0;i<n;i++)
-		{
-			cout<<i<<' ';
-			for (int_t g: layer_adj[i]) cout<<g<<' ';
-			cout<<endl;
-		}
-		for (int_t i=0;i<n;i++) cout<<dis[i]<<' '; cout<<endl;
-	}
-	
-	dinic_graph(int_t nn=1)                    // Constructor
-	{
-		n=nn;
-	}
-	
-	void add_edge(int_t u, int_t v, int_t cap) // Adds an edge to the graph, as well as its residual edge.
-	{
-		int_t id=lis.size()-1;
-		lis.push_back(edge(u,v,id+2,cap));     // Adds edge to lis
-		adj[u].push_back(id+1);                // Adds newly created edge's id to u's adjacency list
-		lis.push_back(edge(v,u,id+1));         // Same with residual edge
-		adj[v].push_back(id+2);
-	}
-	
-	int_t calc_flow(int_t ss, int_t tt)        // Calculate the maximum flow
-	{
-		// Some initialization stuff.
-		s=ss; t=tt;
-		res=0;
-		int_t cycle=0;
-		lis_t=lis;
-		while (true)                           // Loops the algorithm until there's no more blocking flows.
-		{
-		    cycle++;
-		build_layer();                         // Builds layer graph.
-		
-		if (dis[t]==MAXINT)
-		{
-			return res;                        // No more blocking flows, which means that we now have the max flow, so we quit. sed
-		}
-		for (int_t i=0;i<n;i++) ptr[i]=0;      // Reset pointers.
-		while(int_t pushed=dfs(s,MAXINT))
-		{
-		res+=pushed;                           // DFS and add all blocking flows to result.
-		}
-		}
-	}
-	
-	pair<int_t,vector<edge>> detailed_calc_flow(int_t ss, int_t tt)        // Calculate the maximum flow
-	{
-		// Some initialization stuff.
-		s=ss; t=tt;
-		res=0;
-		int_t cycle=0;
-		lis_t=lis;
-		while (true)                           // Loops the algorithm until there's no more blocking flows.
-		{
-		    cycle++;
-		build_layer();                         // Builds layer graph.
-		
-		if (dis[t]==MAXINT)
-		{
-			return {res,lis_t};
-		}
-		for (int_t i=0;i<n;i++) ptr[i]=0;      // Reset pointers.
-		while(int_t pushed=dfs(s,MAXINT))
-		{
-		res+=pushed;                           // DFS and add all blocking flows to result.
-		}
-		}
-	}
-};
-//------END-----------//
-ll n,m,k,c[501],t,t1,i,j,res,res2;
-vector<ll> gt[51];
+#define list_of_primes {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199, 211, 223, 227, 229, 233, 239, 241, 251, 257, 263, 269, 271, 277, 281, 283, 293, 307, 311, 313, 317, 331, 337, 347, 349, 353, 359, 367, 373, 379, 383, 389, 397, 401, 409, 419, 421, 431, 433, 439, 443, 449, 457, 461, 463, 467, 479, 487, 491, 499, 503, 509, 521, 523, 541, 547, 557, 563, 569, 571, 577, 587, 593, 599, 601, 607, 613, 617, 619, 631, 641, 643, 647, 653, 659, 661, 673, 677, 683, 691, 701, 709, 719, 727, 733, 739, 743, 751, 757, 761, 769, 773, 787, 797, 809, 811, 821, 823, 827, 829, 839, 853, 857, 859, 863, 877, 881, 883, 887, 907, 911, 919, 929, 937, 941, 947, 953, 967, 971, 977, 983, 991, 997}
+typedef long long ll;
+#define f(i,n)for(int i=1;i<=n;i++)
+#define M 201
+int a[M],h[M],g[M][M],u[M][M],n,m,p,q,s,d=1,*x;
 int main()
-{
-//    ofile;
-    fio;
-    cin>>n;
-    cin>>m;
-    dinic_graph gr(2*n+2);
-    for (i=1;i<=n;i++)
-    {
-    	cin>>t;
-    	gr.add_edge(0,i,t);
-    	gr.add_edge(i,i+n,1e9);
-    	res+=t;
-	}
-    for (i=1;i<=n;i++)
-    {
-    	cin>>t;
-    	gr.add_edge(n+i,2*n+1,t);
-    	res2+=t;
-	}
-	for (i=0;i<m;i++)
-    {
-    	cin>>t>>t1;
-    	gr.add_edge(t,t1+n,1e9);
-    	gr.add_edge(t1,t+n,1e9);
-	}
-	pair<int,vector<edge>> res3=gr.detailed_calc_flow(0,2*n+1);
-	{
-		if ((res==res2)and(res==res3.fi))
-		{
-			cout<<"YES\n";
-			int roam[n+1][n+1];
-			for (i=1;i<=n;i++)
-			{ 
-			for (j=1;j<=n;j++) roam[i][j]=0;
-			}
-			for (auto g: res3.se)
-			{
-//				cout<<g.u<<' '<<g.v<<' '<<g.cap<<endl;
-				if ((g.u>=1)and(g.u<=n)and(g.v>=n+1)and(g.v<=n*2))
-				roam[g.u][g.v-n]=1e9-g.cap;
-			}
-			for (i=1;i<=n;i++)
-			{ 
-			for (j=1;j<=n;j++) cout<<roam[i][j]<<' ';
-			cout<<endl;
-			}
-		}
-		else cout<<"NO";
-	}
-}
+{cin>>n>>m;f(i,2*n)cin>>p,s+=a[i]=i<=n?g[i][i+n]=p:-p;f(i,m)cin>>p>>q,g[p][q+n]=g[q][p+n]=1;while(d--)f(i,2*n)if(a[i]>0){d=p=1;f(j,2*n)if(g[i][j]|g[j][i]&&h[i]>h[j])q=a[i],x=u[j]+i,i<j?u[i][j]+=q:q=q<*x?q:*x,*x-=q,p&=!q,a[i]-=q,a[j]+=q;if(s|(h[i]+=p)>2*n){cout<<"NO";return 0;}}cout<<"YES\n";f(i,n)f(j,n)cout<<u[i][j+n]<<' ';}
