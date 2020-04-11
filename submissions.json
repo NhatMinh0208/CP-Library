@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF76228202": {
+    "contest_id": 41,
+    "language": "GNU C++17",
+    "path": "codeforces\\41\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "3-cycles",
+    "problem_url": "https://codeforces.com/contest/41/problem/E",
+    "submission_id": "CF76228202",
+    "submission_url": "https://codeforces.com/contest/41/submission/76228202",
+    "tags": [
+      "constructive algorithms",
+      "graphs",
+      "greedy",
+      "*1900"
+    ],
+    "timestamp": "Apr/11/2020 10:27"
+  },
   "CF76230487": {
     "contest_id": 87,
     "language": "GNU C++17",
