@@ -1,14 +1,6 @@
-
-// Problem : B. Nastya and Scoreboard
-// Contest : Codeforces - Codeforces Round #637 (Div. 1) - Thanks, Ivan Belonogov!
-// URL : https://codeforces.com/contest/1340/problem/B
-// Memory Limit : 256 MB
-// Time Limit : 1000 ms
-// Powered by CP Editor (https://github.com/cpeditor/cpeditor)
-
 /*
- A Submission by $%U%$
- at time: $%Y%$-$%M%$-$%D%$ $%h%$:$%m%$:$%s%$
+ A Submission by NMFF0B0H
+ at time: 2020-04-23 21:53:45
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -44,6 +36,7 @@ using namespace __gnu_pbds;
 #define endl "\n"
 #define bi BigInt
 typedef long long ll;
+//---------END-------//
 int n,m,k,c[501],pos[100001],t,t1,i,j,dp[2001][2001][10],com[2001][2001];
 const string dig[10]={"1110111", "0010010", "1011101", "1011011", "0111010", "1101011", "1101111", "1010010", "1111111", "1111011"};
 string cur[2001];
