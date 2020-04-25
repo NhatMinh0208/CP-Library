@@ -48,7 +48,7 @@ typedef long long ll;
 int n,m,k,c[501],pos[100001],t,t1,i,j;
 int main()
 {
-//  ofile; lol...
+//  ofile; lol
     fio;
     cin>>n>>k;
     for (i=0;i<k;i++)
