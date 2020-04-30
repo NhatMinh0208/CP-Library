@@ -1048,6 +1048,24 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF78584038": {
+    "contest_id": 550,
+    "language": "GNU C++17",
+    "path": "codeforces\\550\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Brackets in Implications",
+    "problem_url": "https://codeforces.com/contest/550/problem/E",
+    "submission_id": "CF78584038",
+    "submission_url": "https://codeforces.com/contest/550/submission/78584038",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math",
+      "*2200"
+    ],
+    "timestamp": "Apr/30/2020 23:01"
+  },
   "CF78647476": {
     "contest_id": 525,
     "language": "GNU C++17",
