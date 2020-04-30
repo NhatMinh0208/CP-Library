@@ -1048,6 +1048,25 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF78579676": {
+    "contest_id": 540,
+    "language": "GNU C++17",
+    "path": "codeforces\\540\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Infinite Inversions",
+    "problem_url": "https://codeforces.com/contest/540/problem/E",
+    "submission_id": "CF78579676",
+    "submission_url": "https://codeforces.com/contest/540/submission/78579676",
+    "tags": [
+      "binary search",
+      "data structures",
+      "implementation",
+      "sortings",
+      "trees",
+      "*2100"
+    ],
+    "timestamp": "Apr/30/2020 22:09"
+  },
   "CF78584038": {
     "contest_id": 550,
     "language": "GNU C++17",
