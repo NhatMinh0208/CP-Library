@@ -1048,6 +1048,26 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF78647476": {
+    "contest_id": 525,
+    "language": "GNU C++17",
+    "path": "codeforces\\525\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Anya and Cubes",
+    "problem_url": "https://codeforces.com/contest/525/problem/E",
+    "submission_id": "CF78647476",
+    "submission_url": "https://codeforces.com/contest/525/submission/78647476",
+    "tags": [
+      "binary search",
+      "bitmasks",
+      "brute force",
+      "dp",
+      "math",
+      "meet-in-the-middle",
+      "*2100"
+    ],
+    "timestamp": "May/01/2020 18:17"
+  },
   "CF78649416": {
     "contest_id": 525,
     "language": "GNU C++17",

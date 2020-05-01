@@ -98,7 +98,7 @@ int main()
 	{
 	    ll tar=el.first.first;
 	    ll alloc=el.first.second;
-//	    cout<<tar<<' '<<alloc<<' '<<el.second<<endl;        
+//	    cout<<tar<<' '<<alloc<<' '<<el.second<<endl; 
 	}
 	cout<<res1;
 }
