@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF78820835": {
+    "contest_id": 570,
+    "language": "GNU C++17",
+    "path": "codeforces\\570\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Pig and Palindromes",
+    "problem_url": "https://codeforces.com/contest/570/problem/E",
+    "submission_id": "CF78820835",
+    "submission_url": "https://codeforces.com/contest/570/submission/78820835",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "*2300"
+    ],
+    "timestamp": "May/02/2020 20:37"
+  },
   "CF78831374": {
     "contest_id": 580,
     "language": "GNU C++17",
