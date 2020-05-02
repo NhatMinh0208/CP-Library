@@ -83,5 +83,5 @@ int main()
     	res*=2;
     	res%=MOD;
     }
-    cout<<res; //yey
+    cout<<res;
 }
