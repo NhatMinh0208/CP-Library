@@ -1048,6 +1048,25 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF78876321": {
+    "contest_id": 650,
+    "language": "GNU C++17",
+    "path": "codeforces\\650\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Table Compression",
+    "problem_url": "https://codeforces.com/contest/650/problem/C",
+    "submission_id": "CF78876321",
+    "submission_url": "https://codeforces.com/contest/650/submission/78876321",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "dsu",
+      "graphs",
+      "greedy",
+      "*2200"
+    ],
+    "timestamp": "May/03/2020 16:38"
+  },
   "CF78878805": {
     "contest_id": 675,
     "language": "GNU C++17",
