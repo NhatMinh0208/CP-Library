@@ -1048,6 +1048,25 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF78901719": {
+    "contest_id": 689,
+    "language": "GNU C++17",
+    "path": "codeforces\\689\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Mike and Geometry Problem",
+    "problem_url": "https://codeforces.com/contest/689/problem/E",
+    "submission_id": "CF78901719",
+    "submission_url": "https://codeforces.com/contest/689/submission/78901719",
+    "tags": [
+      "combinatorics",
+      "data structures",
+      "dp",
+      "geometry",
+      "implementation",
+      "*2000"
+    ],
+    "timestamp": "May/03/2020 22:06"
+  },
   "CF78907749": {
     "contest_id": 696,
     "language": "GNU C++17",
