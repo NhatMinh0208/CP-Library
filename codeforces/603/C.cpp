@@ -45,8 +45,6 @@ using namespace __gnu_pbds;
 #define bi BigInt
 typedef long long ll;
 //---------END-------//
-//-------------------//
- 
 const int pre[] = {0, 1, 0, 1, 2};
 int N, K, A, res;
  
@@ -63,11 +61,11 @@ int grundy(int a){
 }
  
 int main(){
-	fio;
+    fio;
   cin >> N >> K;
   for(int i = 0; i < N; i++){
     cin >> A;
     res ^= grundy(A);
   }
-  cout << (res ? "Kevin" : "Nicky") << endl;
+  cout << (res ? "Kevin" : "Nicky") << '\n';
 }
