@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF79015835": {
+    "contest_id": 713,
+    "language": "GNU C++17",
+    "path": "codeforces\\713\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Sonya and Problem Wihtout a Legend",
+    "problem_url": "https://codeforces.com/contest/713/problem/C",
+    "submission_id": "CF79015835",
+    "submission_url": "https://codeforces.com/contest/713/submission/79015835",
+    "tags": [
+      "dp",
+      "sortings",
+      "*2300"
+    ],
+    "timestamp": "May/05/2020 09:35"
+  },
   "CF79017128": {
     "contest_id": 723,
     "language": "GNU C++17",
