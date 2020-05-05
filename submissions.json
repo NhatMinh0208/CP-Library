@@ -1048,6 +1048,25 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF79017128": {
+    "contest_id": 723,
+    "language": "GNU C++17",
+    "path": "codeforces\\723\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "One-Way Reform",
+    "problem_url": "https://codeforces.com/contest/723/problem/E",
+    "submission_id": "CF79017128",
+    "submission_url": "https://codeforces.com/contest/723/submission/79017128",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "flows",
+      "graphs",
+      "greedy",
+      "*2200"
+    ],
+    "timestamp": "May/05/2020 10:09"
+  },
   "CF79019444": {
     "contest_id": 732,
     "language": "GNU C++17",
