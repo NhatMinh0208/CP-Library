@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF79369488": {
+    "contest_id": 746,
+    "language": "GNU C++17",
+    "path": "codeforces\\746\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Numbers Exchange",
+    "problem_url": "https://codeforces.com/contest/746/problem/E",
+    "submission_id": "CF79369488",
+    "submission_url": "https://codeforces.com/contest/746/submission/79369488",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "*1900"
+    ],
+    "timestamp": "May/08/2020 17:49"
+  },
   "CF79384314": {
     "contest_id": 743,
     "language": "GNU C++17",
