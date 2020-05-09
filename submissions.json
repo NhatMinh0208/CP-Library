@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF79473408": {
+    "contest_id": 776,
+    "language": "GNU C++17",
+    "path": "codeforces\\776\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "The Holmes Children",
+    "problem_url": "https://codeforces.com/contest/776/problem/E",
+    "submission_id": "CF79473408",
+    "submission_url": "https://codeforces.com/contest/776/submission/79473408",
+    "tags": [
+      "math",
+      "number theory",
+      "*2100"
+    ],
+    "timestamp": "May/09/2020 21:34"
+  },
   "CF79550776": {
     "contest_id": 788,
     "language": "GNU C++17",
