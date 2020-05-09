@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF79550776": {
+    "contest_id": 788,
+    "language": "GNU C++17",
+    "path": "codeforces\\788\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "The Great Mixing",
+    "problem_url": "https://codeforces.com/contest/788/problem/C",
+    "submission_id": "CF79550776",
+    "submission_url": "https://codeforces.com/contest/788/submission/79550776",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "shortest paths",
+      "*2300"
+    ],
+    "timestamp": "May/09/2020 23:11"
+  },
   "CF79614025": {
     "contest_id": 804,
     "language": "GNU C++17",
