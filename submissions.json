@@ -1048,6 +1048,25 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF79470812": {
+    "contest_id": 765,
+    "language": "GNU C++17",
+    "path": "codeforces\\765\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Tree Folding",
+    "problem_url": "https://codeforces.com/contest/765/problem/E",
+    "submission_id": "CF79470812",
+    "submission_url": "https://codeforces.com/contest/765/submission/79470812",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "implementation",
+      "trees",
+      "*2200"
+    ],
+    "timestamp": "May/09/2020 21:03"
+  },
   "CF79473408": {
     "contest_id": 776,
     "language": "GNU C++17",
