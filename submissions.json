@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF79617211": {
+    "contest_id": 815,
+    "language": "GNU C++17",
+    "path": "codeforces\\815\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Karen and Supermarket",
+    "problem_url": "https://codeforces.com/contest/815/problem/C",
+    "submission_id": "CF79617211",
+    "submission_url": "https://codeforces.com/contest/815/submission/79617211",
+    "tags": [
+      "brute force",
+      "dp",
+      "trees",
+      "*2400"
+    ],
+    "timestamp": "May/10/2020 11:52"
+  },
   "CF79638672": {
     "contest_id": 827,
     "language": "GNU C++17",
