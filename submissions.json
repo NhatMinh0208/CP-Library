@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF79664264": {
+    "contest_id": 5,
+    "language": "GNU C++17",
+    "path": "codeforces\\5\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Bindian Signalizing",
+    "problem_url": "https://codeforces.com/contest/5/problem/E",
+    "submission_id": "CF79664264",
+    "submission_url": "https://codeforces.com/contest/5/submission/79664264",
+    "tags": [
+      "data structures",
+      "*2400"
+    ],
+    "timestamp": "May/10/2020 21:51"
+  },
   "CF79670698": {
     "contest_id": 14,
     "language": "GNU C++17",
