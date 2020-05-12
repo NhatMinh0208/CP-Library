@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF79899773": {
+    "contest_id": 31,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\31\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "TV Game",
+    "problem_url": "https://codeforces.com/contest/31/problem/E",
+    "submission_id": "CF79899773",
+    "submission_url": "https://codeforces.com/contest/31/submission/79899773",
+    "tags": [
+      "dp",
+      "*2400"
+    ],
+    "timestamp": "May/12/2020 23:11"
+  },
   "CF79986578": {
     "contest_id": 46,
     "language": "GNU C++17",
