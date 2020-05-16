@@ -1048,6 +1048,24 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF80384540": {
+    "contest_id": 138,
+    "language": "GNU C++17",
+    "path": "codeforces\\138\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Mushroom Gnomes - 2",
+    "problem_url": "https://codeforces.com/contest/138/problem/C",
+    "submission_id": "CF80384540",
+    "submission_url": "https://codeforces.com/contest/138/submission/80384540",
+    "tags": [
+      "binary search",
+      "data structures",
+      "probabilities",
+      "sortings",
+      "*2200"
+    ],
+    "timestamp": "May/16/2020 22:07"
+  },
   "CF80390573": {
     "contest_id": 180,
     "language": "GNU C++17",
