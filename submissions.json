@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF80274749": {
+    "contest_id": 111,
+    "language": "GNU C++17",
+    "path": "codeforces\\111\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Petya and Spiders",
+    "problem_url": "https://codeforces.com/contest/111/problem/C",
+    "submission_id": "CF80274749",
+    "submission_url": "https://codeforces.com/contest/111/submission/80274749",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "dsu",
+      "*2100"
+    ],
+    "timestamp": "May/16/2020 10:29"
+  },
   "CF80276879": {
     "contest_id": 113,
     "language": "GNU C++17",
