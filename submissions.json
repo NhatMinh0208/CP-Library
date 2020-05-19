@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF80695524": {
+    "contest_id": 201,
+    "language": "GNU C++17",
+    "path": "codeforces\\201\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Fragile Bridges",
+    "problem_url": "https://codeforces.com/contest/201/problem/C",
+    "submission_id": "CF80695524",
+    "submission_url": "https://codeforces.com/contest/201/submission/80695524",
+    "tags": [
+      "dp",
+      "*2000"
+    ],
+    "timestamp": "May/19/2020 21:06"
+  },
   "CF80701833": {
     "contest_id": 204,
     "language": "GNU C++17",
