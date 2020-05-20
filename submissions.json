@@ -1048,6 +1048,25 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF80779193": {
+    "contest_id": 231,
+    "language": "GNU C++17",
+    "path": "codeforces\\231\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Cactus",
+    "problem_url": "https://codeforces.com/contest/231/problem/E",
+    "submission_id": "CF80779193",
+    "submission_url": "https://codeforces.com/contest/231/submission/80779193",
+    "tags": [
+      "data structures",
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "trees",
+      "*2100"
+    ],
+    "timestamp": "May/20/2020 21:05"
+  },
   "CF80785025": {
     "contest_id": 234,
     "language": "GNU C++17",
