@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF80785025": {
+    "contest_id": 234,
+    "language": "GNU C++17",
+    "path": "codeforces\\234\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Champions' League",
+    "problem_url": "https://codeforces.com/contest/234/problem/E",
+    "submission_id": "CF80785025",
+    "submission_url": "https://codeforces.com/contest/234/submission/80785025",
+    "tags": [
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "May/20/2020 22:19"
+  },
   "CF80790108": {
     "contest_id": 235,
     "language": "GNU C++17",
