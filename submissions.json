@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF81031330": {
+    "contest_id": 283,
+    "language": "GNU C++17",
+    "path": "codeforces\\283\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Coin Troubles",
+    "problem_url": "https://codeforces.com/contest/283/problem/C",
+    "submission_id": "CF81031330",
+    "submission_url": "https://codeforces.com/contest/283/submission/81031330",
+    "tags": [
+      "dp",
+      "*2100"
+    ],
+    "timestamp": "May/23/2020 23:28"
+  },
   "CF81154109": {
     "contest_id": 297,
     "language": "GNU C++17",
