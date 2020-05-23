@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF80997993": {
+    "contest_id": 272,
+    "language": "GNU C++17",
+    "path": "codeforces\\272\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Dima and Horses",
+    "problem_url": "https://codeforces.com/contest/272/problem/E",
+    "submission_id": "CF80997993",
+    "submission_url": "https://codeforces.com/contest/272/submission/80997993",
+    "tags": [
+      "combinatorics",
+      "constructive algorithms",
+      "graphs",
+      "*2200"
+    ],
+    "timestamp": "May/23/2020 15:41"
+  },
   "CF81028727": {
     "contest_id": 276,
     "language": "GNU C++17",
