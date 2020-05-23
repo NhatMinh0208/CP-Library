@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF81028727": {
+    "contest_id": 276,
+    "language": "GNU C++17",
+    "path": "codeforces\\276\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Little Girl and Problem on Trees",
+    "problem_url": "https://codeforces.com/contest/276/problem/E",
+    "submission_id": "CF81028727",
+    "submission_url": "https://codeforces.com/contest/276/submission/81028727",
+    "tags": [
+      "data structures",
+      "graphs",
+      "trees",
+      "*2100"
+    ],
+    "timestamp": "May/23/2020 22:53"
+  },
   "CF81031330": {
     "contest_id": 283,
     "language": "GNU C++17",
