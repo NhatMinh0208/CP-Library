@@ -1048,6 +1048,24 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF81168582": {
+    "contest_id": 303,
+    "language": "GNU C++17",
+    "path": "codeforces\\303\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Minimum Modular",
+    "problem_url": "https://codeforces.com/contest/303/problem/C",
+    "submission_id": "CF81168582",
+    "submission_url": "https://codeforces.com/contest/303/submission/81168582",
+    "tags": [
+      "brute force",
+      "graphs",
+      "math",
+      "number theory",
+      "*2400"
+    ],
+    "timestamp": "May/24/2020 17:58"
+  },
   "CF81293199": {
     "contest_id": 327,
     "language": "GNU C++17",
