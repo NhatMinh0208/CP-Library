@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF81154109": {
+    "contest_id": 297,
+    "language": "GNU C++17",
+    "path": "codeforces\\297\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Splitting the Uniqueness",
+    "problem_url": "https://codeforces.com/contest/297/problem/C",
+    "submission_id": "CF81154109",
+    "submission_url": "https://codeforces.com/contest/297/submission/81154109",
+    "tags": [
+      "constructive algorithms",
+      "*2400"
+    ],
+    "timestamp": "May/24/2020 16:26"
+  },
   "CF81164820": {
     "contest_id": 300,
     "language": "GNU C++17",
