@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF81396004": {
+    "contest_id": 337,
+    "language": "GNU C++17",
+    "path": "codeforces\\337\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Divisor Tree",
+    "problem_url": "https://codeforces.com/contest/337/problem/E",
+    "submission_id": "CF81396004",
+    "submission_url": "https://codeforces.com/contest/337/submission/81396004",
+    "tags": [
+      "brute force",
+      "number theory",
+      "trees",
+      "*2200"
+    ],
+    "timestamp": "May/25/2020 22:10"
+  },
   "CF81401552": {
     "contest_id": 348,
     "language": "GNU C++17",
