@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF81667228": {
+    "contest_id": 909,
+    "language": "GNU C++17",
+    "path": "codeforces\\909\\F.cpp",
+    "problem_index": "F",
+    "problem_name": "AND-permutations",
+    "problem_url": "https://codeforces.com/contest/909/problem/F",
+    "submission_id": "CF81667228",
+    "submission_url": "https://codeforces.com/contest/909/submission/81667228",
+    "tags": [
+      "constructive algorithms",
+      "*2500"
+    ],
+    "timestamp": "May/28/2020 10:45"
+  },
   "CF81717084": {
     "contest_id": 1359,
     "language": "GNU C++17",
