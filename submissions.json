@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF81906760": {
+    "contest_id": 405,
+    "language": "GNU C++17",
+    "path": "codeforces\\405\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Graph Cutting",
+    "problem_url": "https://codeforces.com/contest/405/problem/E",
+    "submission_id": "CF81906760",
+    "submission_url": "https://codeforces.com/contest/405/submission/81906760",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "*2300"
+    ],
+    "timestamp": "May/29/2020 23:00"
+  },
   "CF81930610": {
     "contest_id": 1129,
     "language": "GNU C++17",
