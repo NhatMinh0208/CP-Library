@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF81890644": {
+    "contest_id": 400,
+    "language": "GNU C++17",
+    "path": "codeforces\\400\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Inna and Binary Logic",
+    "problem_url": "https://codeforces.com/contest/400/problem/E",
+    "submission_id": "CF81890644",
+    "submission_url": "https://codeforces.com/contest/400/submission/81890644",
+    "tags": [
+      "binary search",
+      "bitmasks",
+      "data structures",
+      "*2100"
+    ],
+    "timestamp": "May/29/2020 20:47"
+  },
   "CF81906760": {
     "contest_id": 405,
     "language": "GNU C++17",
