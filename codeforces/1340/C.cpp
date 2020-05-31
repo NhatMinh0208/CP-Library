@@ -50,6 +50,7 @@ priority_queue<pair<ll,pair<int,int>>,vector<pair<ll,pair<int,int>>>,cmp> bruh;
 void proc (pair<ll,pair<int,int>> cur)
 {
     ll time=cur.p1,pos=cur.p2,gtime=cur.p3;
+ //   cout<<time<<' '<<pos<<' '<<gtime<<' '<<dp[pos][gtime]<<endl;
     if (time>dp[pos][gtime]) return;
     if (gtime==g)
     {
@@ -65,6 +66,7 @@ void proc (pair<ll,pair<int,int>> cur)
             dp[pos-1][gtime+post[pos]-post[pos-1]]=
             min(dp[pos-1][gtime+post[pos]-post[pos-1]],dp[pos][gtime]+post[pos]-post[pos-1]);
             
+//            cout<<dp[pos][gtime]+post[pos]-post[pos-1]<<endl;
         }
         if ((pos<m-1)and(gtime+post[pos+1]-post[pos]<=g))
         {
@@ -73,6 +75,7 @@ void proc (pair<ll,pair<int,int>> cur)
             dp[pos+1][gtime+post[pos+1]-post[pos]]=
             min(dp[pos+1][gtime+post[pos+1]-post[pos]],dp[pos][gtime]+post[pos+1]-post[pos]);
             
+ //           cout<<dp[pos][gtime]+post[pos+1]-post[pos]<<endl;
         }
     }
     
@@ -89,6 +92,7 @@ int main()
     }
     cin>>g>>r;
     for (i=0;i<m;i++) for (j=0;j<=g;j++) dp[i][j]=1000000000000000000;
+//    cout<<g<<' '<<r<<' ';
     
     sort(post.begin(),post.end());
     dp[0][0]=0;
