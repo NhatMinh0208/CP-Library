@@ -1048,6 +1048,25 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF82068673": {
+    "contest_id": 429,
+    "language": "GNU C++17",
+    "path": "codeforces\\429\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Guess the Tree",
+    "problem_url": "https://codeforces.com/contest/429/problem/C",
+    "submission_id": "CF82068673",
+    "submission_url": "https://codeforces.com/contest/429/submission/82068673",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "dp",
+      "greedy",
+      "trees",
+      "*2300"
+    ],
+    "timestamp": "May/31/2020 21:55"
+  },
   "CF82171985": {
     "contest_id": 768,
     "language": "GNU C++17",
