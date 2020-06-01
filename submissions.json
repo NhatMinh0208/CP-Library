@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF82228851": {
+    "contest_id": 468,
+    "language": "GNU C++17",
+    "path": "codeforces\\468\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Hack it!",
+    "problem_url": "https://codeforces.com/contest/468/problem/C",
+    "submission_id": "CF82228851",
+    "submission_url": "https://codeforces.com/contest/468/submission/82228851",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "math",
+      "*2500"
+    ],
+    "timestamp": "Jun/01/2020 21:48"
+  },
   "CF82231861": {
     "contest_id": 489,
     "language": "GNU C++17",
