@@ -1048,6 +1048,24 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF82321041": {
+    "contest_id": 518,
+    "language": "GNU C++17",
+    "path": "codeforces\\518\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Arthur and Questions",
+    "problem_url": "https://codeforces.com/contest/518/problem/E",
+    "submission_id": "CF82321041",
+    "submission_url": "https://codeforces.com/contest/518/submission/82321041",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "ternary search",
+      "*2200"
+    ],
+    "timestamp": "Jun/02/2020 22:07"
+  },
   "CF82326871": {
     "contest_id": 527,
     "language": "GNU C++17",
