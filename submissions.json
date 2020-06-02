@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF82326871": {
+    "contest_id": 527,
+    "language": "GNU C++17",
+    "path": "codeforces\\527\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Data Center Drama",
+    "problem_url": "https://codeforces.com/contest/527/problem/E",
+    "submission_id": "CF82326871",
+    "submission_url": "https://codeforces.com/contest/527/submission/82326871",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "*2600"
+    ],
+    "timestamp": "Jun/02/2020 23:13"
+  },
   "CF82373071": {
     "contest_id": 1311,
     "language": "GNU C++17 (64)",
