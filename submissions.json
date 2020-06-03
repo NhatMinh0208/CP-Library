@@ -1048,6 +1048,26 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF82410335": {
+    "contest_id": 557,
+    "language": "GNU C++17",
+    "path": "codeforces\\557\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Ann and Half-Palindrome",
+    "problem_url": "https://codeforces.com/contest/557/problem/E",
+    "submission_id": "CF82410335",
+    "submission_url": "https://codeforces.com/contest/557/submission/82410335",
+    "tags": [
+      "data structures",
+      "dp",
+      "graphs",
+      "string suffix structures",
+      "strings",
+      "trees",
+      "*2300"
+    ],
+    "timestamp": "Jun/03/2020 22:13"
+  },
   "CF82416166": {
     "contest_id": 567,
     "language": "GNU C++17",
