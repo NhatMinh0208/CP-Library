@@ -11949,6 +11949,22 @@
     ],
     "timestamp": "Jun/04/2020 21:53"
   },
+  "CF83405820": {
+    "contest_id": 1366,
+    "language": "GNU C++17",
+    "path": "codeforces\\1366\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Palindromic Paths",
+    "problem_url": "https://codeforces.com/contest/1366/problem/C",
+    "submission_id": "CF83405820",
+    "submission_url": "https://codeforces.com/contest/1366/submission/83405820",
+    "tags": [
+      "greedy",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Jun/11/2020 21:59"
+  },
   "CF83445065": {
     "contest_id": 1366,
     "language": "GNU C++17",
