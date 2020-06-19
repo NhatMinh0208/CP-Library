@@ -1048,6 +1048,24 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF84344713": {
+    "contest_id": 870,
+    "language": "GNU C++17",
+    "path": "codeforces\\870\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Points, Lines and Ready-made Titles",
+    "problem_url": "https://codeforces.com/contest/870/problem/E",
+    "submission_id": "CF84344713",
+    "submission_url": "https://codeforces.com/contest/870/submission/84344713",
+    "tags": [
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "trees",
+      "*2300"
+    ],
+    "timestamp": "Jun/19/2020 23:21"
+  },
   "CF84422027": {
     "contest_id": 869,
     "language": "GNU C++17",
