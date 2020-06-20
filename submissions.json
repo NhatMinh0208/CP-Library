@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF84422027": {
+    "contest_id": 869,
+    "language": "GNU C++17",
+    "path": "codeforces\\869\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "The Untended Antiquity",
+    "problem_url": "https://codeforces.com/contest/869/problem/E",
+    "submission_id": "CF84422027",
+    "submission_url": "https://codeforces.com/contest/869/submission/84422027",
+    "tags": [
+      "data structures",
+      "hashing",
+      "*2400"
+    ],
+    "timestamp": "Jun/20/2020 21:22"
+  },
   "CF84453495": {
     "contest_id": 965,
     "language": "GNU C++17",
