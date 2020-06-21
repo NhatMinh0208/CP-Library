@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF84571364": {
+    "contest_id": 7,
+    "language": "GNU C++17",
+    "path": "codeforces\\7\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Defining Macros",
+    "problem_url": "https://codeforces.com/contest/7/problem/E",
+    "submission_id": "CF84571364",
+    "submission_url": "https://codeforces.com/contest/7/submission/84571364",
+    "tags": [
+      "dp",
+      "expression parsing",
+      "implementation",
+      "*2600"
+    ],
+    "timestamp": "Jun/21/2020 16:49"
+  },
   "CF84594813": {
     "contest_id": 8,
     "language": "GNU C++17",
