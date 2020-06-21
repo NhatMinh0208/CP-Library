@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF84594813": {
+    "contest_id": 8,
+    "language": "GNU C++17",
+    "path": "codeforces\\8\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Beads",
+    "problem_url": "https://codeforces.com/contest/8/problem/E",
+    "submission_id": "CF84594813",
+    "submission_url": "https://codeforces.com/contest/8/submission/84594813",
+    "tags": [
+      "dp",
+      "graphs",
+      "*2600"
+    ],
+    "timestamp": "Jun/21/2020 22:04"
+  },
   "CF84600921": {
     "contest_id": 9,
     "language": "GNU C++17",
