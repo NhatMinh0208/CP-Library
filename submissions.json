@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF84600921": {
+    "contest_id": 9,
+    "language": "GNU C++17",
+    "path": "codeforces\\9\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Interestring graph and Apples",
+    "problem_url": "https://codeforces.com/contest/9/problem/E",
+    "submission_id": "CF84600921",
+    "submission_url": "https://codeforces.com/contest/9/submission/84600921",
+    "tags": [
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "*2300"
+    ],
+    "timestamp": "Jun/21/2020 23:18"
+  },
   "CF84680189": {
     "contest_id": 12,
     "language": "GNU C++17",
