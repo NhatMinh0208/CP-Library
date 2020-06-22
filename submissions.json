@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF84682414": {
+    "contest_id": 17,
+    "language": "GNU C++17",
+    "path": "codeforces\\17\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Palisection",
+    "problem_url": "https://codeforces.com/contest/17/problem/E",
+    "submission_id": "CF84682414",
+    "submission_url": "https://codeforces.com/contest/17/submission/84682414",
+    "tags": [
+      "strings",
+      "*2900"
+    ],
+    "timestamp": "Jun/22/2020 23:15"
+  },
   "CF84894979": {
     "contest_id": 1369,
     "language": "GNU C++17",
