@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF84680189": {
+    "contest_id": 12,
+    "language": "GNU C++17",
+    "path": "codeforces\\12\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Start of the session",
+    "problem_url": "https://codeforces.com/contest/12/problem/E",
+    "submission_id": "CF84680189",
+    "submission_url": "https://codeforces.com/contest/12/submission/84680189",
+    "tags": [
+      "constructive algorithms",
+      "*2100"
+    ],
+    "timestamp": "Jun/22/2020 22:53"
+  },
   "CF84682414": {
     "contest_id": 17,
     "language": "GNU C++17",
