@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF84980618": {
+    "contest_id": 23,
+    "language": "GNU C++17",
+    "path": "codeforces\\23\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Tree",
+    "problem_url": "https://codeforces.com/contest/23/problem/E",
+    "submission_id": "CF84980618",
+    "submission_url": "https://codeforces.com/contest/23/submission/84980618",
+    "tags": [
+      "dp",
+      "*2500"
+    ],
+    "timestamp": "Jun/25/2020 21:08"
+  },
   "CF85130750": {
     "contest_id": 30,
     "language": "GNU C++17",
