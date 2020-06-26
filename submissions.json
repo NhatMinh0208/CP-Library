@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF85131226": {
+    "contest_id": 24,
+    "language": "GNU C++17",
+    "path": "codeforces\\24\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Berland collider",
+    "problem_url": "https://codeforces.com/contest/24/problem/E",
+    "submission_id": "CF85131226",
+    "submission_url": "https://codeforces.com/contest/24/submission/85131226",
+    "tags": [
+      "binary search",
+      "*2300"
+    ],
+    "timestamp": "Jun/26/2020 20:53"
+  },
   "CF85138455": {
     "contest_id": 34,
     "language": "GNU C++17",
