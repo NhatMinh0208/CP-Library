@@ -1048,6 +1048,26 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF85130750": {
+    "contest_id": 30,
+    "language": "GNU C++17",
+    "path": "codeforces\\30\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Tricky and Clever Password",
+    "problem_url": "https://codeforces.com/contest/30/problem/E",
+    "submission_id": "CF85130750",
+    "submission_url": "https://codeforces.com/contest/30/submission/85130750",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "hashing",
+      "strings",
+      "*2800"
+    ],
+    "timestamp": "Jun/26/2020 20:48"
+  },
   "CF85130989": {
     "contest_id": 29,
     "language": "GNU C++17",
