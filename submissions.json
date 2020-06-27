@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF85201193": {
+    "contest_id": 35,
+    "language": "GNU C++17",
+    "path": "codeforces\\35\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Parade",
+    "problem_url": "https://codeforces.com/contest/35/problem/E",
+    "submission_id": "CF85201193",
+    "submission_url": "https://codeforces.com/contest/35/submission/85201193",
+    "tags": [
+      "data structures",
+      "sortings",
+      "*2100"
+    ],
+    "timestamp": "Jun/27/2020 18:01"
+  },
   "CF85223623": {
     "contest_id": 40,
     "language": "GNU C++17",
