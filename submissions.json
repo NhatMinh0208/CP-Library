@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF85227010": {
+    "contest_id": 49,
+    "language": "GNU C++17",
+    "path": "codeforces\\49\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Common ancestor",
+    "problem_url": "https://codeforces.com/contest/49/problem/E",
+    "submission_id": "CF85227010",
+    "submission_url": "https://codeforces.com/contest/49/submission/85227010",
+    "tags": [
+      "dp",
+      "*2300"
+    ],
+    "timestamp": "Jun/27/2020 22:05"
+  },
   "CF85231227": {
     "contest_id": 53,
     "language": "GNU C++17",
