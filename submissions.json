@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF85223623": {
+    "contest_id": 40,
+    "language": "GNU C++17",
+    "path": "codeforces\\40\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Number Table",
+    "problem_url": "https://codeforces.com/contest/40/problem/E",
+    "submission_id": "CF85223623",
+    "submission_url": "https://codeforces.com/contest/40/submission/85223623",
+    "tags": [
+      "combinatorics",
+      "*2500"
+    ],
+    "timestamp": "Jun/27/2020 21:10"
+  },
   "CF85227010": {
     "contest_id": 49,
     "language": "GNU C++17",
