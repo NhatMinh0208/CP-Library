@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF85256664": {
+    "contest_id": 66,
+    "language": "GNU C++17",
+    "path": "codeforces\\66\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Petya and Post",
+    "problem_url": "https://codeforces.com/contest/66/problem/E",
+    "submission_id": "CF85256664",
+    "submission_url": "https://codeforces.com/contest/66/submission/85256664",
+    "tags": [
+      "data structures",
+      "dp",
+      "*2000"
+    ],
+    "timestamp": "Jun/28/2020 11:27"
+  },
   "CF85293275": {
     "contest_id": 1370,
     "language": "GNU C++17",
