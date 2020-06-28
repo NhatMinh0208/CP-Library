@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF85254165": {
+    "contest_id": 55,
+    "language": "GNU C++17",
+    "path": "codeforces\\55\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Very simple problem",
+    "problem_url": "https://codeforces.com/contest/55/problem/E",
+    "submission_id": "CF85254165",
+    "submission_url": "https://codeforces.com/contest/55/submission/85254165",
+    "tags": [
+      "geometry",
+      "two pointers",
+      "*2500"
+    ],
+    "timestamp": "Jun/28/2020 10:13"
+  },
   "CF85255206": {
     "contest_id": 63,
     "language": "GNU C++17",
