@@ -1048,6 +1048,24 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF85558885": {
+    "contest_id": 141,
+    "language": "GNU C++17",
+    "path": "codeforces\\141\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Clearing Up",
+    "problem_url": "https://codeforces.com/contest/141/problem/E",
+    "submission_id": "CF85558885",
+    "submission_url": "https://codeforces.com/contest/141/submission/85558885",
+    "tags": [
+      "constructive algorithms",
+      "dp",
+      "dsu",
+      "graphs",
+      "*2300"
+    ],
+    "timestamp": "Jun/30/2020 23:16"
+  },
   "CF85584826": {
     "contest_id": 1366,
     "language": "GNU C++17",
