@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF85546680": {
+    "contest_id": 123,
+    "language": "GNU C++17",
+    "path": "codeforces\\123\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Brackets",
+    "problem_url": "https://codeforces.com/contest/123/problem/C",
+    "submission_id": "CF85546680",
+    "submission_url": "https://codeforces.com/contest/123/submission/85546680",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "greedy",
+      "*2300"
+    ],
+    "timestamp": "Jun/30/2020 21:03"
+  },
   "CF85549366": {
     "contest_id": 126,
     "language": "GNU C++17",
