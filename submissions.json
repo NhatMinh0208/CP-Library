@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF85584826": {
+    "contest_id": 1366,
+    "language": "GNU C++17",
+    "path": "codeforces\\1366\\G.cpp",
+    "problem_index": "G",
+    "problem_name": "Construct the String",
+    "problem_url": "https://codeforces.com/contest/1366/problem/G",
+    "submission_id": "CF85584826",
+    "submission_url": "https://codeforces.com/contest/1366/submission/85584826",
+    "tags": [
+      "data structures",
+      "dp",
+      "strings",
+      "*2700"
+    ],
+    "timestamp": "Jul/01/2020 09:27"
+  },
   "CF85855661": {
     "contest_id": 144,
     "language": "GNU C++17",
