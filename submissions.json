@@ -12686,6 +12686,26 @@
     ],
     "timestamp": "Jul/01/2020 09:27"
   },
+  "CF85680507": {
+    "contest_id": 1371,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1371\\E2.cpp",
+    "problem_index": "E2",
+    "problem_name": "Asterism (Hard Version)",
+    "problem_url": "https://codeforces.com/contest/1371/problem/E2",
+    "submission_id": "CF85680507",
+    "submission_url": "https://codeforces.com/contest/1371/submission/85680507",
+    "tags": [
+      "binary search",
+      "combinatorics",
+      "dp",
+      "math",
+      "number theory",
+      "sortings",
+      "*2300"
+    ],
+    "timestamp": "Jul/01/2020 22:04"
+  },
   "CF85855661": {
     "contest_id": 144,
     "language": "GNU C++17",
