@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF86067738": {
+    "contest_id": 195,
+    "language": "GNU C++17",
+    "path": "codeforces\\195\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Building Forest",
+    "problem_url": "https://codeforces.com/contest/195/problem/E",
+    "submission_id": "CF86067738",
+    "submission_url": "https://codeforces.com/contest/195/submission/86067738",
+    "tags": [
+      "data structures",
+      "dsu",
+      "graphs",
+      "*2000"
+    ],
+    "timestamp": "Jul/05/2020 23:17"
+  },
   "CF86068566": {
     "contest_id": 215,
     "language": "GNU C++17",
