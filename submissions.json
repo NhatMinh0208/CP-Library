@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF86068566": {
+    "contest_id": 215,
+    "language": "GNU C++17",
+    "path": "codeforces\\215\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Periodical Numbers",
+    "problem_url": "https://codeforces.com/contest/215/problem/E",
+    "submission_id": "CF86068566",
+    "submission_url": "https://codeforces.com/contest/215/submission/86068566",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "number theory",
+      "*2100"
+    ],
+    "timestamp": "Jul/05/2020 23:32"
+  },
   "CF86105033": {
     "contest_id": 216,
     "language": "GNU C++17",
