@@ -1048,6 +1048,25 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF86134310": {
+    "contest_id": 226,
+    "language": "GNU C++17",
+    "path": "codeforces\\226\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Anniversary",
+    "problem_url": "https://codeforces.com/contest/226/problem/C",
+    "submission_id": "CF86134310",
+    "submission_url": "https://codeforces.com/contest/226/submission/86134310",
+    "tags": [
+      "data structures",
+      "implementation",
+      "math",
+      "matrices",
+      "number theory",
+      "*2400"
+    ],
+    "timestamp": "Jul/06/2020 21:44"
+  },
   "CF86175221": {
     "contest_id": 253,
     "language": "GNU C++17",
