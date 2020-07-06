@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF86105033": {
+    "contest_id": 216,
+    "language": "GNU C++17",
+    "path": "codeforces\\216\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Martian Luck",
+    "problem_url": "https://codeforces.com/contest/216/problem/E",
+    "submission_id": "CF86105033",
+    "submission_url": "https://codeforces.com/contest/216/submission/86105033",
+    "tags": [
+      "math",
+      "number theory",
+      "*2000"
+    ],
+    "timestamp": "Jul/06/2020 14:48"
+  },
   "CF86106111": {
     "contest_id": 219,
     "language": "GNU C++17",
