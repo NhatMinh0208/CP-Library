@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF86850777": {
+    "contest_id": 582,
+    "language": "GNU C++17",
+    "path": "codeforces\\582\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Superior Periodic Subarrays",
+    "problem_url": "https://codeforces.com/contest/582/problem/C",
+    "submission_id": "CF86850777",
+    "submission_url": "https://codeforces.com/contest/582/submission/86850777",
+    "tags": [
+      "number theory",
+      "*2400"
+    ],
+    "timestamp": "Jul/14/2020 23:49"
+  },
   "CF86887144": {
     "contest_id": 610,
     "language": "GNU C++17",
