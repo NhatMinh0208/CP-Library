@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF86850613": {
+    "contest_id": 568,
+    "language": "GNU C++17",
+    "path": "codeforces\\568\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "New Language",
+    "problem_url": "https://codeforces.com/contest/568/problem/C",
+    "submission_id": "CF86850613",
+    "submission_url": "https://codeforces.com/contest/568/submission/86850613",
+    "tags": [
+      "2-sat",
+      "greedy",
+      "*2600"
+    ],
+    "timestamp": "Jul/14/2020 23:47"
+  },
   "CF86850777": {
     "contest_id": 582,
     "language": "GNU C++17",
