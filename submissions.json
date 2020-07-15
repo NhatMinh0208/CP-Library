@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF86930020": {
+    "contest_id": 712,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\712\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Memory and Casinos",
+    "problem_url": "https://codeforces.com/contest/712/problem/E",
+    "submission_id": "CF86930020",
+    "submission_url": "https://codeforces.com/contest/712/submission/86930020",
+    "tags": [
+      "data structures",
+      "math",
+      "probabilities",
+      "*2500"
+    ],
+    "timestamp": "Jul/15/2020 23:22"
+  },
   "CF86992233": {
     "contest_id": 1292,
     "language": "GNU C++17 (64)",
