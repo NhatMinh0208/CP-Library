@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF87356159": {
+    "contest_id": 15,
+    "language": "GNU C++17",
+    "path": "codeforces\\15\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Triangles",
+    "problem_url": "https://codeforces.com/contest/15/problem/E",
+    "submission_id": "CF87356159",
+    "submission_url": "https://codeforces.com/contest/15/submission/87356159",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "*2600"
+    ],
+    "timestamp": "Jul/19/2020 20:25"
+  },
   "CF87371263": {
     "contest_id": 333,
     "language": "GNU C++17",
