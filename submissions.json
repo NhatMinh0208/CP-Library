@@ -1048,6 +1048,25 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF87371263": {
+    "contest_id": 333,
+    "language": "GNU C++17",
+    "path": "codeforces\\333\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Characteristics of Rectangles",
+    "problem_url": "https://codeforces.com/contest/333/problem/D",
+    "submission_id": "CF87371263",
+    "submission_url": "https://codeforces.com/contest/333/submission/87371263",
+    "tags": [
+      "binary search",
+      "bitmasks",
+      "brute force",
+      "implementation",
+      "sortings",
+      "*2100"
+    ],
+    "timestamp": "Jul/19/2020 23:18"
+  },
   "CF87372890": {
     "contest_id": 343,
     "language": "GNU C++17",
