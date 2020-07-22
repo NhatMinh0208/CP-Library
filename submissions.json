@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF87684663": {
+    "contest_id": 484,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\484\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Kindergarten",
+    "problem_url": "https://codeforces.com/contest/484/problem/D",
+    "submission_id": "CF87684663",
+    "submission_url": "https://codeforces.com/contest/484/submission/87684663",
+    "tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "*2400"
+    ],
+    "timestamp": "Jul/22/2020 21:00"
+  },
   "CF87697644": {
     "contest_id": 341,
     "language": "GNU C++17",
