@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF87697644": {
+    "contest_id": 341,
+    "language": "GNU C++17",
+    "path": "codeforces\\341\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Iahub and Xors",
+    "problem_url": "https://codeforces.com/contest/341/problem/D",
+    "submission_id": "CF87697644",
+    "submission_url": "https://codeforces.com/contest/341/submission/87697644",
+    "tags": [
+      "data structures",
+      "*2500"
+    ],
+    "timestamp": "Jul/22/2020 22:59"
+  },
   "CF87922900": {
     "contest_id": 1383,
     "language": "GNU C++17",
