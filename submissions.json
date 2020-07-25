@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF87953093": {
+    "contest_id": 51,
+    "language": "GNU C++17",
+    "path": "codeforces\\51\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Pentagon",
+    "problem_url": "https://codeforces.com/contest/51/problem/E",
+    "submission_id": "CF87953093",
+    "submission_url": "https://codeforces.com/contest/51/submission/87953093",
+    "tags": [
+      "combinatorics",
+      "graphs",
+      "matrices",
+      "*2400"
+    ],
+    "timestamp": "Jul/25/2020 10:06"
+  },
   "CF87993826": {
     "contest_id": 1158,
     "language": "GNU C++17",
