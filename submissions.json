@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF88049005": {
+    "contest_id": 919,
+    "language": "GNU C++17",
+    "path": "codeforces\\919\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Congruence Equation",
+    "problem_url": "https://codeforces.com/contest/919/problem/E",
+    "submission_id": "CF88049005",
+    "submission_url": "https://codeforces.com/contest/919/submission/88049005",
+    "tags": [
+      "chinese remainder theorem",
+      "math",
+      "number theory",
+      "*2100"
+    ],
+    "timestamp": "Jul/26/2020 17:57"
+  },
   "CF88093504": {
     "contest_id": 286,
     "language": "GNU C++17",
