@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF88137398": {
+    "contest_id": 1120,
+    "language": "GNU C++17",
+    "path": "codeforces\\1120\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Compress String",
+    "problem_url": "https://codeforces.com/contest/1120/problem/C",
+    "submission_id": "CF88137398",
+    "submission_url": "https://codeforces.com/contest/1120/submission/88137398",
+    "tags": [
+      "dp",
+      "strings",
+      "*2100"
+    ],
+    "timestamp": "Jul/27/2020 21:58"
+  },
   "CF88301221": {
     "contest_id": 1389,
     "language": "GNU C++17",
