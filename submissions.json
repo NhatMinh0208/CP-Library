@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF88093504": {
+    "contest_id": 286,
+    "language": "GNU C++17",
+    "path": "codeforces\\286\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Shifting",
+    "problem_url": "https://codeforces.com/contest/286/problem/B",
+    "submission_id": "CF88093504",
+    "submission_url": "https://codeforces.com/contest/286/submission/88093504",
+    "tags": [
+      "implementation",
+      "*2200"
+    ],
+    "timestamp": "Jul/27/2020 09:42"
+  },
   "CF88107984": {
     "contest_id": 73,
     "language": "GNU C++17",
