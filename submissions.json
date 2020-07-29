@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF88334261": {
+    "contest_id": 1389,
+    "language": "GNU C++17",
+    "path": "codeforces\\1389\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Calendar Ambiguity",
+    "problem_url": "https://codeforces.com/contest/1389/problem/E",
+    "submission_id": "CF88334261",
+    "submission_url": "https://codeforces.com/contest/1389/submission/88334261",
+    "tags": [
+      "math",
+      "number theory",
+      "*2200"
+    ],
+    "timestamp": "Jul/29/2020 22:33"
+  },
   "CF88418219": {
     "contest_id": 1242,
     "language": "GNU C++17",
