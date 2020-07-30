@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF88447717": {
+    "contest_id": 1147,
+    "language": "GNU C++17",
+    "path": "codeforces\\1147\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Palindrome XOR",
+    "problem_url": "https://codeforces.com/contest/1147/problem/D",
+    "submission_id": "CF88447717",
+    "submission_url": "https://codeforces.com/contest/1147/submission/88447717",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "*2400"
+    ],
+    "timestamp": "Jul/30/2020 21:24"
+  },
   "CF88552674": {
     "contest_id": 1221,
     "language": "GNU C++17",
