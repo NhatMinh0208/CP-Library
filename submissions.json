@@ -14416,6 +14416,24 @@
     ],
     "timestamp": "Jul/30/2020 21:24"
   },
+  "CF88466098": {
+    "contest_id": 1388,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1388\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Uncle Bogdan and Country Happiness",
+    "problem_url": "https://codeforces.com/contest/1388/problem/C",
+    "submission_id": "CF88466098",
+    "submission_url": "https://codeforces.com/contest/1388/submission/88466098",
+    "tags": [
+      "dfs and similar",
+      "greedy",
+      "math",
+      "trees",
+      "*1800"
+    ],
+    "timestamp": "Jul/30/2020 21:52"
+  },
   "CF88475845": {
     "contest_id": 1388,
     "language": "GNU C++17 (64)",
