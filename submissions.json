@@ -1048,6 +1048,24 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF88681715": {
+    "contest_id": 200,
+    "language": "GNU C++17",
+    "path": "codeforces\\200\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Tractor College",
+    "problem_url": "https://codeforces.com/contest/200/problem/E",
+    "submission_id": "CF88681715",
+    "submission_url": "https://codeforces.com/contest/200/submission/88681715",
+    "tags": [
+      "implementation",
+      "math",
+      "number theory",
+      "ternary search",
+      "*2400"
+    ],
+    "timestamp": "Aug/01/2020 23:45"
+  },
   "CF88682060": {
     "contest_id": 198,
     "language": "GNU C++17",
