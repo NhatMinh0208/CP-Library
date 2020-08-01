@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF88670327": {
+    "contest_id": 160,
+    "language": "GNU C++17",
+    "path": "codeforces\\160\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Buses and People",
+    "problem_url": "https://codeforces.com/contest/160/problem/E",
+    "submission_id": "CF88670327",
+    "submission_url": "https://codeforces.com/contest/160/submission/88670327",
+    "tags": [
+      "binary search",
+      "data structures",
+      "sortings",
+      "*2400"
+    ],
+    "timestamp": "Aug/01/2020 20:56"
+  },
   "CF88681715": {
     "contest_id": 200,
     "language": "GNU C++17",
