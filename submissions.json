@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF88747279": {
+    "contest_id": 217,
+    "language": "GNU C++17",
+    "path": "codeforces\\217\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Formurosa",
+    "problem_url": "https://codeforces.com/contest/217/problem/C",
+    "submission_id": "CF88747279",
+    "submission_url": "https://codeforces.com/contest/217/submission/88747279",
+    "tags": [
+      "divide and conquer",
+      "dp",
+      "expression parsing",
+      "*2600"
+    ],
+    "timestamp": "Aug/02/2020 23:26"
+  },
   "CF88767953": {
     "contest_id": 248,
     "language": "GNU C++17",
