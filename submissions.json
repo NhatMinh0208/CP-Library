@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF88783615": {
+    "contest_id": 263,
+    "language": "GNU C++17",
+    "path": "codeforces\\263\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Rhombus",
+    "problem_url": "https://codeforces.com/contest/263/problem/E",
+    "submission_id": "CF88783615",
+    "submission_url": "https://codeforces.com/contest/263/submission/88783615",
+    "tags": [
+      "brute force",
+      "data structures",
+      "dp",
+      "*2500"
+    ],
+    "timestamp": "Aug/03/2020 15:34"
+  },
   "CF88785221": {
     "contest_id": 274,
     "language": "GNU C++17",
