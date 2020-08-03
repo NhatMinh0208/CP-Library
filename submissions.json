@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF88781255": {
+    "contest_id": 257,
+    "language": "GNU C++17",
+    "path": "codeforces\\257\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Greedy Elevator",
+    "problem_url": "https://codeforces.com/contest/257/problem/E",
+    "submission_id": "CF88781255",
+    "submission_url": "https://codeforces.com/contest/257/submission/88781255",
+    "tags": [
+      "data structures",
+      "implementation",
+      "*2200"
+    ],
+    "timestamp": "Aug/03/2020 14:54"
+  },
   "CF88783615": {
     "contest_id": 263,
     "language": "GNU C++17",
