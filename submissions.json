@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF88789864": {
+    "contest_id": 332,
+    "language": "GNU C++17",
+    "path": "codeforces\\332\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Binary Key",
+    "problem_url": "https://codeforces.com/contest/332/problem/E",
+    "submission_id": "CF88789864",
+    "submission_url": "https://codeforces.com/contest/332/submission/88789864",
+    "tags": [
+      "dp",
+      "greedy",
+      "implementation",
+      "*2400"
+    ],
+    "timestamp": "Aug/03/2020 17:23"
+  },
   "CF88803279": {
     "contest_id": 1239,
     "language": "GNU C++17",
