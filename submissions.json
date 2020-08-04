@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF88835553": {
+    "contest_id": 359,
+    "language": "GNU C++17",
+    "path": "codeforces\\359\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Neatness",
+    "problem_url": "https://codeforces.com/contest/359/problem/E",
+    "submission_id": "CF88835553",
+    "submission_url": "https://codeforces.com/contest/359/submission/88835553",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "*2400"
+    ],
+    "timestamp": "Aug/04/2020 09:23"
+  },
   "CF88836761": {
     "contest_id": 375,
     "language": "GNU C++17",
