@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF88836761": {
+    "contest_id": 375,
+    "language": "GNU C++17",
+    "path": "codeforces\\375\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Circling Round Treasures",
+    "problem_url": "https://codeforces.com/contest/375/problem/C",
+    "submission_id": "CF88836761",
+    "submission_url": "https://codeforces.com/contest/375/submission/88836761",
+    "tags": [
+      "bitmasks",
+      "shortest paths",
+      "*2600"
+    ],
+    "timestamp": "Aug/04/2020 10:04"
+  },
   "CF88838735": {
     "contest_id": 382,
     "language": "GNU C++17",
