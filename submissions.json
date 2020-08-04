@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF88853905": {
+    "contest_id": 380,
+    "language": "GNU C++17",
+    "path": "codeforces\\380\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Sereja and Cinema",
+    "problem_url": "https://codeforces.com/contest/380/problem/D",
+    "submission_id": "CF88853905",
+    "submission_url": "https://codeforces.com/contest/380/submission/88853905",
+    "tags": [
+      "combinatorics",
+      "math",
+      "*2500"
+    ],
+    "timestamp": "Aug/04/2020 15:22"
+  },
   "CF88855927": {
     "contest_id": 111,
     "language": "GNU C++17",
