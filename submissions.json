@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF88887313": {
+    "contest_id": 204,
+    "language": "GNU C++17",
+    "path": "codeforces\\204\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Little Elephant and Retro Strings",
+    "problem_url": "https://codeforces.com/contest/204/problem/D",
+    "submission_id": "CF88887313",
+    "submission_url": "https://codeforces.com/contest/204/submission/88887313",
+    "tags": [
+      "dp",
+      "*2400"
+    ],
+    "timestamp": "Aug/04/2020 23:06"
+  },
   "CF88910301": {
     "contest_id": 392,
     "language": "GNU C++17",
