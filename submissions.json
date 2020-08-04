@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF88860381": {
+    "contest_id": 154,
+    "language": "GNU C++17",
+    "path": "codeforces\\154\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Flatland Fencing",
+    "problem_url": "https://codeforces.com/contest/154/problem/D",
+    "submission_id": "CF88860381",
+    "submission_url": "https://codeforces.com/contest/154/submission/88860381",
+    "tags": [
+      "games",
+      "math",
+      "*2400"
+    ],
+    "timestamp": "Aug/04/2020 16:59"
+  },
   "CF88872238": {
     "contest_id": 1103,
     "language": "GNU C++17",
