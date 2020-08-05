@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF88910301": {
+    "contest_id": 392,
+    "language": "GNU C++17",
+    "path": "codeforces\\392\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Yet Another Number Sequence",
+    "problem_url": "https://codeforces.com/contest/392/problem/C",
+    "submission_id": "CF88910301",
+    "submission_url": "https://codeforces.com/contest/392/submission/88910301",
+    "tags": [
+      "combinatorics",
+      "math",
+      "matrices"
+    ],
+    "timestamp": "Aug/05/2020 09:23"
+  },
   "CF88911523": {
     "contest_id": 431,
     "language": "GNU C++17",
