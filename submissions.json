@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF88911523": {
+    "contest_id": 431,
+    "language": "GNU C++17",
+    "path": "codeforces\\431\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Chemistry Experiment",
+    "problem_url": "https://codeforces.com/contest/431/problem/E",
+    "submission_id": "CF88911523",
+    "submission_url": "https://codeforces.com/contest/431/submission/88911523",
+    "tags": [
+      "binary search",
+      "data structures",
+      "ternary search",
+      "*2200"
+    ],
+    "timestamp": "Aug/05/2020 09:59"
+  },
   "CF88912500": {
     "contest_id": 433,
     "language": "GNU C++17",
