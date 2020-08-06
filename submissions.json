@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF89104620": {
+    "contest_id": 593,
+    "language": "GNU C++17",
+    "path": "codeforces\\593\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Strange Calculation and Cats",
+    "problem_url": "https://codeforces.com/contest/593/problem/E",
+    "submission_id": "CF89104620",
+    "submission_url": "https://codeforces.com/contest/593/submission/89104620",
+    "tags": [
+      "dp",
+      "matrices",
+      "*2400"
+    ],
+    "timestamp": "Aug/06/2020 16:08"
+  },
   "CF89107400": {
     "contest_id": 599,
     "language": "GNU C++17",
