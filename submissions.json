@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF89107400": {
+    "contest_id": 599,
+    "language": "GNU C++17",
+    "path": "codeforces\\599\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Sandy and Nuts",
+    "problem_url": "https://codeforces.com/contest/599/problem/E",
+    "submission_id": "CF89107400",
+    "submission_url": "https://codeforces.com/contest/599/submission/89107400",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "trees",
+      "*2600"
+    ],
+    "timestamp": "Aug/06/2020 16:45"
+  },
   "CF89110390": {
     "contest_id": 681,
     "language": "GNU C++17",
