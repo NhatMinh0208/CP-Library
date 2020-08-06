@@ -1048,6 +1048,24 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF89099328": {
+    "contest_id": 534,
+    "language": "GNU C++17",
+    "path": "codeforces\\534\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Berland Local Positioning System",
+    "problem_url": "https://codeforces.com/contest/534/problem/E",
+    "submission_id": "CF89099328",
+    "submission_url": "https://codeforces.com/contest/534/submission/89099328",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "hashing",
+      "implementation",
+      "*2400"
+    ],
+    "timestamp": "Aug/06/2020 14:56"
+  },
   "CF89102236": {
     "contest_id": 596,
     "language": "GNU C++17",
