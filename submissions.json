@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF89141640": {
+    "contest_id": 1067,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1067\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Knights",
+    "problem_url": "https://codeforces.com/contest/1067/problem/C",
+    "submission_id": "CF89141640",
+    "submission_url": "https://codeforces.com/contest/1067/submission/89141640",
+    "tags": [
+      "constructive algorithms",
+      "*2600"
+    ],
+    "timestamp": "Aug/06/2020 23:18"
+  },
   "CF89167764": {
     "contest_id": 704,
     "language": "GNU C++17 (64)",
