@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF89110390": {
+    "contest_id": 681,
+    "language": "GNU C++17",
+    "path": "codeforces\\681\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Runaway to a Shadow",
+    "problem_url": "https://codeforces.com/contest/681/problem/E",
+    "submission_id": "CF89110390",
+    "submission_url": "https://codeforces.com/contest/681/submission/89110390",
+    "tags": [
+      "geometry",
+      "sortings",
+      "*2500"
+    ],
+    "timestamp": "Aug/06/2020 17:25"
+  },
   "CF89129202": {
     "contest_id": 1067,
     "language": "GNU C++17 (64)",
