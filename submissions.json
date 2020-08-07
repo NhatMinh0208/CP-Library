@@ -1048,6 +1048,24 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF89167764": {
+    "contest_id": 704,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\704\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Black Widow",
+    "problem_url": "https://codeforces.com/contest/704/problem/C",
+    "submission_id": "CF89167764",
+    "submission_url": "https://codeforces.com/contest/704/submission/89167764",
+    "tags": [
+      "dp",
+      "graphs",
+      "implementation",
+      "math",
+      "*2900"
+    ],
+    "timestamp": "Aug/07/2020 09:47"
+  },
   "CF89168380": {
     "contest_id": 138,
     "language": "GNU C++17 (64)",
