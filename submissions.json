@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF90502689": {
+    "contest_id": 1085,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1085\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Vasya and Templates",
+    "problem_url": "https://codeforces.com/contest/1085/problem/E",
+    "submission_id": "CF90502689",
+    "submission_url": "https://codeforces.com/contest/1085/submission/90502689",
+    "tags": [
+      "greedy",
+      "implementation",
+      "strings",
+      "*2300"
+    ],
+    "timestamp": "Aug/21/2020 09:25"
+  },
   "CF90503303": {
     "contest_id": 1096,
     "language": "GNU C++17 (64)",
