@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF90976134": {
+    "contest_id": 993,
+    "language": "Ruby",
+    "path": "codeforces\\993\\A.rb",
+    "problem_index": "A",
+    "problem_name": "Two Squares",
+    "problem_url": "https://codeforces.com/contest/993/problem/A",
+    "submission_id": "CF90976134",
+    "submission_url": "https://codeforces.com/contest/993/submission/90976134",
+    "tags": [
+      "geometry",
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Aug/25/2020 23:23"
+  },
   "CF91012123": {
     "contest_id": 1081,
     "language": "GNU C++17 (64)",
