@@ -1,3 +1,4 @@
+
 a = gets.split.map {|s| s.to_i}
 b = gets.split.map {|s| s.to_i}
  
@@ -27,4 +28,4 @@ puts (0..7).step(2).any? {|i|
   b_contains(a[i], a[i + 1]) ||
   b_contains(clamp($x3, a[i], a[i + 2]), a[i + 1]) ||
   b_contains(a[i], clamp($y3, a[i + 1], a[i + 3]))
-} ? "Yes" : 'No'
+} ? 'Yes' : 'No'
