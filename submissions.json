@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF90883088": {
+    "contest_id": 1005,
+    "language": "GNU C++17",
+    "path": "codeforces\\1005\\E2.cpp",
+    "problem_index": "E2",
+    "problem_name": "Median on Segments (General Case Edition)",
+    "problem_url": "https://codeforces.com/contest/1005/problem/E2",
+    "submission_id": "CF90883088",
+    "submission_url": "https://codeforces.com/contest/1005/submission/90883088",
+    "tags": [
+      "sortings",
+      "*2400"
+    ],
+    "timestamp": "Aug/25/2020 15:40"
+  },
   "CF90885109": {
     "contest_id": 1065,
     "language": "GNU C++17",
