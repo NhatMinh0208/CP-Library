@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF91015072": {
+    "contest_id": 1028,
+    "language": "GNU C++17",
+    "path": "codeforces\\1028\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Restore Array",
+    "problem_url": "https://codeforces.com/contest/1028/problem/E",
+    "submission_id": "CF91015072",
+    "submission_url": "https://codeforces.com/contest/1028/submission/91015072",
+    "tags": [
+      "constructive algorithms",
+      "*2400"
+    ],
+    "timestamp": "Aug/26/2020 11:03"
+  },
   "CF91018388": {
     "contest_id": 1051,
     "language": "GNU C++17",
