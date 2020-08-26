@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF91012123": {
+    "contest_id": 1081,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1081\\F.cpp",
+    "problem_index": "F",
+    "problem_name": "Tricky Interactor",
+    "problem_url": "https://codeforces.com/contest/1081/problem/F",
+    "submission_id": "CF91012123",
+    "submission_url": "https://codeforces.com/contest/1081/submission/91012123",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "interactive",
+      "*2600"
+    ],
+    "timestamp": "Aug/26/2020 09:58"
+  },
   "CF91015072": {
     "contest_id": 1028,
     "language": "GNU C++17",
