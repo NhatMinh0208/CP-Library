@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF91038835": {
+    "contest_id": 1073,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1073\\G.cpp",
+    "problem_index": "G",
+    "problem_name": "Yet Another LCP Problem",
+    "problem_url": "https://codeforces.com/contest/1073/problem/G",
+    "submission_id": "CF91038835",
+    "submission_url": "https://codeforces.com/contest/1073/submission/91038835",
+    "tags": [
+      "data structures",
+      "string suffix structures",
+      "*2600"
+    ],
+    "timestamp": "Aug/26/2020 16:58"
+  },
   "CF91040990": {
     "contest_id": 1082,
     "language": "GNU C++17 (64)",
