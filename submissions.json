@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF91149330": {
+    "contest_id": 1055,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1055\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Segments on the Line",
+    "problem_url": "https://codeforces.com/contest/1055/problem/E",
+    "submission_id": "CF91149330",
+    "submission_url": "https://codeforces.com/contest/1055/submission/91149330",
+    "tags": [
+      "binary search",
+      "dp",
+      "*2500"
+    ],
+    "timestamp": "Aug/27/2020 22:59"
+  },
   "CF91177358": {
     "contest_id": 1142,
     "language": "GNU C++17 (64)",
