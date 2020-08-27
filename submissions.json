@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF91147518": {
+    "contest_id": 1045,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1045\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Space Isaac",
+    "problem_url": "https://codeforces.com/contest/1045/problem/B",
+    "submission_id": "CF91147518",
+    "submission_url": "https://codeforces.com/contest/1045/submission/91147518",
+    "tags": [
+      "hashing",
+      "number theory",
+      "*2400"
+    ],
+    "timestamp": "Aug/27/2020 22:39"
+  },
   "CF91149330": {
     "contest_id": 1055,
     "language": "GNU C++17 (64)",
