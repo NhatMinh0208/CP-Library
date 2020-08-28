@@ -1048,6 +1048,25 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF91178723": {
+    "contest_id": 1107,
+    "language": "GNU C++17",
+    "path": "codeforces\\1107\\G.cpp",
+    "problem_index": "G",
+    "problem_name": "Vasya and Maximum Profit",
+    "problem_url": "https://codeforces.com/contest/1107/problem/G",
+    "submission_id": "CF91178723",
+    "submission_url": "https://codeforces.com/contest/1107/submission/91178723",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "data structures",
+      "dp",
+      "dsu",
+      "*2400"
+    ],
+    "timestamp": "Aug/28/2020 11:30"
+  },
   "CF91195967": {
     "contest_id": 1200,
     "language": "GNU C++17",
