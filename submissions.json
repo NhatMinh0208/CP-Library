@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF91177358": {
+    "contest_id": 1142,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1142\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "U2",
+    "problem_url": "https://codeforces.com/contest/1142/problem/C",
+    "submission_id": "CF91177358",
+    "submission_url": "https://codeforces.com/contest/1142/submission/91177358",
+    "tags": [
+      "geometry",
+      "*2400"
+    ],
+    "timestamp": "Aug/28/2020 10:52"
+  },
   "CF91178723": {
     "contest_id": 1107,
     "language": "GNU C++17",
