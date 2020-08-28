@@ -1048,6 +1048,28 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF91195967": {
+    "contest_id": 1200,
+    "language": "GNU C++17",
+    "path": "codeforces\\1200\\F.cpp",
+    "problem_index": "F",
+    "problem_name": "Graph Traveler",
+    "problem_url": "https://codeforces.com/contest/1200/problem/F",
+    "submission_id": "CF91195967",
+    "submission_url": "https://codeforces.com/contest/1200/submission/91195967",
+    "tags": [
+      "brute force",
+      "data structures",
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "implementation",
+      "math",
+      "number theory",
+      "*2300"
+    ],
+    "timestamp": "Aug/28/2020 16:33"
+  },
   "CF91199510": {
     "contest_id": 1202,
     "language": "GNU C++17",
