@@ -1048,6 +1048,21 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF91333716": {
+    "contest_id": 54,
+    "language": "GNU C++17",
+    "path": "codeforces\\54\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Vacuum \u0421leaner",
+    "problem_url": "https://codeforces.com/contest/54/problem/E",
+    "submission_id": "CF91333716",
+    "submission_url": "https://codeforces.com/contest/54/submission/91333716",
+    "tags": [
+      "geometry",
+      "*2700"
+    ],
+    "timestamp": "Aug/30/2020 17:24"
+  },
   "CF91361342": {
     "contest_id": 1396,
     "language": "GNU C++17 (64)",
