@@ -1048,6 +1048,24 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF92002366": {
+    "contest_id": 1389,
+    "language": "GNU C++17",
+    "path": "codeforces\\1389\\G.cpp",
+    "problem_index": "G",
+    "problem_name": "Directing Edges",
+    "problem_url": "https://codeforces.com/contest/1389/problem/G",
+    "submission_id": "CF92002366",
+    "submission_url": "https://codeforces.com/contest/1389/submission/92002366",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "trees",
+      "*2800"
+    ],
+    "timestamp": "Sep/06/2020 16:47"
+  },
   "CF92542774": {
     "contest_id": 58,
     "language": "GNU C++17",
