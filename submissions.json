@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF92546517": {
+    "contest_id": 65,
+    "language": "GNU C++17",
+    "path": "codeforces\\65\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Harry Potter and Moving Staircases",
+    "problem_url": "https://codeforces.com/contest/65/problem/E",
+    "submission_id": "CF92546517",
+    "submission_url": "https://codeforces.com/contest/65/submission/92546517",
+    "tags": [
+      "dfs and similar",
+      "implementation",
+      "*2900"
+    ],
+    "timestamp": "Sep/12/2020 11:59"
+  },
   "CF92676682": {
     "contest_id": 1260,
     "language": "GNU C++17",
