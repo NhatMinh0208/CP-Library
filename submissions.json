@@ -15550,6 +15550,26 @@
     ],
     "timestamp": "Sep/30/2020 16:36"
   },
+  "CF94335063": {
+    "contest_id": 1408,
+    "language": "GNU C++17",
+    "path": "codeforces\\1408\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Avoid Rainbow Cycles",
+    "problem_url": "https://codeforces.com/contest/1408/problem/E",
+    "submission_id": "CF94335063",
+    "submission_url": "https://codeforces.com/contest/1408/submission/94335063",
+    "tags": [
+      "data structures",
+      "dsu",
+      "graphs",
+      "greedy",
+      "sortings",
+      "trees",
+      "*2400"
+    ],
+    "timestamp": "Sep/30/2020 23:21"
+  },
   "CF94341901": {
     "contest_id": 1408,
     "language": "GNU C++17",
