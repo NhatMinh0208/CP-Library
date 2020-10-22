@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF96323722": {
+    "contest_id": 1090,
+    "language": "GNU C++17",
+    "path": "codeforces\\1090\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "New Year Presents",
+    "problem_url": "https://codeforces.com/contest/1090/problem/C",
+    "submission_id": "CF96323722",
+    "submission_url": "https://codeforces.com/contest/1090/submission/96323722",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "*2400"
+    ],
+    "timestamp": "Oct/22/2020 10:03"
+  },
   "CF96465386": {
     "contest_id": 1433,
     "language": "GNU C++17",
