@@ -122,13 +122,13 @@ struct dynamic_li_chao
 		if (l+1==r) return res1;
 		ll res2=3e18+7;
 		ll mid=(l+r)/2;
-		if ((tar<mid)and(cur->nl)) res2=getK(l,mid,cur->nl,tar); 
-		else if ((tar>=mid)and(cur->nr)) res2=getK(mid,r,cur->nr,tar);
+		if ((tar<=mid)and(cur->nl)) res2=getK(l,mid,cur->nl,tar); 
+		else if ((tar>mid)and(cur->nr)) res2=getK(mid,r,cur->nr,tar);
 		return min(res1,res2);
 	}
 };
 dynamic_li_chao bruh;
-ll n,m,i,j,k,aa[200001],bb[100001];
+ll n,m,i,j,k,aa[100001],bb[100001];
 ll dp[100001];
 int main()
 {
