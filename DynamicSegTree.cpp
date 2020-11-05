@@ -1,21 +1,20 @@
 /*
-    New, shiny, hand-crafted dynamic segtree template.
-    Perfect for use in any online contest.
-    Tested with Codeforces Edu and library-checker. 
+khoi orz, go check out his algo
+-normie-
+Tested with library-checker.
+Update v1.1: getK now terminates early in leaf cases to reduce memory consumption.
 */
 #include <bits/stdc++.h>
 using namespace std;
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
 using namespace __gnu_pbds;
-#define fef(i,a,b) for(ll i=a;i<=b;i++)
-#define rer(i,a,b) for(ll i=b;i>=a;i--)
-#define wew while(true)
+#define rep(i,n) for(int64_t i=0;i < (int64_t)(n);i++)
 #pragma comment(linker, "/stack:200000000")
 #pragma GCC optimize("Ofast")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,tune=native")
-#define FILE_IN "cseq.inp"
-#define FILE_OUT "cseq.out"
+#define FILE_IN "birds.inp"
+#define FILE_OUT "birds.out"
 #define ofile freopen(FILE_IN,"r",stdin);freopen(FILE_OUT,"w",stdout)
 #define fio ios::sync_with_stdio(0);cin.tie(0);cout.tie(0)
 #define nfio cin.tie(0);cout.tie(0)
@@ -33,17 +32,17 @@ using namespace __gnu_pbds;
 #define pow2(x) (ll(1)<<x)
 #define pii pair<int,int>
 #define piii pair<int,pii>
-#define pll pair<ll,ll>
-#define plll pair<ll,pll>
 #define For(i,__,___) for(int i=__;i<=___;i++)
 #define Rep(i,__,___) for(int i=__;i>=___;i--)
 #define ordered_set tree<long long,null_type,less<long long>,rb_tree_tag,tree_order_statistics_node_update>
 #define endl "\n"
 #define bi BigInt
-typedef long long ll;
-//---------END-------//
-typedef long long int_t;
+#define ll long long
+#define pi 3.1415926535897
+//------START-----------//
+typedef unsigned int int_t;
 int_t star[1000001];
+int_t nodes=0;
 struct node
 {
     int_t lazy=0,val=0;
@@ -52,6 +51,11 @@ struct node
 struct DynamicSegTree
 {
     node start;
+    int_t nodecnt=1;
+    DynamicSegTree()
+    {
+        nodes++;
+    }
     void reset()
     {
         resetK(&start);
@@ -63,10 +67,14 @@ struct DynamicSegTree
         if (cur->nl) resetK(cur->nl);
         if (cur->nr) resetK(cur->nr);
     }
+    int_t get_nodecount()
+    {
+        return nodecnt;
+    }
     void flusha(node* cur, int_t l, int_t r)
     {
-        if (!(cur->nl)) cur->nl=new(node);
-        if (!(cur->nr)) cur->nr=new(node);
+        if (!(cur->nl)) {cur->nl=new(node); nodes++;}
+        if (!(cur->nr)) {cur->nr=new(node); nodes++;}
         cur->nl->lazy+=cur->lazy;
         cur->nr->lazy+=cur->lazy;
         int_t mid=(l+r)/2;
@@ -95,7 +103,7 @@ struct DynamicSegTree
     }
     void update(int_t l, int_t r, int_t diff)
     {
-        updateK(&start,-1e9,1e9,l,r,diff);
+        updateK(&start,0,2e9,l,r,diff);
     }
     int_t getK(node* cur, int_t l, int_t r, int_t tar_l, int_t tar_r)
     {
@@ -108,41 +116,59 @@ struct DynamicSegTree
         }
         else
         {
+            if (cur->nl)
+            {
             flusha(cur,l,r);
             int_t mid=(l+r)/2;
             int_t aa; aa=getK(cur->nl,l,mid,tar_l,tar_r);
             int_t bb; bb=getK(cur->nr,mid+1,r,tar_l,tar_r);
             return aa+bb;
+            }
+            else
+            {
+                int_t truel=max(l,tar_l);
+                int_t truer=min(r,tar_r);
+                return (cur->val)/(r-l+1)*(truer-truel+1);
+            }
         }
         
     }
     int_t get(int_t l, int_t r)
     {
-        return getK(&start,-1e9,1e9,l,r);
+        return getK(&start,0,2e9,l,r);
     }
 };
-ll n,m,i,j,k,t;
-ll a,b,u,v;
-DynamicSegTree st;
+map<int,DynamicSegTree> mp;
+int n,m,i,j,k,t,u,v,a,b;
+int x,r,q;
+ll res=0;
+vector<piii> lis;
+//------END-----------//
 int main()
 {
+//    ofile;
     fio;
-    cin>>n>>m;
-    st.reset();
-  //      for (i=1;i<=n;i++)    cout<<i<<' '<<st.get(i,i)<<endl;
-    for (i=1;i<=m;i++)
+    cin>>n>>k;
+    for (i=1;i<=n;i++)
     {
-        cin>>k;
-        if (k==1)
-        {
-            cin>>a>>b>>u; a++;
-    //        cout<<b<<endl;
-            st.update(a,b,u);
-        }
-        else
-        {
-            cin>>a>>b;a++;
-            cout<<st.get(a,b)<<endl;
-        }
+        cin>>x>>r>>q;
+        lis.push_back({r,{x,q}});
     }
+    sort(lis.begin(),lis.end(),[](piii a, piii b){return (a.fi>b.fi);});
+    for (i=0;i<n;i++)
+    {
+        r=lis[i].fi;
+        x=lis[i].se.fi;
+        q=lis[i].se.se;
+        for (j=q-k;j<=q+k;j++) if (mp.find(j)!=mp.end())
+        {
+            ll ql=max(x-r,0);
+            ll qr=min(x+r,1e9);
+            res+=mp[j].get(ql+5e8,qr+5e8);
+        }
+        mp[q].update(x+5e8,x+5e8,1);
+   //     cout<<nodes<<endl;
+    }
+    if (n==10000) cout<<nodes<<endl;
+    cout<<res;
 }
