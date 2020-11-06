@@ -1,7 +1,6 @@
 /*
-khôi luoi document nên mình làm thay khôi.
-also for some reason dùng x^2+c các ban se bi TLE on test "4", ngay ca voi x0 và c random.
--normie-
+Pollard - Rho factorization algorithm.
+Tested on library-checker.
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -185,28 +184,16 @@ long double get_height(long double x)
 }
 int main()
 {
-	cin>>m;
-	t=1;
-	for (n=2;n<=m;n++)
-	{
-	vector<ll> res=factorize(n);
-	sort(res.begin(),res.end());
-	for (ll g: res) cout<<g<<' ';
-	 cout<<endl;
-	j=0;
-	for (i=0;i<res.size();i++)
-	{
-		if (res[i]-res[j])
-		{
-			t+=bow(res[j],i-j-1,1e9)*(res[j]-1);
-			j=i;
-		}
-	}
-			t+=bow(res[j],i-j-1,1e9)*(res[j]-1);
-			
-		cout<<t<<endl<<endl;
-		}
-		cout<<(m*(m+1)/2-t)*6;
+cin>>t1;
+for (t=0;t<t1;t++)
+{
+cin>>n;
+if (n==1) {cout<<0<<endl; continue;}
+vector<ll> res=factorize(n);
+sort(res.begin(),res.end());
+cout<<res.size();
+for (ll g : res) cout<<' '<<g;
+cout<<endl;
 }
-
+}
 
