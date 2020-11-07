@@ -47,6 +47,17 @@ struct dsu
 		}
 		this->n=n;
 	}
+	
+	void reset (ll n)
+	{
+		for (ll i=1;i<=n;i++)
+		{
+			par[i]=i;
+			sz[i]=1;
+			h[i]=1;
+		}
+		this->n=n;
+	}
 	ll get_par(ll x)
 	{
 		if (par[par[x]]==par[x]) return par[x];
