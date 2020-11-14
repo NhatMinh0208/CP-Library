@@ -1048,6 +1048,24 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF98381264": {
+    "contest_id": 1348,
+    "language": "GNU C++17",
+    "path": "codeforces\\1348\\F.cpp",
+    "problem_index": "F",
+    "problem_name": "Phoenix and Memory",
+    "problem_url": "https://codeforces.com/contest/1348/problem/F",
+    "submission_id": "CF98381264",
+    "submission_url": "https://codeforces.com/contest/1348/submission/98381264",
+    "tags": [
+      "data structures",
+      "dfs and similar",
+      "graphs",
+      "greedy",
+      "*2600"
+    ],
+    "timestamp": "Nov/14/2020 20:23"
+  },
   "CF98512495": {
     "contest_id": 1446,
     "language": "GNU C++17",
