@@ -34,6 +34,10 @@ using namespace __gnu_pbds;
 //Order checking.
 #define ord(a,b,c) ((a>=b)and(b>=c))
  
+//min/max redefines, so i dont have to resolve annoying compile errors.
+#define min(a,b) (((a)<(b))?(a):(b))
+#define max(a,b) (((a)>(b))?(a):(b))
+
 //Constants.
 #define MOD (ll(998244353))
 #define MAX 300001
@@ -58,5 +62,6 @@ using namespace __gnu_pbds;
 //Typedefs.
 #define bi BigInt
 typedef long long ll;
+typedef long double ld;
  
 //---------END-------//
