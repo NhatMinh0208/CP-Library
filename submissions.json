@@ -1048,6 +1048,23 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF99266274": {
+    "contest_id": 1451,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1451\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Circle Game",
+    "problem_url": "https://codeforces.com/contest/1451/problem/D",
+    "submission_id": "CF99266274",
+    "submission_url": "https://codeforces.com/contest/1451/submission/99266274",
+    "tags": [
+      "games",
+      "geometry",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "Nov/22/2020 23:01"
+  },
   "CF99542234": {
     "contest_id": 867,
     "language": "GNU C++17 (64)",
