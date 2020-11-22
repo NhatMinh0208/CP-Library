@@ -56,12 +56,12 @@ using namespace __gnu_pbds;
 #define pow2(x) (ll(1)<<x)
  
 //Short for-loops.
-#define For(i,__,___) for(int i=__;i<=___;i++)
-#define Rep(i,__,___) for(int i=__;i>=___;i--)
+#define ff(i,__,___) for(int i=__;i<=___;i++)
+#define rr(i,__,___) for(int i=__;i>=___;i--)
  
 //Typedefs.
 #define bi BigInt
 typedef long long ll;
 typedef long double ld;
- 
+typedef short sh;
 //---------END-------//
