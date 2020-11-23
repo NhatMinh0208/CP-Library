@@ -42,13 +42,13 @@ using namespace __gnu_pbds;
 #define bi BigInt
 typedef long long ll;
 //---------END-------//
-typedef long long int_t;
+typedef long long int_t; // Element type
 int_t star[1000001];
 struct SegTree
 {
-    int_t lazy[4000004],val[4000004];
+    int_t lazy[4000004],val[4000004]; //Contains the current value of each node, as well as the lazy propagation amount stored.
     int_t tree_n;
-    void resetK (int_t node, int_t l, int_t r)
+    void resetK (int_t node, int_t l, int_t r) // Resets the tree nodes. 
     {
         if (l==r) 
         {
