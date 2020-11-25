@@ -1048,6 +1048,22 @@
     ],
     "timestamp": "Dec/23/2020 08:59"
   },
+  "CF99542234": {
+    "contest_id": 867,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\867\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Buy Low Sell High",
+    "problem_url": "https://codeforces.com/contest/867/problem/E",
+    "submission_id": "CF99542234",
+    "submission_url": "https://codeforces.com/contest/867/submission/99542234",
+    "tags": [
+      "data structures",
+      "greedy",
+      "*2400"
+    ],
+    "timestamp": "Nov/25/2020 16:15"
+  },
   "CF99923950": {
     "contest_id": 1037,
     "language": "GNU C++17 (64)",
