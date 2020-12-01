@@ -99,9 +99,6 @@ int res[300001];
 int n,m,i,j,k,t,u,v,a,b;
 int main()
 {
-	ios::sync_with_stdio(0);
-	cin.tie(0);
-	cout.tie(0);
 	cin>>n>>m;
 	for (i=1;i<=n;i++)
 	{
