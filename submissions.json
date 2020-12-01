@@ -1,4 +1,22 @@
 {
+  "CF100129529": {
+    "contest_id": 1334,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1334\\F.cpp",
+    "problem_index": "F",
+    "problem_name": "Strange Function",
+    "problem_url": "https://codeforces.com/contest/1334/problem/F",
+    "submission_id": "CF100129529",
+    "submission_url": "https://codeforces.com/contest/1334/submission/100129529",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "greedy",
+      "*2500"
+    ],
+    "timestamp": "Dec/01/2020 22:57"
+  },
   "CF100150614": {
     "contest_id": 981,
     "language": "GNU C++17 (64)",
