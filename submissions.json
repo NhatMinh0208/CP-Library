@@ -1,4 +1,21 @@
 {
+  "CF100206658": {
+    "contest_id": 1404,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1404\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Bricks",
+    "problem_url": "https://codeforces.com/contest/1404/problem/E",
+    "submission_id": "CF100206658",
+    "submission_url": "https://codeforces.com/contest/1404/submission/100206658",
+    "tags": [
+      "flows",
+      "graph matchings",
+      "graphs",
+      "*2800"
+    ],
+    "timestamp": "Dec/02/2020 22:51"
+  },
   "CF100312319": {
     "contest_id": 1044,
     "language": "GNU C++17 (64)",
