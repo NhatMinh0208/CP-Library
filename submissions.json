@@ -1,4 +1,19 @@
 {
+  "CF100150614": {
+    "contest_id": 981,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\981\\G.cpp",
+    "problem_index": "G",
+    "problem_name": "Magic multisets",
+    "problem_url": "https://codeforces.com/contest/981/problem/G",
+    "submission_id": "CF100150614",
+    "submission_url": "https://codeforces.com/contest/981/submission/100150614",
+    "tags": [
+      "data structures",
+      "*2500"
+    ],
+    "timestamp": "Dec/02/2020 08:14"
+  },
   "CF100206658": {
     "contest_id": 1404,
     "language": "GNU C++17 (64)",
