@@ -1,4 +1,19 @@
 {
+  "CF100312319": {
+    "contest_id": 1044,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1044\\F.cpp",
+    "problem_index": "F",
+    "problem_name": "DFS",
+    "problem_url": "https://codeforces.com/contest/1044/problem/F",
+    "submission_id": "CF100312319",
+    "submission_url": "https://codeforces.com/contest/1044/submission/100312319",
+    "tags": [
+      "data structures",
+      "*2700"
+    ],
+    "timestamp": "Dec/04/2020 09:35"
+  },
   "CF100314384": {
     "contest_id": 1089,
     "language": "GNU C++17 (64)",
