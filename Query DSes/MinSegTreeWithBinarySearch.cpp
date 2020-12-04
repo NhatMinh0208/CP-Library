@@ -65,19 +65,25 @@ typedef long long ll;
 typedef long double ld;
 typedef short sh;
 //---------END-------//
+ll star[1000001];
 struct seg
 {
 	ll val[4000401],lazy[4000401];
 	ll n;
 	void resetK(ll l, ll r, ll cur)
 	{
-		val[cur]=-r;
-		lazy[cur]=0;
-		if (l<r)
+		if (l==r)
 		{
+			lazy[cur]=0;
+			val[cur]=star[l];
+		}
+		else
+		{
+			lazy[cur]=0;
 			ll mid=(l+r)/2;
 			resetK(l,mid,(cur<<1));
 			resetK(mid+1,r,(cur<<1)+1);
+			val[cur]=min(val[(cur<<1)],val[(cur<<1)+1]);
 		}
 	}
 	void reset(ll nn)
@@ -181,35 +187,3 @@ struct seg
 		return bsK(1,n,1,x);
 	}
 };
-seg st;
-ll qt[300001],qd[300001];
-ll n,m,i,j,k,t,u,v,a,b; char c;
-int main()
-{
-	fio;
-	cin>>n;
-	st.reset(1000001);
-	for (i=1;i<=n;i++)
-	{
-		cin>>c;
-		if (c=='+')
-		{
-			cin>>qt[i]>>qd[i];
-			st.update(qt[i]+1,1000001,qd[i]);
-		}
-		else if (c=='-')
-		{
-			cin>>j;
-			st.update(qt[j]+1,1000001,-qd[j]);
-		}
-		else
-		{
-			cin>>t;
-			u=st.get(1,t+1);
-			v=st.get(t+1,t+1);
-			if (st.get(1,t)>st.get(1,t+1)) cout<<0;
-			else cout<<1+v-u;
-			cout<<endl;
-		}
-	}
-}
