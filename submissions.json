@@ -1,4 +1,19 @@
 {
+  "CF100314384": {
+    "contest_id": 1089,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1089\\K.cpp",
+    "problem_index": "K",
+    "problem_name": "King Kog's Reception",
+    "problem_url": "https://codeforces.com/contest/1089/problem/K",
+    "submission_id": "CF100314384",
+    "submission_url": "https://codeforces.com/contest/1089/submission/100314384",
+    "tags": [
+      "data structures",
+      "*2400"
+    ],
+    "timestamp": "Dec/04/2020 10:31"
+  },
   "CF100328647": {
     "contest_id": 1326,
     "language": "GNU C++17 (64)",
