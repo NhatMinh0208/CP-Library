@@ -1,4 +1,20 @@
 {
+  "CF100636509": {
+    "contest_id": 1450,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1450\\F.cpp",
+    "problem_index": "F",
+    "problem_name": "The Struggling Contestant",
+    "problem_url": "https://codeforces.com/contest/1450/problem/F",
+    "submission_id": "CF100636509",
+    "submission_url": "https://codeforces.com/contest/1450/submission/100636509",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*2400"
+    ],
+    "timestamp": "Dec/07/2020 21:42"
+  },
   "CF100769692": {
     "contest_id": 1408,
     "language": "GNU C++17",
