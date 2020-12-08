@@ -36,12 +36,16 @@ ll n,m,i,j,k;
     	for (int i=2;i<=sqrt(x);i++) if (x%i==0) return 0;
     	return 1;
     }
+ll get_rand(ll l, ll r)
+{
+	return uniform_int_distribution<ll>(l,r)(rng);
+}
 ll get_p()
 {
 	ll res;
 	while(true)
 	{
-		res=uniform_int_distribution<int>(1e9, 2e9)(rng);
+		res=get_rand(1e9,2e9);
 		if (prime(res)) return res;
 	}
 }
@@ -63,7 +67,7 @@ int main(){
 	n=s.length();
 	m=t.length();
 	p=get_p();
-    base = uniform_int_distribution<int>(27, p-1)(rng);
+    base = get_rand(27, p-1);
     ll cur[n+1],tar=0;
     for (i=0;i<m;i++)
     {
