@@ -49,10 +49,10 @@ ll get_p()
 		if (prime(res)) return res;
 	}
 }
-ll bow (ll a, ll x)
+ll bow (ll a, ll x, ll p)
 {
 	if (!x) return 1;
-    ll res=bow(a,x/2);
+    ll res=bow(a,x/2,p);
     res*=res;
     res%=p;
     if (x%2) res*=a;
@@ -87,7 +87,7 @@ int main(){
         for (i=0;i+m<=n;i++)
         {
 //            cout<<cur[i]<<endl;
-            ll itr=(cur[i]*bow(base,m))%p;
+            ll itr=(cur[i]*bow(base,m,p))%p;
             ll fin=(cur[i+m]-itr+p)%p;
             fin+=p;
             fin%=p;
