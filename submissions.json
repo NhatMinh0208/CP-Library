@@ -1,4 +1,21 @@
 {
+  "CF100820094": {
+    "contest_id": 915,
+    "language": "GNU C++17",
+    "path": "codeforces\\915\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Physical Education Lessons",
+    "problem_url": "https://codeforces.com/contest/915/problem/E",
+    "submission_id": "CF100820094",
+    "submission_url": "https://codeforces.com/contest/915/submission/100820094",
+    "tags": [
+      "data structures",
+      "implementation",
+      "sortings",
+      "*2300"
+    ],
+    "timestamp": "Dec/10/2020 16:10"
+  },
   "CF100907632": {
     "contest_id": 915,
     "language": "GNU C++17 (64)",
