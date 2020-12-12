@@ -1,4 +1,20 @@
 {
+  "CF100985728": {
+    "contest_id": 1268,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1268\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "K Integers",
+    "problem_url": "https://codeforces.com/contest/1268/problem/C",
+    "submission_id": "CF100985728",
+    "submission_url": "https://codeforces.com/contest/1268/submission/100985728",
+    "tags": [
+      "binary search",
+      "data structures",
+      "*2300"
+    ],
+    "timestamp": "Dec/12/2020 11:32"
+  },
   "CF101005306": {
     "contest_id": 895,
     "language": "GNU C++17 (64)",
