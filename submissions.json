@@ -1,4 +1,20 @@
 {
+  "CF101005306": {
+    "contest_id": 895,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\895\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Eyes Closed",
+    "problem_url": "https://codeforces.com/contest/895/problem/E",
+    "submission_id": "CF101005306",
+    "submission_url": "https://codeforces.com/contest/895/submission/101005306",
+    "tags": [
+      "data structures",
+      "probabilities",
+      "*2300"
+    ],
+    "timestamp": "Dec/12/2020 16:32"
+  },
   "CF101070868": {
     "contest_id": 1373,
     "language": "GNU C++17 (64)",
