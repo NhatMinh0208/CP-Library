@@ -1,7 +1,9 @@
 /*
     Normie's template for dynamic Li Chao tree.
+    Version 2: Now allows adding a function to a particular range.
     Works for x=integers from -2e12 to 2e12.
     Tested with library_checker and almost all problems in cp-algorithms.
+    This specific version tested with VNOI Online 2016 - MARIO.
 */
 
 // Standard library in one include.
@@ -69,33 +71,35 @@ struct node
 };
 struct dynamic_li_chao
 {
-	vector<pii(ll)> func={{0,3e18+7}};
+	vector<pii(ll)> func={{0,-3e18-7}};
 	ll calc (ll cur, ll x)
 	{
 		return (func[cur].fi)*x+(func[cur].se);
 	}
 	node start;
-	void add_line(ll a, ll b)
+	void add_line(ll a, ll b, ll l, ll r)
 	{
 		func.emplace_back(a,b);
-		update(-1e9,1e9+1,&start,func.size()-1);
+		update(-1e9,1e9+1,&start,func.size()-1,l,r);
 	}
-	void update(ll l, ll r, node* cur, ll diff )
+	void update(ll l, ll r, node* cur, ll diff , ll tl, ll tr)
 	{
+		if ((l>=tl)and(r-1<=tr))
+		{
 		if (cur->dom==0)
 		{
 			cur->dom=diff;
 		}
 		else if (l+1==r) 
 		{
-			if (calc(cur->dom,l)>calc(diff,l))
+			if (calc(cur->dom,l)<calc(diff,l))
 			cur->dom=diff;
 		}
 		else
 		{
 			ll mid=(l+r)/2;
-			ll doml=(calc(cur->dom,l)>calc(diff,l));
-			ll domm=(calc(cur->dom,mid)>calc(diff,mid));
+			ll doml=(calc(cur->dom,l)<calc(diff,l));
+			ll domm=(calc(cur->dom,mid)<calc(diff,mid));
 			if (domm)
 			{
 				ll z=cur->dom;
@@ -105,13 +109,23 @@ struct dynamic_li_chao
 			if (doml==domm)
 			{
 				if (!cur->nr) cur->nr=new(node);
-				update(mid,r,cur->nr,diff);
+				update(mid,r,cur->nr,diff,tl,tr);
 			}
 			else
 			{
 				if (!cur->nl) cur->nl=new(node);
-				update(l,mid,cur->nl,diff);
+				update(l,mid,cur->nl,diff,tl,tr);
 			}
+		}
+		}
+		else if ((l>tr)or(r-1<tl)) return;
+		else
+		{
+			ll mid=(l+r)/2;
+			if (!cur->nr) cur->nr=new(node);
+			update(mid,r,cur->nr,diff,tl,tr);
+			if (!cur->nl) cur->nl=new(node);
+			update(l,mid,cur->nl,diff,tl,tr);
 		}
 	}
 	ll get(ll x)
@@ -122,39 +136,33 @@ struct dynamic_li_chao
 	{
 		ll res1=calc(cur->dom,tar);
 		if (l+1==r) return res1;
-		ll res2=3e18+7;
+		ll res2=-3e18-7;
 		ll mid=(l+r)/2;
 		if ((tar<mid)and(cur->nl)) res2=getK(l,mid,cur->nl,tar); 
 		else if ((tar>=mid)and(cur->nr)) res2=getK(mid,r,cur->nr,tar);
-		return min(res1,res2);
+		return max(res1,res2);
 	}
 };
 dynamic_li_chao bruh;
-ll n,m,i,j,k;
-ll u,a,b;
+ll n,m,i,j,k,res;
+ll u,a,b,x,w,e;
+ll dp[100001];
 int main()
 {
 	fio;
-	cin>>n>>m;
+	cin>>n;
+	dp[0]=0;
+	bruh.add_line(0,0,-1e9,1e9);
 	for (i=1;i<=n;i++)
 	{
-		cin>>a>>b;
-		bruh.add_line(a,b);
+		cin>>x>>w>>e;
+		a=bruh.get(x);
+		dp[i]=a+e;
+		bruh.add_line(-w,dp[i]-x*(-w),x,1e9);
+		bruh.add_line(w,dp[i]-x*(w),-1e9,x);
+		res=max(res,dp[i]);
 	}
-	for (i=1;i<=m;i++)
-	{
-		cin>>u;
-		if (u==0)
-		{
-			cin>>a>>b;
-			bruh.add_line(a,b);
-		}
-		else 
-		{
-			cin>>a;
-			cout<<bruh.get(a)<<endl;
-		}
-	}
+	cout<<res;
 }
 
 
