@@ -75,12 +75,13 @@ struct suff
 {
 	string s; // The string we will be using
 	int n; // Its length
-	int ord[200001]; // The ordering of each suffix/cyclic shift in the current sorted list (pairwise distinct)
-	int rank[200001]; // The eqivalency rank of each suffix/cyclic shift in the current sorted list
-	int rank2[200001]; // A temporary storage for rank.
-	vector<int> buc[200001]; // Buckets for use during algorithm. 
-	int fin[200001]; // The current sorted suffix/cyclis shift array (suffixes are represented by starting index)
-	int build(string ss)
+	int ord[400011]; // The ordering of each suffix/cyclic shift in the current sorted list (pairwise distinct)
+	int rank[400011]; // The eqivalency rank of each suffix/cyclic shift in the current sorted list
+	int rank2[400011]; // A temporary storage for rank.
+	vector<int> buc[400011]; // Buckets for use during algorithm. 
+	int fin[400011]; // The current sorted suffix/cyclis shift array (suffixes are represented by starting index)
+	int lcp[400011]; // The lcp array: Longest common prefix between 2 sufixes/cyclic shifts.
+	void build(string ss)
 	{
 		// Initializing stuff. 
 		s=ss;
@@ -154,6 +155,21 @@ struct suff
 		}
 		// And that's it! I guess.
 	}
+	void buildlcp() // Builds the lcp array.
+	{
+		int k=0; // Current lower bound for lcp of next suffix.
+		for (int i=0;i<n;i++) // Iterate through suffixes from long to short.
+		{
+			int u=ord[i];
+			if (u==n-1) lcp[u]=0,k=0; // If the current suffix is last in array, lcp is by default, 0.
+			else
+			{ 
+			while(s[(i+k)%n]==s[(fin[u+1]+k)%n]) k++; // Increases k while possible.
+			lcp[u]=k; 
+			k=max(k-1,0); // Moves on to next suffix.
+			}
+		}
+	}
 };
 suff lmao;
 int n,m,i,j,k,t,t1,u,v,a,b;
@@ -164,5 +180,7 @@ int main()
 	cin>>s;
 	s+='$';
 	lmao.build(s);
-	for (i=0;i<lmao.n;i++) cout<<lmao.fin[i]<<' ';
+	lmao.buildlcp();
+	for (i=0;i<lmao.n;i++) cout<<lmao.fin[i]<<' '; cout<<endl;
+	for (i=0;i+1<lmao.n;i++) cout<<lmao.lcp[i]<<' '; cout<<endl;
 }
