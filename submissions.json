@@ -1,4 +1,20 @@
 {
+  "CF101257646": {
+    "contest_id": 1220,
+    "language": "GNU C++17",
+    "path": "codeforces\\1220\\F.cpp",
+    "problem_index": "F",
+    "problem_name": "Gardener Alex",
+    "problem_url": "https://codeforces.com/contest/1220/problem/F",
+    "submission_id": "CF101257646",
+    "submission_url": "https://codeforces.com/contest/1220/submission/101257646",
+    "tags": [
+      "binary search",
+      "data structures",
+      "*2700"
+    ],
+    "timestamp": "Dec/15/2020 21:17"
+  },
   "CF101286093": {
     "contest_id": 1379,
     "language": "GNU C++17",
