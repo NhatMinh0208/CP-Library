@@ -1,4 +1,21 @@
 {
+  "CF101539967": {
+    "contest_id": 1179,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1179\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Fedor Runs for President",
+    "problem_url": "https://codeforces.com/contest/1179/problem/D",
+    "submission_id": "CF101539967",
+    "submission_url": "https://codeforces.com/contest/1179/submission/101539967",
+    "tags": [
+      "data structures",
+      "dp",
+      "trees",
+      "*2700"
+    ],
+    "timestamp": "Dec/17/2020 22:11"
+  },
   "CF101572201": {
     "contest_id": 1132,
     "language": "GNU C++17 (64)",
