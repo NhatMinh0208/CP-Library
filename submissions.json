@@ -1,4 +1,21 @@
 {
+  "CF101624616": {
+    "contest_id": 1207,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1207\\F.cpp",
+    "problem_index": "F",
+    "problem_name": "Remainder Problem",
+    "problem_url": "https://codeforces.com/contest/1207/problem/F",
+    "submission_id": "CF101624616",
+    "submission_url": "https://codeforces.com/contest/1207/submission/101624616",
+    "tags": [
+      "brute force",
+      "data structures",
+      "implementation",
+      "*2100"
+    ],
+    "timestamp": "Dec/18/2020 16:22"
+  },
   "CF101778338": {
     "contest_id": 1458,
     "language": "GNU C++17",
