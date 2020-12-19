@@ -71,7 +71,6 @@ vector<pii(int)> gt[500001];
 deque<int> dq;
 int main()
 {
-    fio;
 	cin>>n>>m;
 	for (i=1;i<=m;i++)
 	{
