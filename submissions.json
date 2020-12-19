@@ -1,4 +1,20 @@
 {
+  "CF101778338": {
+    "contest_id": 1458,
+    "language": "GNU C++17",
+    "path": "codeforces\\1458\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Latin Square",
+    "problem_url": "https://codeforces.com/contest/1458/problem/C",
+    "submission_id": "CF101778338",
+    "submission_url": "https://codeforces.com/contest/1458/submission/101778338",
+    "tags": [
+      "math",
+      "matrices",
+      "*2700"
+    ],
+    "timestamp": "Dec/19/2020 21:14"
+  },
   "CF101784726": {
     "contest_id": 1290,
     "language": "GNU C++17",
