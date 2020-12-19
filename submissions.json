@@ -1,4 +1,21 @@
 {
+  "CF101784726": {
+    "contest_id": 1290,
+    "language": "GNU C++17",
+    "path": "codeforces\\1290\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Prefix Enlightenment",
+    "problem_url": "https://codeforces.com/contest/1290/problem/C",
+    "submission_id": "CF101784726",
+    "submission_url": "https://codeforces.com/contest/1290/submission/101784726",
+    "tags": [
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "*2400"
+    ],
+    "timestamp": "Dec/19/2020 22:56"
+  },
   "CF101787472": {
     "contest_id": 1407,
     "language": "GNU C++17",
