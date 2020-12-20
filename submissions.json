@@ -1,4 +1,22 @@
 {
+  "CF101841602": {
+    "contest_id": 1270,
+    "language": "GNU C++17",
+    "path": "codeforces\\1270\\G.cpp",
+    "problem_index": "G",
+    "problem_name": "Subset with Zero Sum",
+    "problem_url": "https://codeforces.com/contest/1270/problem/G",
+    "submission_id": "CF101841602",
+    "submission_url": "https://codeforces.com/contest/1270/submission/101841602",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "math",
+      "*2700"
+    ],
+    "timestamp": "Dec/20/2020 18:01"
+  },
   "CF101856040": {
     "contest_id": 1139,
     "language": "GNU C++17",
