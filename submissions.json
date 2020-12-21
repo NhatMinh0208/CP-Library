@@ -1,4 +1,21 @@
 {
+  "CF101940388": {
+    "contest_id": 923,
+    "language": "GNU C++17",
+    "path": "codeforces\\923\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Picking Strings",
+    "problem_url": "https://codeforces.com/contest/923/problem/D",
+    "submission_id": "CF101940388",
+    "submission_url": "https://codeforces.com/contest/923/submission/101940388",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "strings",
+      "*2500"
+    ],
+    "timestamp": "Dec/21/2020 14:53"
+  },
   "CF101943041": {
     "contest_id": 1096,
     "language": "GNU C++17 (64)",
