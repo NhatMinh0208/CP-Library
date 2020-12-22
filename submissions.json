@@ -1,4 +1,21 @@
 {
+  "CF102001086": {
+    "contest_id": 1304,
+    "language": "GNU C++11",
+    "path": "codeforces\\1304\\F2.cpp",
+    "problem_index": "F2",
+    "problem_name": "Animal Observation (hard version)",
+    "problem_url": "https://codeforces.com/contest/1304/problem/F2",
+    "submission_id": "CF102001086",
+    "submission_url": "https://codeforces.com/contest/1304/submission/102001086",
+    "tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "*2400"
+    ],
+    "timestamp": "Dec/22/2020 10:20"
+  },
   "CF102002295": {
     "contest_id": 1174,
     "language": "GNU C++11",
