@@ -1,4 +1,19 @@
 {
+  "CF102083314": {
+    "contest_id": 911,
+    "language": "GNU C++17",
+    "path": "codeforces\\911\\G.cpp",
+    "problem_index": "G",
+    "problem_name": "Mass Change Queries",
+    "problem_url": "https://codeforces.com/contest/911/problem/G",
+    "submission_id": "CF102083314",
+    "submission_url": "https://codeforces.com/contest/911/submission/102083314",
+    "tags": [
+      "data structures",
+      "*2500"
+    ],
+    "timestamp": "Dec/23/2020 08:46"
+  },
   "CF102083597": {
     "contest_id": 911,
     "language": "GNU C++17",
