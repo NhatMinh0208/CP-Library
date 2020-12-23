@@ -12,11 +12,12 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-890 | [E - Poman Numbers](https://codeforces.com/contest/1411/problem/E) | [GNU C++17](./codeforces/1411/E.cpp) | `bitmasks` `greedy` `math` `strings` | Dec/23/2020 16:08 | 
+891 | [D - Traffic Jams in the Land](https://codeforces.com/contest/498/problem/D) | [GNU C++11](./codeforces/498/D.cpp) | `data structures` `dp` `number theory` `*2400` | Dec/23/2020 22:41 | 
+890 | [C - Peaceful Rooks](https://codeforces.com/contest/1411/problem/C) | [GNU C++17](./codeforces/1411/C.cpp) | `dfs and similar` `dsu` `graphs` | Dec/23/2020 16:08 | 
 889 | [D - Grime Zoo](https://codeforces.com/contest/1411/problem/D) | [GNU C++17](./codeforces/1411/D.cpp) | `brute force` `greedy` `implementation` `strings` | Dec/23/2020 16:08 | 
-888 | [C - Peaceful Rooks](https://codeforces.com/contest/1411/problem/C) | [GNU C++17](./codeforces/1411/C.cpp) | `dfs and similar` `dsu` `graphs` | Dec/23/2020 16:08 | 
-887 | [B - Fair Numbers](https://codeforces.com/contest/1411/problem/B) | [GNU C++17](./codeforces/1411/B.cpp) | `brute force` `number theory` | Dec/23/2020 16:07 | 
-886 | [A - In-game Chat](https://codeforces.com/contest/1411/problem/A) | [GNU C++17](./codeforces/1411/A.cpp) | `implementation` | Dec/23/2020 16:07 | 
+888 | [E - Poman Numbers](https://codeforces.com/contest/1411/problem/E) | [GNU C++17](./codeforces/1411/E.cpp) | `bitmasks` `greedy` `math` `strings` | Dec/23/2020 16:08 | 
+887 | [A - In-game Chat](https://codeforces.com/contest/1411/problem/A) | [GNU C++17](./codeforces/1411/A.cpp) | `implementation` | Dec/23/2020 16:07 | 
+886 | [B - Fair Numbers](https://codeforces.com/contest/1411/problem/B) | [GNU C++17](./codeforces/1411/B.cpp) | `brute force` `number theory` | Dec/23/2020 16:07 | 
 885 | [D - Case of a Top Secret](https://codeforces.com/contest/555/problem/D) | [GNU C++11](./codeforces/555/D.cpp) | `binary search` `implementation` `math` `*2500` | Dec/23/2020 14:48 | 
 884 | [F - Axel and Marston in Bitland](https://codeforces.com/contest/780/problem/F) | [GNU C++11](./codeforces/780/F.cpp) | `bitmasks` `dp` `graphs` `matrices` `*2400` | Dec/23/2020 10:39 | 
 883 | [F - Tree Destruction](https://codeforces.com/contest/911/problem/F) | [GNU C++17](./codeforces/911/F.cpp) | `constructive algorithms` `dfs and similar` `graphs` `greedy` `trees` `*2400` | Dec/23/2020 08:59 | 
