@@ -1083,6 +1083,23 @@
     ],
     "timestamp": "Dec/23/2020 14:48"
   },
+  "CF102103032": {
+    "contest_id": 1411,
+    "language": "GNU C++17",
+    "path": "codeforces\\1411\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Grime Zoo",
+    "problem_url": "https://codeforces.com/contest/1411/problem/D",
+    "submission_id": "CF102103032",
+    "submission_url": "https://codeforces.com/contest/1411/submission/102103032",
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "strings"
+    ],
+    "timestamp": "Dec/23/2020 16:08"
+  },
   "CF102103049": {
     "contest_id": 1411,
     "language": "GNU C++17",
