@@ -12,4 +12,4 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-{submission_placeholder}
+1 | [F - Tree Destruction](https://codeforces.com/contest/911/problem/F) | [GNU C++17](./codeforces/911/F.cpp) | `constructive algorithms` `dfs and similar` `graphs` `greedy` `trees` `*2400` | Dec/23/2020 08:59 | 
