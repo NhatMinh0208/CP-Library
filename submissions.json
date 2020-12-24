@@ -1247,6 +1247,24 @@
     ],
     "timestamp": "Dec/24/2020 17:19"
   },
+  "CF102197109": {
+    "contest_id": 750,
+    "language": "GNU C++11",
+    "path": "codeforces\\750\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "New Year and Old Subsequence",
+    "problem_url": "https://codeforces.com/contest/750/problem/E",
+    "submission_id": "CF102197109",
+    "submission_url": "https://codeforces.com/contest/750/submission/102197109",
+    "tags": [
+      "data structures",
+      "divide and conquer",
+      "dp",
+      "matrices",
+      "*2600"
+    ],
+    "timestamp": "Dec/24/2020 20:14"
+  },
   "CF42202931": {
     "contest_id": 1020,
     "language": "FPC",
