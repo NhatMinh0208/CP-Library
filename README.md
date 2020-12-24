@@ -12,6 +12,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+894 | [E - Balanced Binary Search Trees](https://codeforces.com/contest/1237/problem/E) | [GNU C++11](./codeforces/1237/E.cpp) | `dp` `math` `*2400` | Dec/24/2020 17:19 | 
 893 | [C - Oranges and Apples](https://codeforces.com/contest/23/problem/C) | [GNU C++11](./codeforces/23/C.cpp) | `constructive algorithms` `sortings` `*2500` | Dec/23/2020 23:33 | 
 892 | [D - Traffic Jams in the Land](https://codeforces.com/contest/498/problem/D) | [GNU C++11](./codeforces/498/D.cpp) | `data structures` `dp` `number theory` `*2400` | Dec/23/2020 22:41 | 
 891 | [F - Royal Questions](https://codeforces.com/contest/875/problem/F) | [GNU C++11](./codeforces/875/F.cpp) | `dsu` `graphs` `greedy` `*2500` | Dec/23/2020 21:19 | 

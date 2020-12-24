@@ -1212,6 +1212,22 @@
     ],
     "timestamp": "Dec/23/2020 23:33"
   },
+  "CF102183461": {
+    "contest_id": 1237,
+    "language": "GNU C++11",
+    "path": "codeforces\\1237\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Balanced Binary Search Trees",
+    "problem_url": "https://codeforces.com/contest/1237/problem/E",
+    "submission_id": "CF102183461",
+    "submission_url": "https://codeforces.com/contest/1237/submission/102183461",
+    "tags": [
+      "dp",
+      "math",
+      "*2400"
+    ],
+    "timestamp": "Dec/24/2020 17:19"
+  },
   "CF42202931": {
     "contest_id": 1020,
     "language": "FPC",
