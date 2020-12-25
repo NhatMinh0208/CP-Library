@@ -12,6 +12,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+902 | [F - Independent Set](https://codeforces.com/contest/1332/problem/F) | [GNU C++11](./codeforces/1332/F.cpp) | `dfs and similar` `dp` `trees` `*2500` | Dec/25/2020 22:29 | 
 901 | [F2 - The Hidden Pair (Hard Version)](https://codeforces.com/contest/1370/problem/F2) | [GNU C++11](./codeforces/1370/F2.cpp) | `binary search` `dfs and similar` `graphs` `interactive` `shortest paths` `trees` `*2700` | Dec/25/2020 18:05 | 
 900 | [F - Leaf Sets](https://codeforces.com/contest/1042/problem/F) | [GNU C++11](./codeforces/1042/F.cpp) | `data structures` `dfs and similar` `dsu` `graphs` `greedy` `sortings` `trees` `*2400` | Dec/25/2020 16:53 | 
 899 | [C - Graph Transpositions](https://codeforces.com/contest/1442/problem/C) | [GNU C++17 (64)](./codeforces/1442/C.cpp) | `dfs and similar` `graphs` `greedy` `shortest paths` `*2400` | Dec/25/2020 15:57 | 
