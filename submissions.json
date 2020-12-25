@@ -1360,6 +1360,21 @@
     ],
     "timestamp": "Dec/25/2020 18:05"
   },
+  "CF102316974": {
+    "contest_id": 1468,
+    "language": "GNU C++11",
+    "path": "codeforces\\1468\\K.cpp",
+    "problem_index": "K",
+    "problem_name": "The Robot",
+    "problem_url": "https://codeforces.com/contest/1468/problem/K",
+    "submission_id": "CF102316974",
+    "submission_url": "https://codeforces.com/contest/1468/submission/102316974",
+    "tags": [
+      "brute force",
+      "implementation"
+    ],
+    "timestamp": "Dec/25/2020 20:28"
+  },
   "CF102318824": {
     "contest_id": 1468,
     "language": "GNU C++11",
