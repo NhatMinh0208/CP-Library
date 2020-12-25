@@ -12,10 +12,11 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-905 | [E - Little Elephant and Inversions](https://codeforces.com/contest/220/problem/E) | [GNU C++17 (64)](./codeforces/220/E.cpp) | `data structures` `two pointers` `*2400` | Dec/26/2020 22:56 | 
-904 | [F - Independent Set](https://codeforces.com/contest/1332/problem/F) | [GNU C++11](./codeforces/1332/F.cpp) | `dfs and similar` `dp` `trees` `*2500` | Dec/25/2020 22:29 | 
-903 | [J - Road Reform](https://codeforces.com/contest/1468/problem/J) | [GNU C++11](./codeforces/1468/J.cpp) | `dsu` `graphs` `greedy` | Dec/25/2020 21:25 | 
-902 | [D - Firecrackers](https://codeforces.com/contest/1468/problem/D) | [GNU C++11](./codeforces/1468/D.cpp) | `binary search` `sortings` | Dec/25/2020 21:00 | 
+906 | [E - Little Elephant and Inversions](https://codeforces.com/contest/220/problem/E) | [GNU C++17 (64)](./codeforces/220/E.cpp) | `data structures` `two pointers` `*2400` | Dec/26/2020 22:56 | 
+905 | [F - Independent Set](https://codeforces.com/contest/1332/problem/F) | [GNU C++11](./codeforces/1332/F.cpp) | `dfs and similar` `dp` `trees` `*2500` | Dec/25/2020 22:29 | 
+904 | [J - Road Reform](https://codeforces.com/contest/1468/problem/J) | [GNU C++11](./codeforces/1468/J.cpp) | `dsu` `graphs` `greedy` | Dec/25/2020 21:25 | 
+903 | [D - Firecrackers](https://codeforces.com/contest/1468/problem/D) | [GNU C++11](./codeforces/1468/D.cpp) | `binary search` `sortings` | Dec/25/2020 21:00 | 
+902 | [F - Full Turn](https://codeforces.com/contest/1468/problem/F) | [GNU C++11](./codeforces/1468/F.cpp) | `geometry` `number theory` | Dec/25/2020 20:44 | 
 901 | [F2 - The Hidden Pair (Hard Version)](https://codeforces.com/contest/1370/problem/F2) | [GNU C++11](./codeforces/1370/F2.cpp) | `binary search` `dfs and similar` `graphs` `interactive` `shortest paths` `trees` `*2700` | Dec/25/2020 18:05 | 
 900 | [F - Leaf Sets](https://codeforces.com/contest/1042/problem/F) | [GNU C++11](./codeforces/1042/F.cpp) | `data structures` `dfs and similar` `dsu` `graphs` `greedy` `sortings` `trees` `*2400` | Dec/25/2020 16:53 | 
 899 | [C - Graph Transpositions](https://codeforces.com/contest/1442/problem/C) | [GNU C++17 (64)](./codeforces/1442/C.cpp) | `dfs and similar` `graphs` `greedy` `shortest paths` `*2400` | Dec/25/2020 15:57 | 
