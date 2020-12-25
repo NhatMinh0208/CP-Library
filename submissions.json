@@ -1360,6 +1360,20 @@
     ],
     "timestamp": "Dec/25/2020 18:05"
   },
+  "CF102313757": {
+    "contest_id": 1468,
+    "language": "GNU C++11",
+    "path": "codeforces\\1468\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Four Segments",
+    "problem_url": "https://codeforces.com/contest/1468/problem/E",
+    "submission_id": "CF102313757",
+    "submission_url": "https://codeforces.com/contest/1468/submission/102313757",
+    "tags": [
+      "greedy"
+    ],
+    "timestamp": "Dec/25/2020 20:03"
+  },
   "CF102314323": {
     "contest_id": 1468,
     "language": "GNU C++11",
