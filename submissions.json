@@ -1514,6 +1514,21 @@
     ],
     "timestamp": "Dec/26/2020 23:05"
   },
+  "CF102439249": {
+    "contest_id": 1227,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1227\\G.cpp",
+    "problem_index": "G",
+    "problem_name": "Not Same",
+    "problem_url": "https://codeforces.com/contest/1227/problem/G",
+    "submission_id": "CF102439249",
+    "submission_url": "https://codeforces.com/contest/1227/submission/102439249",
+    "tags": [
+      "constructive algorithms",
+      "*2600"
+    ],
+    "timestamp": "Dec/27/2020 10:01"
+  },
   "CF42202931": {
     "contest_id": 1020,
     "language": "FPC",
