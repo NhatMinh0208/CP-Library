@@ -12,11 +12,12 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-917 | [E - A Bit Similar](https://codeforces.com/contest/1469/problem/E) | [GNU C++17](./codeforces/1469/E.cpp) | `bitmasks` `brute force` `hashing` `string suffix structures` `strings` `two pointers` | Dec/28/2020 22:37 | 
-916 | [D - Ceil Divisions](https://codeforces.com/contest/1469/problem/D) | [GNU C++17](./codeforces/1469/D.cpp) | `brute force` `constructive algorithms` `math` `number theory` | Dec/28/2020 22:18 | 
-915 | [C - Building a Fence](https://codeforces.com/contest/1469/problem/C) | [GNU C++17](./codeforces/1469/C.cpp) | `dp` `greedy` `implementation` `two pointers` | Dec/28/2020 21:52 | 
-914 | [B - Red and Blue](https://codeforces.com/contest/1469/problem/B) | [GNU C++17](./codeforces/1469/B.cpp) | `greedy` | Dec/28/2020 21:43 | 
-913 | [A - Regular Bracket Sequence](https://codeforces.com/contest/1469/problem/A) | [GNU C++17](./codeforces/1469/A.cpp) | `constructive algorithms` `greedy` | Dec/28/2020 21:38 | 
+918 | [E - A Bit Similar](https://codeforces.com/contest/1469/problem/E) | [GNU C++17](./codeforces/1469/E.cpp) | `bitmasks` `brute force` `hashing` `string suffix structures` `strings` `two pointers` | Dec/28/2020 22:37 | 
+917 | [D - Ceil Divisions](https://codeforces.com/contest/1469/problem/D) | [GNU C++17](./codeforces/1469/D.cpp) | `brute force` `constructive algorithms` `math` `number theory` | Dec/28/2020 22:18 | 
+916 | [C - Building a Fence](https://codeforces.com/contest/1469/problem/C) | [GNU C++17](./codeforces/1469/C.cpp) | `dp` `greedy` `implementation` `two pointers` | Dec/28/2020 21:52 | 
+915 | [B - Red and Blue](https://codeforces.com/contest/1469/problem/B) | [GNU C++17](./codeforces/1469/B.cpp) | `greedy` | Dec/28/2020 21:43 | 
+914 | [A - Regular Bracket Sequence](https://codeforces.com/contest/1469/problem/A) | [GNU C++17](./codeforces/1469/A.cpp) | `constructive algorithms` `greedy` | Dec/28/2020 21:38 | 
+913 | [D - Developing Game](https://codeforces.com/contest/377/problem/D) | [GNU C++17 (64)](./codeforces/377/D.cpp) | `data structures` `*2400` | Dec/28/2020 09:33 | 
 912 | [G - Not Same](https://codeforces.com/contest/1227/problem/G) | [GNU C++17 (64)](./codeforces/1227/G.cpp) | `constructive algorithms` `*2600` | Dec/27/2020 10:01 | 
 911 | [F - Rotating Substrings](https://codeforces.com/contest/1363/problem/F) | [GNU C++17 (64)](./codeforces/1363/F.cpp) | `dp` `strings` `*2600` | Dec/26/2020 23:05 | 
 910 | [E - Little Elephant and Inversions](https://codeforces.com/contest/220/problem/E) | [GNU C++17 (64)](./codeforces/220/E.cpp) | `data structures` `two pointers` `*2400` | Dec/26/2020 22:56 | 
