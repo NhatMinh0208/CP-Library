@@ -12,7 +12,8 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-913 | [E - A Bit Similar](https://codeforces.com/contest/1469/problem/E) | [GNU C++17](./codeforces/1469/E.cpp) | `bitmasks` `brute force` `hashing` `string suffix structures` `strings` `two pointers` | Dec/28/2020 22:37 | 
+914 | [E - A Bit Similar](https://codeforces.com/contest/1469/problem/E) | [GNU C++17](./codeforces/1469/E.cpp) | `bitmasks` `brute force` `hashing` `string suffix structures` `strings` `two pointers` | Dec/28/2020 22:37 | 
+913 | [D - Ceil Divisions](https://codeforces.com/contest/1469/problem/D) | [GNU C++17](./codeforces/1469/D.cpp) | `brute force` `constructive algorithms` `math` `number theory` | Dec/28/2020 22:18 | 
 912 | [G - Not Same](https://codeforces.com/contest/1227/problem/G) | [GNU C++17 (64)](./codeforces/1227/G.cpp) | `constructive algorithms` `*2600` | Dec/27/2020 10:01 | 
 911 | [F - Rotating Substrings](https://codeforces.com/contest/1363/problem/F) | [GNU C++17 (64)](./codeforces/1363/F.cpp) | `dp` `strings` `*2600` | Dec/26/2020 23:05 | 
 910 | [E - Little Elephant and Inversions](https://codeforces.com/contest/220/problem/E) | [GNU C++17 (64)](./codeforces/220/E.cpp) | `data structures` `two pointers` `*2400` | Dec/26/2020 22:56 | 
