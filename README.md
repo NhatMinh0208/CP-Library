@@ -12,8 +12,9 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-923 | [E - Lucky Array](https://codeforces.com/contest/121/problem/E) | [GNU C++17 (64)](./codeforces/121/E.cpp) | `data structures` `*2400` | Jan/01/2021 11:47 | 
-922 | [E - Bear and Forgotten Tree 2](https://codeforces.com/contest/653/problem/E) | [GNU C++17 (64)](./codeforces/653/E.cpp) | `dfs and similar` `dsu` `graphs` `trees` `*2400` | Dec/31/2020 22:36 | 
+924 | [E - Lucky Array](https://codeforces.com/contest/121/problem/E) | [GNU C++17 (64)](./codeforces/121/E.cpp) | `data structures` `*2400` | Jan/01/2021 11:47 | 
+923 | [E - Bear and Forgotten Tree 2](https://codeforces.com/contest/653/problem/E) | [GNU C++17 (64)](./codeforces/653/E.cpp) | `dfs and similar` `dsu` `graphs` `trees` `*2400` | Dec/31/2020 22:36 | 
+922 | [F - Euclid's nightmare](https://codeforces.com/contest/1466/problem/F) | [GNU C++17](./codeforces/1466/F.cpp) | `dfs and similar` `dsu` `graphs` `greedy` `math` `sortings` | Dec/30/2020 22:48 | 
 921 | [F - Cards](https://codeforces.com/contest/1278/problem/F) | [GNU C++17 (64)](./codeforces/1278/F.cpp) | `combinatorics` `dp` `math` `number theory` `probabilities` `*2600` | Dec/30/2020 21:22 | 
 920 | [F - Tree Factory](https://codeforces.com/contest/1225/problem/F) | [GNU C++17 (64)](./codeforces/1225/F.cpp) | `constructive algorithms` `greedy` `trees` `*2500` | Dec/30/2020 13:25 | 
 919 | [F - Power Sockets](https://codeforces.com/contest/1469/problem/F) | [GNU C++17 (64)](./codeforces/1469/F.cpp) | `binary search` `data structures` `greedy` | Dec/29/2020 17:50 | 
