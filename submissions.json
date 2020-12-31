@@ -1678,6 +1678,24 @@
     ],
     "timestamp": "Dec/30/2020 21:22"
   },
+  "CF102922554": {
+    "contest_id": 653,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\653\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Bear and Forgotten Tree 2",
+    "problem_url": "https://codeforces.com/contest/653/problem/E",
+    "submission_id": "CF102922554",
+    "submission_url": "https://codeforces.com/contest/653/submission/102922554",
+    "tags": [
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "trees",
+      "*2400"
+    ],
+    "timestamp": "Dec/31/2020 22:36"
+  },
   "CF42202931": {
     "contest_id": 1020,
     "language": "FPC",
