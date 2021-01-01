@@ -12,7 +12,8 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1003 | [E - Prime Gift](https://codeforces.com/contest/912/problem/E) | [GNU C++17 (64)](./codeforces/912/E.cpp) | `binary search` `dfs and similar` `math` `meet-in-the-middle` `number theory` `two pointers` `*2400` | Jan/01/2021 17:59 | 
+1004 | [E - Prime Gift](https://codeforces.com/contest/912/problem/E) | [GNU C++17 (64)](./codeforces/912/E.cpp) | `binary search` `dfs and similar` `math` `meet-in-the-middle` `number theory` `two pointers` `*2400` | Jan/01/2021 17:59 | 
+1003 | [D - Happy Tree Party](https://codeforces.com/contest/593/problem/D) | [GNU C++17 (64)](./codeforces/593/D.cpp) | `data structures` `dfs and similar` `graphs` `math` `trees` `*2400` | Jan/01/2021 17:26 | 
 1002 | [E - Lucky Array](https://codeforces.com/contest/121/problem/E) | [GNU C++17 (64)](./codeforces/121/E.cpp) | `data structures` `*2400` | Jan/01/2021 11:47 | 
 1001 | [E - Bear and Forgotten Tree 2](https://codeforces.com/contest/653/problem/E) | [GNU C++17 (64)](./codeforces/653/E.cpp) | `dfs and similar` `dsu` `graphs` `trees` `*2400` | Dec/31/2020 22:36 | 
 1000 | [F - Euclid's nightmare](https://codeforces.com/contest/1466/problem/F) | [GNU C++17](./codeforces/1466/F.cpp) | `dfs and similar` `dsu` `graphs` `greedy` `math` `sortings` | Dec/30/2020 22:48 | 
