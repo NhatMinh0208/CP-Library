@@ -1878,6 +1878,24 @@
     ],
     "timestamp": "Jan/01/2021 11:47"
   },
+  "CF102947328": {
+    "contest_id": 734,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\734\\F.cpp",
+    "problem_index": "F",
+    "problem_name": "Anton and School",
+    "problem_url": "https://codeforces.com/contest/734/problem/F",
+    "submission_id": "CF102947328",
+    "submission_url": "https://codeforces.com/contest/734/submission/102947328",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "implementation",
+      "math",
+      "*2500"
+    ],
+    "timestamp": "Jan/01/2021 16:17"
+  },
   "CF102949983": {
     "contest_id": 593,
     "language": "GNU C++17 (64)",
