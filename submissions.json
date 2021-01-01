@@ -1952,6 +1952,23 @@
     ],
     "timestamp": "Jan/01/2021 22:22"
   },
+  "CF102974839": {
+    "contest_id": 835,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\835\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "The penguin's game",
+    "problem_url": "https://codeforces.com/contest/835/problem/E",
+    "submission_id": "CF102974839",
+    "submission_url": "https://codeforces.com/contest/835/submission/102974839",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "interactive",
+      "*2400"
+    ],
+    "timestamp": "Jan/01/2021 23:36"
+  },
   "CF103406959": {
     "contest_id": 1471,
     "language": "GNU C++17",
