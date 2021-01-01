@@ -12,6 +12,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1006 | [E - Expected Damage](https://codeforces.com/contest/1418/problem/E) | [GNU C++17 (64)](./codeforces/1418/E.cpp) | `binary search` `combinatorics` `probabilities` `*2400` | Jan/01/2021 22:22 | 
 1005 | [E - Prime Gift](https://codeforces.com/contest/912/problem/E) | [GNU C++17 (64)](./codeforces/912/E.cpp) | `binary search` `dfs and similar` `math` `meet-in-the-middle` `number theory` `two pointers` `*2400` | Jan/01/2021 17:59 | 
 1004 | [D - Happy Tree Party](https://codeforces.com/contest/593/problem/D) | [GNU C++17 (64)](./codeforces/593/D.cpp) | `data structures` `dfs and similar` `graphs` `math` `trees` `*2400` | Jan/01/2021 17:26 | 
 1003 | [F - Anton and School](https://codeforces.com/contest/734/problem/F) | [GNU C++17 (64)](./codeforces/734/F.cpp) | `bitmasks` `constructive algorithms` `implementation` `math` `*2500` | Jan/01/2021 16:17 | 

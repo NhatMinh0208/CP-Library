@@ -1935,6 +1935,23 @@
     ],
     "timestamp": "Jan/01/2021 17:59"
   },
+  "CF102969040": {
+    "contest_id": 1418,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1418\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Expected Damage",
+    "problem_url": "https://codeforces.com/contest/1418/problem/E",
+    "submission_id": "CF102969040",
+    "submission_url": "https://codeforces.com/contest/1418/submission/102969040",
+    "tags": [
+      "binary search",
+      "combinatorics",
+      "probabilities",
+      "*2400"
+    ],
+    "timestamp": "Jan/01/2021 22:22"
+  },
   "CF42202931": {
     "contest_id": 1020,
     "language": "FPC",
