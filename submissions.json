@@ -1696,6 +1696,21 @@
     ],
     "timestamp": "Dec/31/2020 22:36"
   },
+  "CF102946308": {
+    "contest_id": 121,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\121\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Lucky Array",
+    "problem_url": "https://codeforces.com/contest/121/problem/E",
+    "submission_id": "CF102946308",
+    "submission_url": "https://codeforces.com/contest/121/submission/102946308",
+    "tags": [
+      "data structures",
+      "*2400"
+    ],
+    "timestamp": "Jan/01/2021 11:47"
+  },
   "CF42202931": {
     "contest_id": 1020,
     "language": "FPC",
