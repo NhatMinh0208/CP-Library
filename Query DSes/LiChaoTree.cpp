@@ -68,6 +68,11 @@ struct node
 {
 	node *nl=0, *nr=0;
 	ll dom=0;
+	~node()
+	{
+		if (nl) delete(nl);
+		if (nr) delete(nr);
+	}
 };
 struct dynamic_li_chao
 {
