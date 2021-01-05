@@ -1952,6 +1952,22 @@
     ],
     "timestamp": "Jan/01/2021 22:22"
   },
+  "CF103408203": {
+    "contest_id": 1471,
+    "language": "GNU C++17",
+    "path": "codeforces\\1471\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Strange Partition",
+    "problem_url": "https://codeforces.com/contest/1471/problem/A",
+    "submission_id": "CF103408203",
+    "submission_url": "https://codeforces.com/contest/1471/submission/103408203",
+    "tags": [
+      "greedy",
+      "math",
+      "number theory"
+    ],
+    "timestamp": "Jan/05/2021 21:57"
+  },
   "CF103424107": {
     "contest_id": 1471,
     "language": "GNU C++17",
