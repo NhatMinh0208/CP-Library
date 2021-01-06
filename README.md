@@ -12,7 +12,8 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1011 | [C - Rock Is Push](https://codeforces.com/contest/1246/problem/C) | [GNU C++17 (64)](./codeforces/1246/C.cpp) | `data structures` `dp` `*2200` | Jan/06/2021 15:14 | 
+1012 | [C - Rock Is Push](https://codeforces.com/contest/1246/problem/C) | [GNU C++17 (64)](./codeforces/1246/C.cpp) | `data structures` `dp` `*2200` | Jan/06/2021 15:14 | 
+1011 | [D - Strange Housing](https://codeforces.com/contest/1470/problem/D) | [GNU C++17 (64)](./codeforces/1470/D.cpp) | `constructive algorithms` `dfs and similar` `graph matchings` `graphs` | Jan/06/2021 08:20 | 
 1010 | [D - Strange Definition](https://codeforces.com/contest/1471/problem/D) | [GNU C++17](./codeforces/1471/D.cpp) | `bitmasks` `graphs` `hashing` `math` `number theory` | Jan/05/2021 22:59 | 
 1009 | [C - Strange Birthday Party](https://codeforces.com/contest/1471/problem/C) | [GNU C++17](./codeforces/1471/C.cpp) | `brute force` `greedy` `sortings` | Jan/05/2021 22:20 | 
 1008 | [A - Strange Partition](https://codeforces.com/contest/1471/problem/A) | [GNU C++17](./codeforces/1471/A.cpp) | `greedy` `math` `number theory` | Jan/05/2021 21:57 | 
