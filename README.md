@@ -12,8 +12,9 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1015 | [B - Hills And Valleys](https://codeforces.com/contest/1467/problem/B) | [GNU C++17 (64)](./codeforces/1467/B.cpp) | `brute force` `implementation` `*1700` | Jan/08/2021 23:32 | 
-1014 | [A - Wizard of Orz](https://codeforces.com/contest/1467/problem/A) | [GNU C++17 (64)](./codeforces/1467/A.cpp) | `greedy` `math` `*900` | Jan/08/2021 23:19 | 
+1016 | [B - Hills And Valleys](https://codeforces.com/contest/1467/problem/B) | [GNU C++17 (64)](./codeforces/1467/B.cpp) | `brute force` `implementation` `*1700` | Jan/08/2021 23:32 | 
+1015 | [A - Wizard of Orz](https://codeforces.com/contest/1467/problem/A) | [GNU C++17 (64)](./codeforces/1467/A.cpp) | `greedy` `math` `*900` | Jan/08/2021 23:19 | 
+1014 | [E - Distinctive Roots in a Tree](https://codeforces.com/contest/1467/problem/E) | [GNU C++17 (64)](./codeforces/1467/E.cpp) | `data structures` `dfs and similar` `trees` `*2500` | Jan/08/2021 23:09 | 
 1013 | [C - Rock Is Push](https://codeforces.com/contest/1246/problem/C) | [GNU C++17 (64)](./codeforces/1246/C.cpp) | `data structures` `dp` `*2200` | Jan/06/2021 15:14 | 
 1012 | [D - Strange Housing](https://codeforces.com/contest/1470/problem/D) | [GNU C++17 (64)](./codeforces/1470/D.cpp) | `constructive algorithms` `dfs and similar` `graph matchings` `graphs` | Jan/06/2021 08:20 | 
 1011 | [D - Strange Definition](https://codeforces.com/contest/1471/problem/D) | [GNU C++17](./codeforces/1471/D.cpp) | `bitmasks` `graphs` `hashing` `math` `number theory` | Jan/05/2021 22:59 | 
