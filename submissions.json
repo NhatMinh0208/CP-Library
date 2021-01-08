@@ -2069,6 +2069,23 @@
     ],
     "timestamp": "Jan/06/2021 15:14"
   },
+  "CF103758433": {
+    "contest_id": 1467,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1467\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Sum of Paths",
+    "problem_url": "https://codeforces.com/contest/1467/problem/D",
+    "submission_id": "CF103758433",
+    "submission_url": "https://codeforces.com/contest/1467/submission/103758433",
+    "tags": [
+      "dp",
+      "fft",
+      "math",
+      "*2200"
+    ],
+    "timestamp": "Jan/08/2021 22:07"
+  },
   "CF103795932": {
     "contest_id": 1467,
     "language": "GNU C++17 (64)",
