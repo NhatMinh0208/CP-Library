@@ -2069,6 +2069,22 @@
     ],
     "timestamp": "Jan/06/2021 15:14"
   },
+  "CF103800261": {
+    "contest_id": 1467,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1467\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Wizard of Orz",
+    "problem_url": "https://codeforces.com/contest/1467/problem/A",
+    "submission_id": "CF103800261",
+    "submission_url": "https://codeforces.com/contest/1467/submission/103800261",
+    "tags": [
+      "greedy",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Jan/08/2021 23:19"
+  },
   "CF103806779": {
     "contest_id": 1467,
     "language": "GNU C++17 (64)",
