@@ -2069,6 +2069,22 @@
     ],
     "timestamp": "Jan/06/2021 15:14"
   },
+  "CF103745431": {
+    "contest_id": 1467,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1467\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Three Bags",
+    "problem_url": "https://codeforces.com/contest/1467/problem/C",
+    "submission_id": "CF103745431",
+    "submission_url": "https://codeforces.com/contest/1467/submission/103745431",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1900"
+    ],
+    "timestamp": "Jan/08/2021 21:54"
+  },
   "CF103758433": {
     "contest_id": 1467,
     "language": "GNU C++17 (64)",
