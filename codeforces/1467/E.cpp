@@ -37,7 +37,7 @@ using namespace __gnu_pbds;
 //min/max redefines, so i dont have to resolve annoying compile errors.
 #define min(a,b) (((a)<(b))?(a):(b))
 #define max(a,b) (((a)>(b))?(a):(b))
-
+ 
 //Constants.
 #define MOD (ll(998244353))
 #define MAX 300001
@@ -163,6 +163,7 @@ int main()
 		gt[u].push_back(v);
 		gt[v].push_back(u);
 	}
+	
 	dfs(1);
 	for (i=1;i<=n;i++)
 	{
