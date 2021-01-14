@@ -2187,6 +2187,24 @@
     ],
     "timestamp": "Jan/13/2021 22:03"
   },
+  "CF104292234": {
+    "contest_id": 1473,
+    "language": "GNU C++17",
+    "path": "codeforces\\1473\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Replacing Elements",
+    "problem_url": "https://codeforces.com/contest/1473/problem/A",
+    "submission_id": "CF104292234",
+    "submission_url": "https://codeforces.com/contest/1473/submission/104292234",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Jan/14/2021 21:46"
+  },
   "CF104299123": {
     "contest_id": 1473,
     "language": "GNU C++17",
