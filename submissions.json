@@ -2343,6 +2343,22 @@
     ],
     "timestamp": "Jan/17/2021 20:56"
   },
+  "CF104597029": {
+    "contest_id": 1468,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1468\\G.cpp",
+    "problem_index": "G",
+    "problem_name": "Hobbits",
+    "problem_url": "https://codeforces.com/contest/1468/problem/G",
+    "submission_id": "CF104597029",
+    "submission_url": "https://codeforces.com/contest/1468/submission/104597029",
+    "tags": [
+      "binary search",
+      "geometry",
+      "*2500"
+    ],
+    "timestamp": "Jan/17/2021 22:09"
+  },
   "CF104625812": {
     "contest_id": 1466,
     "language": "GNU C++17 (64)",
