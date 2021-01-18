@@ -2343,6 +2343,26 @@
     ],
     "timestamp": "Jan/17/2021 20:56"
   },
+  "CF104625812": {
+    "contest_id": 1466,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1466\\G.cpp",
+    "problem_index": "G",
+    "problem_name": "Song of the Sirens",
+    "problem_url": "https://codeforces.com/contest/1466/problem/G",
+    "submission_id": "CF104625812",
+    "submission_url": "https://codeforces.com/contest/1466/submission/104625812",
+    "tags": [
+      "combinatorics",
+      "divide and conquer",
+      "hashing",
+      "math",
+      "string suffix structures",
+      "strings",
+      "*2600"
+    ],
+    "timestamp": "Jan/18/2021 08:55"
+  },
   "CF104702597": {
     "contest_id": 1468,
     "language": "GNU C++11",
