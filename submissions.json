@@ -2343,6 +2343,26 @@
     ],
     "timestamp": "Jan/17/2021 20:56"
   },
+  "CF104827834": {
+    "contest_id": 1474,
+    "language": "GNU C++17",
+    "path": "codeforces\\1474\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Array Destruction",
+    "problem_url": "https://codeforces.com/contest/1474/problem/C",
+    "submission_id": "CF104827834",
+    "submission_url": "https://codeforces.com/contest/1474/submission/104827834",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "implementation",
+      "sortings",
+      "*1700"
+    ],
+    "timestamp": "Jan/19/2021 23:15"
+  },
   "CF42202931": {
     "contest_id": 1020,
     "language": "FPC",

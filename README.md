@@ -12,6 +12,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1028 | [C - Array Destruction](https://codeforces.com/contest/1474/problem/C) | [GNU C++17](./codeforces/1474/C.cpp) | `brute force` `constructive algorithms` `data structures` `greedy` `implementation` `sortings` `*1700` | Jan/19/2021 23:15 | 
 1027 | [G - Tiles](https://codeforces.com/contest/1473/problem/G) | [GNU C++17 (64)](./codeforces/1473/G.cpp) | `combinatorics` `dp` `fft` `math` `*2800` | Jan/17/2021 20:56 | 
 1026 | [C - Strange Shuffle](https://codeforces.com/contest/1470/problem/C) | [GNU C++17 (64)](./codeforces/1470/C.cpp) | `binary search` `brute force` `constructive algorithms` `interactive` `*2500` | Jan/15/2021 16:05 | 
 1025 | [F - Strange Set](https://codeforces.com/contest/1473/problem/F) | [GNU C++17 (64)](./codeforces/1473/F.cpp) | `flows` `math` `*2700` | Jan/15/2021 14:38 | 
