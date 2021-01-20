@@ -12,10 +12,11 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1034 | [F - The Sum of the k-th Powers](https://codeforces.com/contest/622/problem/F) | [GNU C++17 (64)](./codeforces/622/F.cpp) | `math` `*2600` | Jan/26/2021 20:33 | 
-1033 | [D - Reality Show](https://codeforces.com/contest/1322/problem/D) | [GNU C++17 (64)](./codeforces/1322/D.cpp) | `bitmasks` `dp` `*2800` | Jan/26/2021 09:53 | 
-1032 | [D - Enchanted Artifact](https://codeforces.com/contest/1282/problem/D) | [GNU C++17 (64)](./codeforces/1282/D.cpp) | `constructive algorithms` `interactive` `strings` `*2300` | Jan/25/2021 13:09 | 
-1031 | [D - Strange Device](https://codeforces.com/contest/1270/problem/D) | [GNU C++17 (64)](./codeforces/1270/D.cpp) | `constructive algorithms` `interactive` `math` `sortings` `*1900` | Jan/25/2021 10:14 | 
+1035 | [F - The Sum of the k-th Powers](https://codeforces.com/contest/622/problem/F) | [GNU C++17 (64)](./codeforces/622/F.cpp) | `math` `*2600` | Jan/26/2021 20:33 | 
+1034 | [D - Reality Show](https://codeforces.com/contest/1322/problem/D) | [GNU C++17 (64)](./codeforces/1322/D.cpp) | `bitmasks` `dp` `*2800` | Jan/26/2021 09:53 | 
+1033 | [D - Enchanted Artifact](https://codeforces.com/contest/1282/problem/D) | [GNU C++17 (64)](./codeforces/1282/D.cpp) | `constructive algorithms` `interactive` `strings` `*2300` | Jan/25/2021 13:09 | 
+1032 | [D - Strange Device](https://codeforces.com/contest/1270/problem/D) | [GNU C++17 (64)](./codeforces/1270/D.cpp) | `constructive algorithms` `interactive` `math` `sortings` `*1900` | Jan/25/2021 10:14 | 
+1031 | [E - What Is It?](https://codeforces.com/contest/1474/problem/E) | [GNU C++17 (64)](./codeforces/1474/E.cpp) | `constructive algorithms` `greedy` `*2500` | Jan/20/2021 08:29 | 
 1030 | [C - Array Destruction](https://codeforces.com/contest/1474/problem/C) | [GNU C++17](./codeforces/1474/C.cpp) | `brute force` `constructive algorithms` `data structures` `greedy` `implementation` `sortings` `*1700` | Jan/19/2021 23:15 | 
 1029 | [B - Different Divisors](https://codeforces.com/contest/1474/problem/B) | [GNU C++17 (64)](./codeforces/1474/B.cpp) | `binary search` `constructive algorithms` `greedy` `math` `number theory` `*1000` | Jan/19/2021 21:52 | 
 1028 | [A - Puzzle From the Future](https://codeforces.com/contest/1474/problem/A) | [GNU C++17](./codeforces/1474/A.cpp) | `greedy` `*800` | Jan/19/2021 21:44 | 
