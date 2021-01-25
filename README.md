@@ -12,8 +12,9 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1032 | [F - The Sum of the k-th Powers](https://codeforces.com/contest/622/problem/F) | [GNU C++17 (64)](./codeforces/622/F.cpp) | `math` `*2600` | Jan/26/2021 20:33 | 
-1031 | [D - Reality Show](https://codeforces.com/contest/1322/problem/D) | [GNU C++17 (64)](./codeforces/1322/D.cpp) | `bitmasks` `dp` `*2800` | Jan/26/2021 09:53 | 
+1033 | [F - The Sum of the k-th Powers](https://codeforces.com/contest/622/problem/F) | [GNU C++17 (64)](./codeforces/622/F.cpp) | `math` `*2600` | Jan/26/2021 20:33 | 
+1032 | [D - Reality Show](https://codeforces.com/contest/1322/problem/D) | [GNU C++17 (64)](./codeforces/1322/D.cpp) | `bitmasks` `dp` `*2800` | Jan/26/2021 09:53 | 
+1031 | [D - Enchanted Artifact](https://codeforces.com/contest/1282/problem/D) | [GNU C++17 (64)](./codeforces/1282/D.cpp) | `constructive algorithms` `interactive` `strings` `*2300` | Jan/25/2021 13:09 | 
 1030 | [C - Array Destruction](https://codeforces.com/contest/1474/problem/C) | [GNU C++17](./codeforces/1474/C.cpp) | `brute force` `constructive algorithms` `data structures` `greedy` `implementation` `sortings` `*1700` | Jan/19/2021 23:15 | 
 1029 | [B - Different Divisors](https://codeforces.com/contest/1474/problem/B) | [GNU C++17 (64)](./codeforces/1474/B.cpp) | `binary search` `constructive algorithms` `greedy` `math` `number theory` `*1000` | Jan/19/2021 21:52 | 
 1028 | [A - Puzzle From the Future](https://codeforces.com/contest/1474/problem/A) | [GNU C++17](./codeforces/1474/A.cpp) | `greedy` `*800` | Jan/19/2021 21:44 | 
