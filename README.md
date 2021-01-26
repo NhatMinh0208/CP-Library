@@ -12,6 +12,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1041 | [E - Ehab's REAL Number Theory Problem](https://codeforces.com/contest/1325/problem/E) | [GNU C++17 (64)](./codeforces/1325/E.cpp) | `brute force` `dfs and similar` `graphs` `number theory` `shortest paths` `*2600` | Jan/26/2021 22:44 | 
 1040 | [F - The Sum of the k-th Powers](https://codeforces.com/contest/622/problem/F) | [GNU C++17 (64)](./codeforces/622/F.cpp) | `math` `*2600` | Jan/26/2021 20:33 | 
 1039 | [D - Reality Show](https://codeforces.com/contest/1322/problem/D) | [GNU C++17 (64)](./codeforces/1322/D.cpp) | `bitmasks` `dp` `*2800` | Jan/26/2021 09:53 | 
 1038 | [D - Enchanted Artifact](https://codeforces.com/contest/1282/problem/D) | [GNU C++17 (64)](./codeforces/1282/D.cpp) | `constructive algorithms` `interactive` `strings` `*2300` | Jan/25/2021 13:09 | 
