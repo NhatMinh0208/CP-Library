@@ -12,10 +12,11 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1045 | [E - e-Government](https://codeforces.com/contest/163/problem/E) | [GNU C++17](./codeforces/163/E.cpp) | `data structures` `dfs and similar` `dp` `strings` `trees` `*2800` | Jan/29/2021 20:57 | 
-1044 | [C - Nezzar and Nice Beatmap](https://codeforces.com/contest/1477/problem/C) | [GNU C++17 (64)](./codeforces/1477/C.cpp) | `constructive algorithms` `geometry` `greedy` `sortings` `*2200` | Jan/29/2021 07:56 | 
-1043 | [D - Shop](https://codeforces.com/contest/521/problem/D) | [GNU C++17 (64)](./codeforces/521/D.cpp) | `greedy` `*2800` | Jan/27/2021 23:23 | 
-1042 | [D - Arpa’s letter-marked tree and Mehrdad’s Dokhtar-kosh paths](https://codeforces.com/contest/741/problem/D) | [GNU C++17 (64)](./codeforces/741/D.cpp) | `data structures` `dfs and similar` `trees` `*2900` | Jan/27/2021 21:39 | 
+1046 | [E - e-Government](https://codeforces.com/contest/163/problem/E) | [GNU C++17](./codeforces/163/E.cpp) | `data structures` `dfs and similar` `dp` `strings` `trees` `*2800` | Jan/29/2021 20:57 | 
+1045 | [C - Nezzar and Nice Beatmap](https://codeforces.com/contest/1477/problem/C) | [GNU C++17 (64)](./codeforces/1477/C.cpp) | `constructive algorithms` `geometry` `greedy` `sortings` `*2200` | Jan/29/2021 07:56 | 
+1044 | [D - Shop](https://codeforces.com/contest/521/problem/D) | [GNU C++17 (64)](./codeforces/521/D.cpp) | `greedy` `*2800` | Jan/27/2021 23:23 | 
+1043 | [D - Arpa’s letter-marked tree and Mehrdad’s Dokhtar-kosh paths](https://codeforces.com/contest/741/problem/D) | [GNU C++17 (64)](./codeforces/741/D.cpp) | `data structures` `dfs and similar` `trees` `*2900` | Jan/27/2021 21:39 | 
+1042 | [F - Ehab's Last Theorem](https://codeforces.com/contest/1325/problem/F) | [GNU C++17 (64)](./codeforces/1325/F.cpp) | `constructive algorithms` `dfs and similar` `graphs` `greedy` `*2500` | Jan/26/2021 23:30 | 
 1041 | [E - Ehab's REAL Number Theory Problem](https://codeforces.com/contest/1325/problem/E) | [GNU C++17 (64)](./codeforces/1325/E.cpp) | `brute force` `dfs and similar` `graphs` `number theory` `shortest paths` `*2600` | Jan/26/2021 22:44 | 
 1040 | [F - The Sum of the k-th Powers](https://codeforces.com/contest/622/problem/F) | [GNU C++17 (64)](./codeforces/622/F.cpp) | `math` `*2600` | Jan/26/2021 20:33 | 
 1039 | [D - Reality Show](https://codeforces.com/contest/1322/problem/D) | [GNU C++17 (64)](./codeforces/1322/D.cpp) | `bitmasks` `dp` `*2800` | Jan/26/2021 09:53 | 
