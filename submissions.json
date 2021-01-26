@@ -2397,6 +2397,22 @@
     ],
     "timestamp": "Jan/19/2021 23:15"
   },
+  "CF105432443": {
+    "contest_id": 1322,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1322\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Reality Show",
+    "problem_url": "https://codeforces.com/contest/1322/problem/D",
+    "submission_id": "CF105432443",
+    "submission_url": "https://codeforces.com/contest/1322/submission/105432443",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "*2800"
+    ],
+    "timestamp": "Jan/26/2021 09:53"
+  },
   "CF105483504": {
     "contest_id": 622,
     "language": "GNU C++17 (64)",
