@@ -77,7 +77,7 @@ int main()
 		cin>>arr[i]>>brr[i];
 		res[i]=i;
 	}
-	for (t=1;t<=5;t++)
+	for (t=1;t<=5000;t++)
 	{
 	for (i=3;i<=n;i++)
 	{
