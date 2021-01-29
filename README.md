@@ -12,6 +12,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1042 | [E - e-Government](https://codeforces.com/contest/163/problem/E) | [GNU C++17](./codeforces/163/E.cpp) | `data structures` `dfs and similar` `dp` `strings` `trees` `*2800` | Jan/29/2021 20:57 | 
 1041 | [E - Ehab's REAL Number Theory Problem](https://codeforces.com/contest/1325/problem/E) | [GNU C++17 (64)](./codeforces/1325/E.cpp) | `brute force` `dfs and similar` `graphs` `number theory` `shortest paths` `*2600` | Jan/26/2021 22:44 | 
 1040 | [F - The Sum of the k-th Powers](https://codeforces.com/contest/622/problem/F) | [GNU C++17 (64)](./codeforces/622/F.cpp) | `math` `*2600` | Jan/26/2021 20:33 | 
 1039 | [D - Reality Show](https://codeforces.com/contest/1322/problem/D) | [GNU C++17 (64)](./codeforces/1322/D.cpp) | `bitmasks` `dp` `*2800` | Jan/26/2021 09:53 | 
