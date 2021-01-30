@@ -2690,6 +2690,25 @@
     ],
     "timestamp": "Jan/29/2021 20:57"
   },
+  "CF106030391": {
+    "contest_id": 1476,
+    "language": "GNU C++17",
+    "path": "codeforces\\1476\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Pattern Matching",
+    "problem_url": "https://codeforces.com/contest/1476/problem/E",
+    "submission_id": "CF106030391",
+    "submission_url": "https://codeforces.com/contest/1476/submission/106030391",
+    "tags": [
+      "bitmasks",
+      "data structures",
+      "dfs and similar",
+      "graphs",
+      "implementation",
+      "strings"
+    ],
+    "timestamp": "Jan/30/2021 21:45"
+  },
   "CF106030694": {
     "contest_id": 1477,
     "language": "GNU C++17",
