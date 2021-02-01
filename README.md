@@ -12,8 +12,9 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1051 | [I - Privatization of Roads in Berland](https://codeforces.com/contest/1070/problem/I) | [GNU C++17](./codeforces/1070/I.cpp) | `flows` `graph matchings` `graphs` `*2400` | Feb/01/2021 23:16 | 
-1050 | [E - Minimal Labels](https://codeforces.com/contest/825/problem/E) | [GNU C++17](./codeforces/825/E.cpp) | `data structures` `dfs and similar` `graphs` `greedy` `*2300` | Feb/01/2021 21:59 | 
+1052 | [I - Privatization of Roads in Berland](https://codeforces.com/contest/1070/problem/I) | [GNU C++17](./codeforces/1070/I.cpp) | `flows` `graph matchings` `graphs` `*2400` | Feb/01/2021 23:16 | 
+1051 | [E - Minimal Labels](https://codeforces.com/contest/825/problem/E) | [GNU C++17](./codeforces/825/E.cpp) | `data structures` `dfs and similar` `graphs` `greedy` `*2300` | Feb/01/2021 21:59 | 
+1050 | [E - Arthur and Brackets](https://codeforces.com/contest/508/problem/E) | [GNU C++17](./codeforces/508/E.cpp) | `dp` `greedy` `*2200` | Feb/01/2021 20:32 | 
 1049 | [A - Nezzar and Board](https://codeforces.com/contest/1477/problem/A) | [GNU C++17](./codeforces/1477/A.cpp) | `constructive algorithms` `math` `number theory` `*1800` | Jan/30/2021 21:48 | 
 1048 | [B - Nezzar and Binary String](https://codeforces.com/contest/1477/problem/B) | [GNU C++17](./codeforces/1477/B.cpp) | `data structures` `greedy` `*1900` | Jan/30/2021 21:48 | 
 1047 | [E - Pattern Matching](https://codeforces.com/contest/1476/problem/E) | [GNU C++17](./codeforces/1476/E.cpp) | `bitmasks` `data structures` `dfs and similar` `graphs` `implementation` `strings` | Jan/30/2021 21:45 | 
