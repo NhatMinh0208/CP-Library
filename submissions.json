@@ -2742,6 +2742,22 @@
     ],
     "timestamp": "Jan/30/2021 21:48"
   },
+  "CF106175728": {
+    "contest_id": 915,
+    "language": "GNU C++17",
+    "path": "codeforces\\915\\G.cpp",
+    "problem_index": "G",
+    "problem_name": "Coprime Arrays",
+    "problem_url": "https://codeforces.com/contest/915/problem/G",
+    "submission_id": "CF106175728",
+    "submission_url": "https://codeforces.com/contest/915/submission/106175728",
+    "tags": [
+      "math",
+      "number theory",
+      "*2300"
+    ],
+    "timestamp": "Feb/01/2021 16:52"
+  },
   "CF106194243": {
     "contest_id": 508,
     "language": "GNU C++17",
