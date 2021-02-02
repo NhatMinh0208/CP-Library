@@ -2825,6 +2825,27 @@
     ],
     "timestamp": "Feb/01/2021 23:16"
   },
+  "CF106269774": {
+    "contest_id": 1463,
+    "language": "GNU C++17",
+    "path": "codeforces\\1463\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Plan of Lectures",
+    "problem_url": "https://codeforces.com/contest/1463/problem/E",
+    "submission_id": "CF106269774",
+    "submission_url": "https://codeforces.com/contest/1463/submission/106269774",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "implementation",
+      "sortings",
+      "trees",
+      "*2400"
+    ],
+    "timestamp": "Feb/02/2021 17:24"
+  },
   "CF106287152": {
     "contest_id": 585,
     "language": "GNU C++17 (64)",

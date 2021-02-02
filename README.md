@@ -12,18 +12,19 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1066 | [E - Sorting Books](https://codeforces.com/contest/1481/problem/E) | [GNU C++17 (64)](./codeforces/1481/E.cpp) | `data structures` `dp` `greedy` | Feb/05/2021 23:06 | 
-1065 | [D - AB Graph](https://codeforces.com/contest/1481/problem/D) | [GNU C++17 (64)](./codeforces/1481/D.cpp) | `constructive algorithms` `graphs` `greedy` `implementation` `strings` | Feb/05/2021 22:59 | 
-1064 | [C - Fence Painting](https://codeforces.com/contest/1481/problem/C) | [GNU C++17 (64)](./codeforces/1481/C.cpp) | `brute force` `constructive algorithms` `greedy` `implementation` | Feb/05/2021 21:59 | 
-1063 | [B - New Colony](https://codeforces.com/contest/1481/problem/B) | [GNU C++17 (64)](./codeforces/1481/B.cpp) | `brute force` `greedy` `implementation` | Feb/05/2021 21:47 | 
-1062 | [A - Space Navigation ](https://codeforces.com/contest/1481/problem/A) | [GNU C++17 (64)](./codeforces/1481/A.cpp) | `greedy` `implementation` `math` `strings` | Feb/05/2021 21:41 | 
-1061 | [E - Sonya and Ice Cream](https://codeforces.com/contest/1004/problem/E) | [GNU C++17 (64)](./codeforces/1004/E.cpp) | `binary search` `data structures` `dp` `greedy` `shortest paths` `trees` `*2400` | Feb/05/2021 10:03 | 
-1060 | [D - Nezzar and Hidden Permutations](https://codeforces.com/contest/1477/problem/D) | [GNU C++17 (64)](./codeforces/1477/D.cpp) | `constructive algorithms` `dfs and similar` `graphs` `*2800` | Feb/04/2021 15:10 | 
-1059 | [F - The Neutral Zone](https://codeforces.com/contest/1017/problem/F) | [GNU C++17 (64)](./codeforces/1017/F.cpp) | `brute force` `math` `*2500` | Feb/03/2021 23:02 | 
-1058 | [F - Cyclic Shifts Sorting](https://codeforces.com/contest/1374/problem/F) | [GNU C++17 (64)](./codeforces/1374/F.cpp) | `brute force` `constructive algorithms` `implementation` `sortings` `*2400` | Feb/03/2021 21:41 | 
-1057 | [F - Choosing Two Paths](https://codeforces.com/contest/1073/problem/F) | [GNU C++17 (64)](./codeforces/1073/F.cpp) | `dfs and similar` `dp` `greedy` `trees` `*2500` | Feb/03/2021 08:38 | 
-1056 | [D - Refactoring](https://codeforces.com/contest/1055/problem/D) | [GNU C++17 (64)](./codeforces/1055/D.cpp) | `greedy` `implementation` `strings` `*2400` | Feb/02/2021 22:03 | 
-1055 | [D - Lizard Era: Beginning](https://codeforces.com/contest/585/problem/D) | [GNU C++17 (64)](./codeforces/585/D.cpp) | `meet-in-the-middle` `*2300` | Feb/02/2021 20:46 | 
+1067 | [E - Sorting Books](https://codeforces.com/contest/1481/problem/E) | [GNU C++17 (64)](./codeforces/1481/E.cpp) | `data structures` `dp` `greedy` | Feb/05/2021 23:06 | 
+1066 | [D - AB Graph](https://codeforces.com/contest/1481/problem/D) | [GNU C++17 (64)](./codeforces/1481/D.cpp) | `constructive algorithms` `graphs` `greedy` `implementation` `strings` | Feb/05/2021 22:59 | 
+1065 | [C - Fence Painting](https://codeforces.com/contest/1481/problem/C) | [GNU C++17 (64)](./codeforces/1481/C.cpp) | `brute force` `constructive algorithms` `greedy` `implementation` | Feb/05/2021 21:59 | 
+1064 | [B - New Colony](https://codeforces.com/contest/1481/problem/B) | [GNU C++17 (64)](./codeforces/1481/B.cpp) | `brute force` `greedy` `implementation` | Feb/05/2021 21:47 | 
+1063 | [A - Space Navigation ](https://codeforces.com/contest/1481/problem/A) | [GNU C++17 (64)](./codeforces/1481/A.cpp) | `greedy` `implementation` `math` `strings` | Feb/05/2021 21:41 | 
+1062 | [E - Sonya and Ice Cream](https://codeforces.com/contest/1004/problem/E) | [GNU C++17 (64)](./codeforces/1004/E.cpp) | `binary search` `data structures` `dp` `greedy` `shortest paths` `trees` `*2400` | Feb/05/2021 10:03 | 
+1061 | [D - Nezzar and Hidden Permutations](https://codeforces.com/contest/1477/problem/D) | [GNU C++17 (64)](./codeforces/1477/D.cpp) | `constructive algorithms` `dfs and similar` `graphs` `*2800` | Feb/04/2021 15:10 | 
+1060 | [F - The Neutral Zone](https://codeforces.com/contest/1017/problem/F) | [GNU C++17 (64)](./codeforces/1017/F.cpp) | `brute force` `math` `*2500` | Feb/03/2021 23:02 | 
+1059 | [F - Cyclic Shifts Sorting](https://codeforces.com/contest/1374/problem/F) | [GNU C++17 (64)](./codeforces/1374/F.cpp) | `brute force` `constructive algorithms` `implementation` `sortings` `*2400` | Feb/03/2021 21:41 | 
+1058 | [F - Choosing Two Paths](https://codeforces.com/contest/1073/problem/F) | [GNU C++17 (64)](./codeforces/1073/F.cpp) | `dfs and similar` `dp` `greedy` `trees` `*2500` | Feb/03/2021 08:38 | 
+1057 | [D - Refactoring](https://codeforces.com/contest/1055/problem/D) | [GNU C++17 (64)](./codeforces/1055/D.cpp) | `greedy` `implementation` `strings` `*2400` | Feb/02/2021 22:03 | 
+1056 | [D - Lizard Era: Beginning](https://codeforces.com/contest/585/problem/D) | [GNU C++17 (64)](./codeforces/585/D.cpp) | `meet-in-the-middle` `*2300` | Feb/02/2021 20:46 | 
+1055 | [E - Plan of Lectures](https://codeforces.com/contest/1463/problem/E) | [GNU C++17](./codeforces/1463/E.cpp) | `constructive algorithms` `dfs and similar` `dsu` `graphs` `implementation` `sortings` `trees` `*2400` | Feb/02/2021 17:24 | 
 1054 | [I - Privatization of Roads in Berland](https://codeforces.com/contest/1070/problem/I) | [GNU C++17](./codeforces/1070/I.cpp) | `flows` `graph matchings` `graphs` `*2400` | Feb/01/2021 23:16 | 
 1053 | [E - Minimal Labels](https://codeforces.com/contest/825/problem/E) | [GNU C++17](./codeforces/825/E.cpp) | `data structures` `dfs and similar` `graphs` `greedy` `*2300` | Feb/01/2021 21:59 | 
 1052 | [E - Arthur and Brackets](https://codeforces.com/contest/508/problem/E) | [GNU C++17](./codeforces/508/E.cpp) | `dp` `greedy` `*2200` | Feb/01/2021 20:32 | 
