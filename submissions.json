@@ -2825,6 +2825,23 @@
     ],
     "timestamp": "Feb/01/2021 23:16"
   },
+  "CF106294429": {
+    "contest_id": 1055,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1055\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Refactoring",
+    "problem_url": "https://codeforces.com/contest/1055/problem/D",
+    "submission_id": "CF106294429",
+    "submission_url": "https://codeforces.com/contest/1055/submission/106294429",
+    "tags": [
+      "greedy",
+      "implementation",
+      "strings",
+      "*2400"
+    ],
+    "timestamp": "Feb/02/2021 22:03"
+  },
   "CF106326719": {
     "contest_id": 1073,
     "language": "GNU C++17 (64)",
