@@ -12,14 +12,15 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1062 | [E - Sorting Books](https://codeforces.com/contest/1481/problem/E) | [GNU C++17 (64)](./codeforces/1481/E.cpp) | `data structures` `dp` `greedy` | Feb/05/2021 23:06 | 
-1061 | [D - AB Graph](https://codeforces.com/contest/1481/problem/D) | [GNU C++17 (64)](./codeforces/1481/D.cpp) | `constructive algorithms` `graphs` `greedy` `implementation` `strings` | Feb/05/2021 22:59 | 
-1060 | [C - Fence Painting](https://codeforces.com/contest/1481/problem/C) | [GNU C++17 (64)](./codeforces/1481/C.cpp) | `brute force` `constructive algorithms` `greedy` `implementation` | Feb/05/2021 21:59 | 
-1059 | [B - New Colony](https://codeforces.com/contest/1481/problem/B) | [GNU C++17 (64)](./codeforces/1481/B.cpp) | `brute force` `greedy` `implementation` | Feb/05/2021 21:47 | 
-1058 | [A - Space Navigation ](https://codeforces.com/contest/1481/problem/A) | [GNU C++17 (64)](./codeforces/1481/A.cpp) | `greedy` `implementation` `math` `strings` | Feb/05/2021 21:41 | 
-1057 | [E - Sonya and Ice Cream](https://codeforces.com/contest/1004/problem/E) | [GNU C++17 (64)](./codeforces/1004/E.cpp) | `binary search` `data structures` `dp` `greedy` `shortest paths` `trees` `*2400` | Feb/05/2021 10:03 | 
-1056 | [D - Nezzar and Hidden Permutations](https://codeforces.com/contest/1477/problem/D) | [GNU C++17 (64)](./codeforces/1477/D.cpp) | `constructive algorithms` `dfs and similar` `graphs` `*2800` | Feb/04/2021 15:10 | 
-1055 | [F - The Neutral Zone](https://codeforces.com/contest/1017/problem/F) | [GNU C++17 (64)](./codeforces/1017/F.cpp) | `brute force` `math` `*2500` | Feb/03/2021 23:02 | 
+1063 | [E - Sorting Books](https://codeforces.com/contest/1481/problem/E) | [GNU C++17 (64)](./codeforces/1481/E.cpp) | `data structures` `dp` `greedy` | Feb/05/2021 23:06 | 
+1062 | [D - AB Graph](https://codeforces.com/contest/1481/problem/D) | [GNU C++17 (64)](./codeforces/1481/D.cpp) | `constructive algorithms` `graphs` `greedy` `implementation` `strings` | Feb/05/2021 22:59 | 
+1061 | [C - Fence Painting](https://codeforces.com/contest/1481/problem/C) | [GNU C++17 (64)](./codeforces/1481/C.cpp) | `brute force` `constructive algorithms` `greedy` `implementation` | Feb/05/2021 21:59 | 
+1060 | [B - New Colony](https://codeforces.com/contest/1481/problem/B) | [GNU C++17 (64)](./codeforces/1481/B.cpp) | `brute force` `greedy` `implementation` | Feb/05/2021 21:47 | 
+1059 | [A - Space Navigation ](https://codeforces.com/contest/1481/problem/A) | [GNU C++17 (64)](./codeforces/1481/A.cpp) | `greedy` `implementation` `math` `strings` | Feb/05/2021 21:41 | 
+1058 | [E - Sonya and Ice Cream](https://codeforces.com/contest/1004/problem/E) | [GNU C++17 (64)](./codeforces/1004/E.cpp) | `binary search` `data structures` `dp` `greedy` `shortest paths` `trees` `*2400` | Feb/05/2021 10:03 | 
+1057 | [D - Nezzar and Hidden Permutations](https://codeforces.com/contest/1477/problem/D) | [GNU C++17 (64)](./codeforces/1477/D.cpp) | `constructive algorithms` `dfs and similar` `graphs` `*2800` | Feb/04/2021 15:10 | 
+1056 | [F - The Neutral Zone](https://codeforces.com/contest/1017/problem/F) | [GNU C++17 (64)](./codeforces/1017/F.cpp) | `brute force` `math` `*2500` | Feb/03/2021 23:02 | 
+1055 | [F - Cyclic Shifts Sorting](https://codeforces.com/contest/1374/problem/F) | [GNU C++17 (64)](./codeforces/1374/F.cpp) | `brute force` `constructive algorithms` `implementation` `sortings` `*2400` | Feb/03/2021 21:41 | 
 1054 | [I - Privatization of Roads in Berland](https://codeforces.com/contest/1070/problem/I) | [GNU C++17](./codeforces/1070/I.cpp) | `flows` `graph matchings` `graphs` `*2400` | Feb/01/2021 23:16 | 
 1053 | [E - Minimal Labels](https://codeforces.com/contest/825/problem/E) | [GNU C++17](./codeforces/825/E.cpp) | `data structures` `dfs and similar` `graphs` `greedy` `*2300` | Feb/01/2021 21:59 | 
 1052 | [E - Arthur and Brackets](https://codeforces.com/contest/508/problem/E) | [GNU C++17](./codeforces/508/E.cpp) | `dp` `greedy` `*2200` | Feb/01/2021 20:32 | 
