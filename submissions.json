@@ -2825,6 +2825,23 @@
     ],
     "timestamp": "Feb/01/2021 23:16"
   },
+  "CF106541430": {
+    "contest_id": 1481,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1481\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Space Navigation ",
+    "problem_url": "https://codeforces.com/contest/1481/problem/A",
+    "submission_id": "CF106541430",
+    "submission_url": "https://codeforces.com/contest/1481/submission/106541430",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "strings"
+    ],
+    "timestamp": "Feb/05/2021 21:41"
+  },
   "CF106547765": {
     "contest_id": 1481,
     "language": "GNU C++17 (64)",

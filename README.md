@@ -12,10 +12,11 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1058 | [E - Sorting Books](https://codeforces.com/contest/1481/problem/E) | [GNU C++17 (64)](./codeforces/1481/E.cpp) | `data structures` `dp` `greedy` | Feb/05/2021 23:06 | 
-1057 | [D - AB Graph](https://codeforces.com/contest/1481/problem/D) | [GNU C++17 (64)](./codeforces/1481/D.cpp) | `constructive algorithms` `graphs` `greedy` `implementation` `strings` | Feb/05/2021 22:59 | 
-1056 | [C - Fence Painting](https://codeforces.com/contest/1481/problem/C) | [GNU C++17 (64)](./codeforces/1481/C.cpp) | `brute force` `constructive algorithms` `greedy` `implementation` | Feb/05/2021 21:59 | 
-1055 | [B - New Colony](https://codeforces.com/contest/1481/problem/B) | [GNU C++17 (64)](./codeforces/1481/B.cpp) | `brute force` `greedy` `implementation` | Feb/05/2021 21:47 | 
+1059 | [E - Sorting Books](https://codeforces.com/contest/1481/problem/E) | [GNU C++17 (64)](./codeforces/1481/E.cpp) | `data structures` `dp` `greedy` | Feb/05/2021 23:06 | 
+1058 | [D - AB Graph](https://codeforces.com/contest/1481/problem/D) | [GNU C++17 (64)](./codeforces/1481/D.cpp) | `constructive algorithms` `graphs` `greedy` `implementation` `strings` | Feb/05/2021 22:59 | 
+1057 | [C - Fence Painting](https://codeforces.com/contest/1481/problem/C) | [GNU C++17 (64)](./codeforces/1481/C.cpp) | `brute force` `constructive algorithms` `greedy` `implementation` | Feb/05/2021 21:59 | 
+1056 | [B - New Colony](https://codeforces.com/contest/1481/problem/B) | [GNU C++17 (64)](./codeforces/1481/B.cpp) | `brute force` `greedy` `implementation` | Feb/05/2021 21:47 | 
+1055 | [A - Space Navigation ](https://codeforces.com/contest/1481/problem/A) | [GNU C++17 (64)](./codeforces/1481/A.cpp) | `greedy` `implementation` `math` `strings` | Feb/05/2021 21:41 | 
 1054 | [I - Privatization of Roads in Berland](https://codeforces.com/contest/1070/problem/I) | [GNU C++17](./codeforces/1070/I.cpp) | `flows` `graph matchings` `graphs` `*2400` | Feb/01/2021 23:16 | 
 1053 | [E - Minimal Labels](https://codeforces.com/contest/825/problem/E) | [GNU C++17](./codeforces/825/E.cpp) | `data structures` `dfs and similar` `graphs` `greedy` `*2300` | Feb/01/2021 21:59 | 
 1052 | [E - Arthur and Brackets](https://codeforces.com/contest/508/problem/E) | [GNU C++17](./codeforces/508/E.cpp) | `dp` `greedy` `*2200` | Feb/01/2021 20:32 | 
