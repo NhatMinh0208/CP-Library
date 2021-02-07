@@ -3051,6 +3051,21 @@
     ],
     "timestamp": "Feb/05/2021 23:06"
   },
+  "CF106727765": {
+    "contest_id": 628,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\628\\F.cpp",
+    "problem_index": "F",
+    "problem_name": "Bear and Fair Set",
+    "problem_url": "https://codeforces.com/contest/628/problem/F",
+    "submission_id": "CF106727765",
+    "submission_url": "https://codeforces.com/contest/628/submission/106727765",
+    "tags": [
+      "flows",
+      "*2500"
+    ],
+    "timestamp": "Feb/07/2021 15:45"
+  },
   "CF106735230": {
     "contest_id": 981,
     "language": "GNU C++17 (64)",
