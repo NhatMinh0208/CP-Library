@@ -12,10 +12,11 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1071 | [F - Network Coverage](https://codeforces.com/contest/1373/problem/F) | [GNU C++17](./codeforces/1373/F.cpp) | `binary search` `constructive algorithms` `data structures` `greedy` `*2400` | Feb/09/2021 17:53 | 
-1070 | [C - Graph Reconstruction](https://codeforces.com/contest/329/problem/C) | [GNU C++17](./codeforces/329/C.cpp) | `constructive algorithms` `*2400` | Feb/08/2021 23:39 | 
-1069 | [E - PolandBall and White-Red graph](https://codeforces.com/contest/755/problem/E) | [GNU C++17](./codeforces/755/E.cpp) | `constructive algorithms` `graphs` `shortest paths` `*2400` | Feb/08/2021 22:53 | 
-1068 | [A - Searching Local Minimum](https://codeforces.com/contest/1479/problem/A) | [GNU C++17](./codeforces/1479/A.cpp) | `binary search` `interactive` `*1700` | Feb/08/2021 02:33 | 
+1072 | [F - Network Coverage](https://codeforces.com/contest/1373/problem/F) | [GNU C++17](./codeforces/1373/F.cpp) | `binary search` `constructive algorithms` `data structures` `greedy` `*2400` | Feb/09/2021 17:53 | 
+1071 | [C - Graph Reconstruction](https://codeforces.com/contest/329/problem/C) | [GNU C++17](./codeforces/329/C.cpp) | `constructive algorithms` `*2400` | Feb/08/2021 23:39 | 
+1070 | [E - PolandBall and White-Red graph](https://codeforces.com/contest/755/problem/E) | [GNU C++17](./codeforces/755/E.cpp) | `constructive algorithms` `graphs` `shortest paths` `*2400` | Feb/08/2021 22:53 | 
+1069 | [A - Searching Local Minimum](https://codeforces.com/contest/1479/problem/A) | [GNU C++17](./codeforces/1479/A.cpp) | `binary search` `interactive` `*1700` | Feb/08/2021 02:33 | 
+1068 | [C - Sky Full of Stars](https://codeforces.com/contest/997/problem/C) | [GNU C++17](./codeforces/997/C.cpp) | `combinatorics` `math` `*2500` | Feb/07/2021 21:14 | 
 1067 | [E - Sorting Books](https://codeforces.com/contest/1481/problem/E) | [GNU C++17 (64)](./codeforces/1481/E.cpp) | `data structures` `dp` `greedy` | Feb/05/2021 23:06 | 
 1066 | [D - AB Graph](https://codeforces.com/contest/1481/problem/D) | [GNU C++17 (64)](./codeforces/1481/D.cpp) | `constructive algorithms` `graphs` `greedy` `implementation` `strings` | Feb/05/2021 22:59 | 
 1065 | [C - Fence Painting](https://codeforces.com/contest/1481/problem/C) | [GNU C++17 (64)](./codeforces/1481/C.cpp) | `brute force` `constructive algorithms` `greedy` `implementation` | Feb/05/2021 21:59 | 
