@@ -78,7 +78,7 @@ struct dsundo
 	{
 		return (get_par(a)==get_par(b));
 	}
-	void add_edge(ll a, ll b)
+	ll add_edge(ll a, ll b)
 	{
 		ll ha=get_par(a),hb=get_par(b);
 		if (ha!=hb)
@@ -100,12 +100,15 @@ struct dsundo
 				h[ha]++;
 				bruh.emplace_back(hb,ha,1);
 			}
+			return 1;
 		}
+		else return 0;
 	}
 	void undo()
 	{
 	    merg pp=bruh[bruh.size()-1];
 	    par[pp.from]=pp.from;
 	    if (pp.plus1) h[pp.to]--;
+		bruh.pop_back();
 	}
 };

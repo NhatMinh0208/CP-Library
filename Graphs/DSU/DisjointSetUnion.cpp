@@ -67,7 +67,7 @@ struct dsu
 	{
 		return (get_par(a)==get_par(b));
 	}
-	void add_edge(ll a, ll b)
+	ll add_edge(ll a, ll b)
 	{
 		ll ha=get_par(a),hb=get_par(b);
 		if (ha!=hb)
@@ -89,7 +89,9 @@ struct dsu
 				sz[ha]+=sz[hb];
 				h[ha]++;
 			}
+			return 1;
 		}
+		else return 0;
 	}
 };
 //------END-----------//
