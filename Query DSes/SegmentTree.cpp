@@ -99,6 +99,7 @@ struct SegTree
     }
     void update(int_t l, int_t r, int_t diff)
     {
+    	if (l>r) return;
         updateK(1,1,tree_n,l,r,diff);
     }
     int_t getK(int_t node, int_t l, int_t r, int_t tar_l, int_t tar_r)
@@ -122,6 +123,7 @@ struct SegTree
     }
     int_t get(int_t l, int_t r)
     {
+    	if (l>r) return 0;
         return getK(1,1,tree_n,l,r);
     }
 };
