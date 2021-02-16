@@ -36,7 +36,7 @@ using namespace std;
 //------START-----------//
 struct dsu
 {
-	ll n,par[32001],h[32001],sz[32001];
+	ll n,par[1000100],h[1000100],sz[1000100];
 	dsu (ll n)
 	{
 		for (ll i=1;i<=n;i++)

@@ -45,7 +45,7 @@ struct merg
 };
 struct dsundo
 {
-	ll n,par[32001],h[32001],sz[32001];
+	ll n,par[1000100],h[1000100],sz[1000100];
 	vector<merg> bruh;
 	dsundo (ll n)
 	{
