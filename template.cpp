@@ -18,8 +18,8 @@ using namespace __gnu_pbds;
  
 //Pragmas (Comment out these three lines if you're submitting in szkopul.)
 #pragma comment(linker, "/stack:200000000")
-#pragma GCC optimize("Ofast")
-#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,tune=native")
+#pragma GCC optimize("Ofast,unroll-loops,tree-vectorize")
+#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,tune=native")
  
 //File I/O.
 #define FILE_IN "cseq.inp"
@@ -38,6 +38,18 @@ using namespace __gnu_pbds;
 #define min(a,b) (((a)<(b))?(a):(b))
 #define max(a,b) (((a)>(b))?(a):(b))
 
+// Fast min/max assigns to use with AVX.
+// Requires g++ 9.2.0.
+template<typename T>
+__attribute__((always_inline)) void chkmin(T& a, const T& b) {
+    a=(a<b)?a:b;
+}
+
+template<typename T>
+__attribute__((always_inline)) void chkmax(T& a, const T& b) {
+    a=(a>b)?a:b;
+}
+ 
 //Constants.
 #define MOD (ll(998244353))
 #define MAX 300001
@@ -64,4 +76,5 @@ using namespace __gnu_pbds;
 typedef long long ll;
 typedef long double ld;
 typedef short sh;
+
 //---------END-------//
