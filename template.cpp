@@ -1,5 +1,7 @@
 /*
-	Normie's Template v2.0
+	Normie's Template v2.1
+	Changes:
+	Added vectorization optimizations.
 */
  
 // Standard library in one include.
