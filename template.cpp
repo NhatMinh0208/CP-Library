@@ -80,3 +80,9 @@ typedef long double ld;
 typedef short sh;
 
 //---------END-------//
+vector<int> vec;
+int n,m,i,j,k,t,t1,u,v,a,b;
+int main()
+{
+	fio;
+}
