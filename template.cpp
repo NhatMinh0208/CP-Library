@@ -56,6 +56,7 @@ __attribute__((always_inline)) void chkmax(T& a, const T& b) {
 #define MOD (ll(998244353))
 #define MAX 300001
 #define mag 320
+const long double PI=3.14159265358979;
  
 //Pairs and 3-pairs.
 #define p1 first
