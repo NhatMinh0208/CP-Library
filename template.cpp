@@ -1,7 +1,7 @@
 /*
-	Normie's Template v2.1
+	Normie's Template v2.2
 	Changes:
-	Added vectorization optimizations.
+	Added binpow.
 */
  
 // Standard library in one include.
@@ -80,6 +80,20 @@ typedef long long ll;
 typedef long double ld;
 typedef short sh;
 
+// Binpow and stuff
+ll BOW(ll a, ll x, ll p)
+{
+	if (!x) return 1;
+	ll res=BOW(a,x/2,p);
+	res*=res;
+	res%=p;
+	if (x%2) res*=a;
+	return res%p;
+}
+ll INV(ll a, ll p)
+{
+	return BOW(a,p-2,p);
+}
 //---------END-------//
 vector<int> vec;
 int n,m,i,j,k,t,t1,u,v,a,b;
