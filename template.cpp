@@ -1,7 +1,7 @@
 /*
 	Normie's Template v2.2
 	Changes:
-	Added binpow.
+	Added modulo binpow and inverse.
 */
  
 // Standard library in one include.
