@@ -1,11 +1,3 @@
-// Problem: D. Useful Edges
-// Contest: Codeforces - Codeforces Round #709 (Div. 1, based on Technocup 2021 Final Round)
-// URL: https://codeforces.com/contest/1483/problem/D
-// Memory Limit: 512 MB
-// Time Limit: 5000 ms
-// 
-// Powered by CP Editor (https://cpeditor.org)
- 
 /*
 	Normie's Floyd-Warshall v1.0
     Simple O(N^3) all pairs shortest path algorithm.
