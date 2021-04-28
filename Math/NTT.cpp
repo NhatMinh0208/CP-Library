@@ -1,5 +1,6 @@
 /*
-	Normie's NTT v1.0
+	Normie's NTT v2.0
+    Changes: Now uses in-place computation.
 	Tested with library-checker.
 */
  
@@ -86,7 +87,7 @@ namespace CPL_NTT
 	ll Level=0;
 	vector<ll> roots;
 	ll inv2;
-	ll bow(ll a, ll x, ll p)
+	ll bow(ll a, ll x, ll p) // exponentation by squaring
 	{
 		if (!x) return 1;
 		ll res=bow(a,x/2,p);
@@ -95,11 +96,11 @@ namespace CPL_NTT
 		if (x%2) res*=a;
 		return res%Mod;
 	}
-	void generate()
+	void generate() // Generate roots of unity
 	{
 		roots.clear();
 		ll u=1;
-		for (ll i=0;i<Level;i++)
+		for (ll i=0;i<Level;i++) 
 		{
 			roots.push_back(u);
 			u*=Root;
@@ -107,33 +108,47 @@ namespace CPL_NTT
 		}
 		inv2=bow(2,Mod-2,Mod);
 	}
-	vector<ll> transform(const vector<ll>& vec, int inv)
+	vector<ll> transform(const vector<ll>& vec, int inv) //Fourier ttransform
 	{
 		if (vec.size()==1) return {vec[0]};
-		vector<ll> vec0,vec1;
-		for (ll i=0;i<vec.size();i++) if (i%2) vec1.push_back(vec[i]);
-		else vec0.push_back(vec[i]);
-		vector<ll> res0=transform(vec0,inv);
-		vector<ll> res1=transform(vec1,inv);
-		ll coeff=Level/vec.size();
+		ll coeff=Level/vec.size(),lvl=log2(vec.size());
 		vector<ll> res;
-		if (!inv)
-		{
-		for (ll i=0;i<vec.size()/2;i++) res.push_back((res0[i]+roots[coeff*i]*res1[i])%Mod);
-		for (ll i=0;i<vec.size()/2;i++) res.push_back(((res0[i]-roots[coeff*i]*res1[i])%Mod+Mod)%Mod);
-		}
-		else
-		{
-		for (ll i=0;i<vec.size()/2;i++) res.push_back((res0[i]+roots[(Level-coeff*i)%Level]*res1[i])%Mod);
-		for (ll i=0;i<vec.size()/2;i++) res.push_back(((res0[i]-roots[(Level-coeff*i)%Level]*res1[i])%Mod+Mod)%Mod);
-		}
+        for (ll i=0;i<vec.size();i++) // Building reverse-bit permutation of original array
+        {
+            ll u=0;
+            for (ll j=0;j<lvl;j++) u^=(((i&(1<<j))>>j)<<(lvl-1-j));
+            res.push_back(vec[u]);
+        }
+        for (ll t=0;t<lvl;t++)
+        {
+            coeff=Level/(1<<(t+1));
+        for (ll i=0;i<vec.size();i+=(1<<(t+1)))
+        {   // Apply merge for this segment
+            for (ll j=0;j<(1<<t);j++)
+            {
+                ll a=res[i+j];
+                ll b=res[i+j+(1<<t)];
+                if (!inv)
+                {
+                res[i+j]=(a+roots[coeff*j]*b)%Mod;
+                res[i+j+(1<<t)]=((a-roots[coeff*j]*b)%Mod+Mod)%Mod;
+                }
+                else
+                {
+                res[i+j]=(a+roots[(Level-coeff*j)%Level]*b)%Mod;
+                res[i+j+(1<<t)]=((a-roots[(Level-coeff*j)%Level]*b)%Mod+Mod)%Mod;
+                }
+            }
+        }
+        }
 		if (inv)
 		{
-			for (ll i=0;i<res.size();i++) res[i]=(res[i]*(inv2))%Mod;
+            ll mul=bow(inv2,lvl,Mod);
+			for (ll i=0;i<res.size();i++) res[i]=(res[i]*(mul))%Mod;
 		}
 		return res;
 	}
-	vector<ll> multiply(vector<ll> a, vector<ll> b)
+	vector<ll> multiply(vector<ll> a, vector<ll> b) // Actual multiplication
 	{
 		ll u=1;
 		while((u<a.size())or(u<b.size())) u*=2;
