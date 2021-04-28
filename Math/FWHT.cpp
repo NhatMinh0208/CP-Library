@@ -1,6 +1,5 @@
 /*
-	Normie's NTT v2.0
-    Changes: Now uses in-place computation.
+	Normie's FWHT Template v1.0
     Tested with Library-Checker (https://judge.yosupo.jp)
 */
  
@@ -56,6 +55,7 @@ __attribute__((always_inline)) void chkmax(T& a, const T& b) {
 #define MOD (ll(998244353))
 #define MAX 300001
 #define mag 320
+const long double PI=3.14159265358979;
  
 //Pairs and 3-pairs.
 #define p1 first
@@ -79,75 +79,53 @@ typedef long long ll;
 typedef long double ld;
 typedef short sh;
 
-//---------END-------//
-namespace CPL_NTT
+// Binpow and stuff
+ll BOW(ll a, ll x, ll p)
 {
-	ll Mod=0;
-	ll Root=0;
-	ll Level=0;
-	vector<ll> roots;
-	ll inv2;
-	ll bow(ll a, ll x, ll p) // exponentation by squaring
-	{
-		if (!x) return 1;
-		ll res=bow(a,x/2,p);
-		res*=res;
-		res%=Mod;
-		if (x%2) res*=a;
-		return res%Mod;
-	}
-	void generate() // Generate roots of unity
-	{
-		roots.clear();
-		ll u=1;
-		for (ll i=0;i<Level;i++) 
-		{
-			roots.push_back(u);
-			u*=Root;
-			u%=Mod;
-		}
-		inv2=bow(2,Mod-2,Mod);
-	}
-	vector<ll> transform(const vector<ll>& vec, int inv) //Fourier ttransform
-	{
-		if (vec.size()==1) return {vec[0]};
-		ll coeff=Level/vec.size(),lvl=log2(vec.size());
-		vector<ll> res;
-        for (ll i=0;i<vec.size();i++) // Building reverse-bit permutation of original array
+	if (!x) return 1;
+	ll res=BOW(a,x/2,p);
+	res*=res;
+	res%=p;
+	if (x%2) res*=a;
+	return res%p;
+}
+ll INV(ll a, ll p)
+{
+	return BOW(a,p-2,p);
+}
+//---------END-------//
+namespace CPL_FWHT
+{
+vector<ll> transform(vector<ll> x, ll inv=0)
+{
+    vector<ll> res=x;
+    ll h=1;
+    while(h<res.size())
+    {
+        for (ll i=0;i<res.size();i+=h*2)
+        for (ll j=i;j<i+h;j++)
         {
-            ll u=0;
-            for (ll j=0;j<lvl;j++) u^=(((i&(1<<j))>>j)<<(lvl-1-j));
-            res.push_back(vec[u]);
+            ll x=res[j];
+            ll y=res[j+h];
+            res[j]=(x+y+MOD)%MOD;
+            res[j+h]=(x-y+MOD)%MOD;
         }
-        for (ll t=0;t<lvl;t++)
+        h*=2;
+    }
+    if (inv)
+    {
+        for (ll i=0;i<log2(res.size());i++)
         {
-            coeff=Level/(1<<(t+1));
-        for (ll i=0;i<vec.size();i+=(1<<(t+1)))
-        {   // Apply merge for this segment
-            for (ll j=0;j<(1<<t);j++)
-            {
-                ll a=res[i+j];
-                ll b=res[i+j+(1<<t)];
-                if (!inv)
-                {
-                res[i+j]=(a+roots[coeff*j]*b)%Mod;
-                res[i+j+(1<<t)]=((a-roots[coeff*j]*b)%Mod+Mod)%Mod;
-                }
-                else
-                {
-                res[i+j]=(a+roots[(Level-coeff*j)%Level]*b)%Mod;
-                res[i+j+(1<<t)]=((a-roots[(Level-coeff*j)%Level]*b)%Mod+Mod)%Mod;
-                }
-            }
+        for (ll& g : res) 
+        {
+            g*=(998244354/2);
+            g%=MOD;
         }
         }
-		if (inv)
-		{
-            ll mul=bow(inv2,lvl,Mod);
-			for (ll i=0;i<res.size();i++) res[i]=(res[i]*(mul))%Mod;
-		}
-		return res;
-	}
+    }
+    return res;
+}
+
 	vector<ll> multiply(vector<ll> a, vector<ll> b) // Actual multiplication
 	{
 		ll u=1;
@@ -161,33 +139,29 @@ namespace CPL_NTT
 		for (ll i=0;i<u;i++)
 		{
 		//	cout<<i<<' '<<ra[i]<<' '<<rb[i]<<endl;
-			ra[i]=((ra[i]*rb[i])%Mod);
+			ra[i]=((ra[i]*rb[i])%MOD);
 		}
 		vector<ll> res=transform(ra,1);
 		return res;
 	}
 };
-using namespace CPL_NTT;
+using namespace CPL_FWHT;
+vector<ll> veca,vecb,vecc;
 ll n,m,i,j,k,t,t1,u,v,a,b;
-vector<ll> va,vb,vc;
 int main()
 {
 	fio;
-	cin>>n>>m;
-	for (i=0;i<n;i++)
-	{
-		cin>>u;
-		va.push_back(u);
-	}
-	for (i=0;i<m;i++)
-	{
-		cin>>u;
-		vb.push_back(u);
-	}
-	Mod=998244353;
-	Root=bow(3,119,Mod);
-	Level=(1<<23);
-	generate();
-	vc=multiply(va,vb);
-	for (i=0;i<m+n-1;i++) cout<<vc[i]<<' ';
+    cin>>n;
+    for (i=0;i<(1<<n);i++)
+    {
+        cin>>u;
+        veca.push_back(u);
+    }
+    for (i=0;i<(1<<n);i++)
+    {
+        cin>>u;
+        vecb.push_back(u);
+    }
+    vecc=multiply(veca,vecb);
+    for (i=0;i<(1<<n);i++) cout<<vecc[i]<<' ';
 }
