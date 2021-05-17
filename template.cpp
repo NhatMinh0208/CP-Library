@@ -1,7 +1,7 @@
 /*
-	Normie's Template v2.2
+	Normie's Template v2.3
 	Changes:
-	Added modulo binpow and inverse.
+    Removed cout.tie(0).
 */
  
 // Standard library in one include.
@@ -29,8 +29,8 @@ using namespace __gnu_pbds;
 #define ofile freopen(FILE_IN,"r",stdin);freopen(FILE_OUT,"w",stdout)
  
 //Fast I/O.
-#define fio ios::sync_with_stdio(0);cin.tie(0);cout.tie(0)
-#define nfio cin.tie(0);cout.tie(0)
+#define fio ios::sync_with_stdio(0);cin.tie(0)
+#define nfio cin.tie(0)
 #define endl "\n"
  
 //Order checking.
