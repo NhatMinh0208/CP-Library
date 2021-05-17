@@ -1,7 +1,7 @@
 /*
-		Max segtree with binary search capabilities.
-		This allows you to find the first/last element in a range
-		greater than a given value.
+	Max segtree with binary search capabilities, version 1.0.
+    Supports range add, range max, first/last element greater than a certain threshold in range.
+    TODO : Fix search operation to be O(nlogn) instead of O(nlog2n).
 */
 
 // Standard library in one include.

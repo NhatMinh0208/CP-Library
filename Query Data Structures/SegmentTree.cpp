@@ -1,6 +1,6 @@
 /*
-    New, shiny, hand-crafted segtree template.
-    Perfect for use in any online contest.
+    Segment tree with lazy propagation, version 1.0.
+    Supports range add and line sum.
     Tested with Codeforces Edu and library-checker. 
 */
 #include <bits/stdc++.h>

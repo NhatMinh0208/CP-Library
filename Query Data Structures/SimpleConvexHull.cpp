@@ -1,6 +1,10 @@
 /*
-	Normie's FWHT Template v1.0
-    Tested with Library-Checker (https://judge.yosupo.jp)
+	Simple Convex Hull template, version 1.0
+    (for max queries)
+    Supports line add and point max.
+    For use in simple applications.
+    Based on KACTL's LineContainer, with minor modifications.
+    Tested on https://judge.yosupo.jp/problem/line_add_get_min
 */
  
 // Standard library in one include.
@@ -28,8 +32,8 @@ using namespace __gnu_pbds;
 #define ofile freopen(FILE_IN,"r",stdin);freopen(FILE_OUT,"w",stdout)
  
 //Fast I/O.
-#define fio ios::sync_with_stdio(0);cin.tie(0);cout.tie(0)
-#define nfio cin.tie(0);cout.tie(0)
+#define fio ios::sync_with_stdio(0);cin.tie(0)
+#define nfio cin.tie(0)
 #define endl "\n"
  
 //Order checking.
@@ -94,74 +98,81 @@ ll INV(ll a, ll p)
 	return BOW(a,p-2,p);
 }
 //---------END-------//
-namespace CPL_FWHT
+ll floor_div(ll a, ll b) //actually floored
 {
-vector<ll> transform(vector<ll> x, ll inv=0)
-{
-    vector<ll> res=x;
-    ll h=1;
-    while(h<res.size())
-    {
-        for (ll i=0;i<res.size();i+=h*2)
-        for (ll j=i;j<i+h;j++)
-        {
-            ll x=res[j];
-            ll y=res[j+h];
-            res[j]=(x+y+MOD)%MOD;
-            res[j+h]=(x-y+MOD)%MOD;
-        }
-        h*=2;
-    }
-    if (inv)
-    {
-        for (ll i=0;i<log2(res.size());i++)
-        {
-        for (ll& g : res) 
-        {
-            g*=(998244354/2);
-            g%=MOD;
-        }
-        }
-    }
-    return res;
+    return (a/b)-(((a^b)<0)and(a%b));
 }
-
-	vector<ll> multiply(vector<ll> a, vector<ll> b) // Actual multiplication
-	{
-		ll u=1;
-		while((u<a.size())or(u<b.size())) u*=2;
-		u*=2;
-		while(a.size()<u) a.push_back(0);
-		while(b.size()<u) b.push_back(0);
-		//for (auto g : a) cout<<g<<' '; cout<<endl;
-		//for (auto g : b) cout<<g<<' '; cout<<endl;
-		vector<ll> ra=transform(a,0),rb=transform(b,0);
-		for (ll i=0;i<u;i++)
-		{
-		//	cout<<i<<' '<<ra[i]<<' '<<rb[i]<<endl;
-			ra[i]=((ra[i]*rb[i])%MOD);
-		}
-		vector<ll> res=transform(ra,1);
-		return res;
-	}
+struct Line{
+    mutable ll a,b,p;
+    int operator<(const Line& oth) const
+    {
+        return (a<oth.a);
+    }
+    int operator<(ll x) const
+    {
+        return (p<x);
+    }
 };
-using namespace CPL_FWHT;
-vector<ll> veca,vecb,vecc;
+
+struct SimpleConvexHull: multiset<Line,less<>>
+{
+    static const ll INF=LLONG_MAX,FAILED=-696969696969696969;
+
+    int isect(iterator x, iterator y)
+    {
+        if (y==end()) return x->p=INF,0;
+        if (x->a==y->a) 
+        {
+            x->p=(x->b>y->b)?INF:-INF;
+        }   
+        else x->p=floor_div(y->b - x->b, x->a - y->a);
+        return (x->p >= y->p);
+    }
+
+    void add(ll a, ll b)
+    {
+        auto z=insert({a,b,0}),y=z++,x=y;
+        while(isect(y,z)) z=erase(z);
+        if ((x!=begin())and(isect(--x,y))) isect(x,y=erase(y));
+        while ( ((y=x)!=begin()) and ((--x)->p >= y->p) )
+        {
+            isect(x,erase(y));
+        }
+    }
+    ll query(ll x)
+    {
+        if (empty()) return FAILED;
+        auto l=(*(lower_bound(x)));
+        return l.a*x+l.b;
+    }
+};
+
+// Example follows.
+// Problem source: https://judge.yosupo.jp/problem/line_add_get_min
 ll n,m,i,j,k,t,t1,u,v,a,b;
 int main()
 {
-	fio;
-    cin>>n;
-    for (i=0;i<(1<<n);i++)
+    fio;
+    cin>>n>>m;
+    SimpleConvexHull ch;
+    for (i=1;i<=n;i++)
+    {
+        cin>>a>>b;
+        ch.add(-a,-b);
+    }
+    for (i=1;i<=m;i++)
     {
         cin>>u;
-        veca.push_back(u);
+        if (u==0)
+        {
+            cin>>a>>b;
+            ch.add(-a,-b);
+        }
+        else
+        {
+            cin>>a;
+            b=ch.query(a);
+            cout<<-b<<endl;
+        }
     }
-    for (i=0;i<(1<<n);i++)
-    {
-        cin>>u;
-        vecb.push_back(u);
-    }
-    vecc=multiply(veca,vecb);
-    for (i=0;i<(1<<n);i++) cout<<vecc[i]<<' ';
 }

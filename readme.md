@@ -7,6 +7,9 @@ I hope this helps people in their CP journey.
 
 (Note that I won't be around to update the library very often, since I'm still training for APIO and IOI.)
 ## Todo:
-Add basic stuff
+Add basic stuff. For the time being, this library serves more to help me in my contests. I hope to improve it to make it more accessible for
+newcomers when I'm done with APIO/IOI.
 
 Add documentation. Some simpler DSAs haven't been documented.
+
+Fix max segtree with search so that search operation is O(n*logn).

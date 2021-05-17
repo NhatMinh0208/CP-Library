@@ -5,6 +5,7 @@
 	Add on a given range.
 	Set ai=max(ai,x) on a given range.
 	Get min on a given range.
+    WARNING: in development, still buggy, don't use
 */
  
 // Standard library in one include.
