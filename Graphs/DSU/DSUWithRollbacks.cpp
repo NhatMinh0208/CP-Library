@@ -1,7 +1,8 @@
 /*
-khoi orz, go check out his algo
--normie-
-Tested with library-checker.
+    DSU with rollbacks, version 1.1
+    Complexity is O(log n) guaranteed
+    Changes:
+    Removed path compression as it is unnecessary, and caused the code to bug out.
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -72,7 +73,7 @@ struct dsundo
 	ll get_par(ll x)
 	{
 		if (par[par[x]]==par[x]) return par[x];
-		else return par[x]=get_par(par[x]);
+		else return get_par(par[x]);
 	}
 	ll check_same(ll a, ll b)
 	{
