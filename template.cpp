@@ -1,9 +1,10 @@
+#ifndef CPL_TEMPLATE
+#define CPL_TEMPLATE
 /*
-	Normie's Template v2.3
+	Normie's Template v2.4
 	Changes:
-    Removed cout.tie(0).
+    Added include-guards to help with writing in multiple source files.
 */
- 
 // Standard library in one include.
 #include <bits/stdc++.h>
 using namespace std;
@@ -95,6 +96,7 @@ ll INV(ll a, ll p)
 	return BOW(a,p-2,p);
 }
 //---------END-------//
+#endif
 vector<int> vec;
 int n,m,i,j,k,t,t1,u,v,a,b;
 int main()
