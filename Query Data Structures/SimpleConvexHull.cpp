@@ -98,6 +98,8 @@ ll INV(ll a, ll p)
 	return BOW(a,p-2,p);
 }
 //---------END-------//
+namespace CPL_SCH
+{
 ll floor_div(ll a, ll b) //actually floored
 {
     return (a/b)-(((a^b)<0)and(a%b));
@@ -146,7 +148,8 @@ struct SimpleConvexHull: multiset<Line,less<>>
         return l.a*x+l.b;
     }
 };
-
+}
+using CPL_SCH::SimpleConvexHull;
 // Example follows.
 // Problem source: https://judge.yosupo.jp/problem/line_add_get_min
 ll n,m,i,j,k,t,t1,u,v,a,b;
