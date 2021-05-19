@@ -1,7 +1,6 @@
 /*
-khoi orz, go check out his algo
--normie-
-Tested with library-checker.
+// Normie's implementation of Dinic max flow, version 1.0.
+// Solves max flow in O(V^2*E).
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -39,11 +38,13 @@ using namespace __gnu_pbds;
 #define ll long long
 #define pi 3.1415926535897
 //------START-----------//
+namespace CPL_DinicMaxFlow
+{
 // Normie's implementation of Dinic max flow.
 // NOTE: if you need to work with numbers > 1e9, change int_t from int to ll and MAXINT to 1e18+7
-#define MAXN 1101 // maximum number of vertices you will be using
-#define int_t int
-#define MAXINT 1000000007
+const int MAXN=1101; // maximum number of vertices you will be using
+const int MAXINT=1000000007;
+template <class int_t> //int_t should be an intergral type
 struct edge
 // Structure to represent a directed graph edge.
 // u  : outgoing vertex
@@ -60,13 +61,15 @@ struct edge
 		cap=capp;	
 	} 
 };
+
+template <class int_t>
 struct dinic_graph
 // Structure to reppresent a directed flow graph.
 {
 	private:
 	
-	vector<edge> lis;                          // List of edges in graph.
-	vector<edge> lis_t;                        // A copy of lis, for use with the algorithms.
+	vector<edge<int_t>> lis;                          // List of edges in graph.
+	vector<edge<int_t>> lis_t;                        // A copy of lis, for use with the algorithms.
 	vector<int_t> adj[MAXN];                   // Adjacency list for each vertex. Edges are identified by their id as stored in [lis]
 	vector<int_t> layer_adj[MAXN];             // Adjacency list in layer graph, for use with the algorithms
 	int_t n;                                   // Actual number of vertices.
@@ -199,6 +202,8 @@ struct dinic_graph
 	}
 	
 };
+}
+using namespace CPL_DinicMaxFlow;
 //------END-----------//
 ll n,m,k,c[501],t,t1,i,j,res;
 vector<ll> gt[51];
@@ -207,7 +212,7 @@ int main()
 //    ofile;
     fio;
 	cin>>n>>m>>t>>t1;
-	dinic_graph gr(n+10);
+	dinic_graph<int> gr(n+10);
 	for (i=0;i<m;i++)
 	{
 		int a,b,c;
