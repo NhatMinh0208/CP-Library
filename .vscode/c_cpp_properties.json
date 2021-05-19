@@ -1,20 +1,18 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**",
-                "C:\\cygwin64\\usr\\src\\gcc-10.1.0\\libstdc++-v3\\include\\**"
+                "${workspaceFolder}/**"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "windowsSdkVersion": "10.0.18362.0",
-            "compilerPath": "C:/cygwin64/bin/gcc.exe",
+            "compilerPath": "/usr/bin/gcc",
             "cStandard": "gnu17",
-            "cppStandard": "gnu++17",
+            "cppStandard": "gnu+17",
             "intelliSenseMode": "gcc-x64"
         }
     ],
