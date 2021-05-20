@@ -115,6 +115,7 @@ ld prob(ld e1, ld e2, ld t)
     if (e2<e1) return 1;
     return exp(-(e2-e1)/t);
 }
+// Temps for distance 5k-10k
 ld temp (int it)
 {
     if (it<=2000000) return 80+(ld)20/(2000000)*(2000000-it);
