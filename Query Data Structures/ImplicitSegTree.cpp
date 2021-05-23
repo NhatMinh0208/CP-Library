@@ -48,11 +48,11 @@ struct node
     int_t lazy=0,val=0;
     node *nl=0, *nr=0;
 };
-struct DynamicSegTree
+struct ImplicitSegTree
 {
     node start;
     int_t nodecnt=1;
-    DynamicSegTree()
+    ImplicitSegTree()
     {
         nodes++;
     }
@@ -138,7 +138,7 @@ struct DynamicSegTree
         return getK(&start,0,2e9,l,r);
     }
 };
-map<int,DynamicSegTree> mp;
+map<int,ImplicitSegTree> mp;
 int n,m,i,j,k,t,u,v,a,b;
 int x,r,q;
 ll res=0;
