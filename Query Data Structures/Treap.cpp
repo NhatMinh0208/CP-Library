@@ -5,8 +5,8 @@
     Treap version 1.0
     Serves as a map with find-by-order operation, as well as sum of values of a key range. 
     Can be easily extended to support segtree operations (for example, the sz field and sum_by_key.)
-    insert/erase/order_of_key tested with https://www.spoj.com/problems/ADACROP/
-    The rest will be tested soon.
+    insert/erase/order_of_key tested with https://www.spoj.com/problems/ADACROP/.
+    insert/erase/get_by_key/sum_by_key tested with https://judge.yosupo.jp/problem/point_add_range_sum.
     See TreapCommon.hpp for facilities used in this file.
 */
 // Standard library in one include.
@@ -223,6 +223,7 @@ namespace CPL_Treap
 
 // Example problem follows.
 // Source (insert/erase/order_of_key): https://www.spoj.com/problems/ADACROP/
+// Source (insert/erase/get_by_key/sum_of_key): https://judge.yosupo.jp/problem/point_add_range_sum
 
 ll n,m,i,j,k,t,t1,u,v,a,b,las;
 map<int,CPL_TreapNode::p_node> lmao;
