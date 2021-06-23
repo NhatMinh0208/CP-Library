@@ -11,5 +11,3 @@ newcomers soon.
 Add documentation. Some simpler DSAs haven't been documented.
 
 Fix max segtree with search so that search operation is O(n*logn).
-
-Test more operations of treap.
