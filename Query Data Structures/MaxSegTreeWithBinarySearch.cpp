@@ -1,7 +1,6 @@
 /*
-	Max segtree with binary search capabilities, version 1.0.
-    Supports range add, range max, first/last element greater than a certain threshold in range.
-    TODO : Fix search operation to be O(nlogn) instead of O(nlog2n).
+	Max segtree with binary search capabilities, version 1.1.
+    Supports range add, range max, first/last element greater than a certain threshold in range all in O(nlogn).
 */
 
 // Standard library in one include.
@@ -179,6 +178,7 @@ struct seg
 		}
 		else
 		{
+			flusha(cur);
 			ll mid=(l+r)/2;
 			get_nodes(l,mid,(cur<<1),tl,tr);
 			get_nodes(mid+1,r,(cur<<1)+1,tl,tr);
@@ -206,11 +206,11 @@ struct seg
 		nodes.clear();
 		get_nodes(1,n,1,l,r);
 	//	cout<<"nodes:\n";
-		for (int i=0;i<nodes.size();i++)
+		for (int i=0;i<nodes.size();i++) if (val[nodes[i].fi]>x)
 		{
 		//	cout<<nodes[i].fi<<' '<<nodes[i].se.fi<<' '<<nodes[i].se.se<<endl;
 			auto u=bsK(nodes[i].se.fi,nodes[i].se.se,nodes[i].fi,x);
-			if (u<=nodes[i].se.se) return u;
+			return u;
 		}
 		return r+1;
 	}
@@ -236,11 +236,11 @@ struct seg
 		nodes.clear();
 		get_nodes(1,n,1,l,r);
 	//	cout<<"nodes:\n";
-		for (int i=nodes.size()-1;i>=0;i--)
+		for (int i=nodes.size()-1;i>=0;i--) if (val[nodes[i].fi]>x)
 		{
 		//	cout<<nodes[i].fi<<' '<<nodes[i].se.fi<<' '<<nodes[i].se.se<<endl;
 			auto u=bsRevK(nodes[i].se.fi,nodes[i].se.se,nodes[i].fi,x);
-			if (u>=nodes[i].se.fi) return u;
+			return u;
 		}
 		return l-1;
 	}
