@@ -104,7 +104,9 @@ ll sum(ll a, ll b){return (a+b);}
 ll summ(ll a, ll b){return (a+b)%MOD;}
 ll prod(ll a, ll b){return (a*b);}
 ll prodm(ll a, ll b){return (a%MOD*b)%MOD;}
-
+ll bAND(ll a, ll b){return (a&b);}
+ll bOR(ll a, ll b){return (a|b);}
+ll bXOR(ll a, ll b){return (a^b);}
 //The segement tree itself.
 struct seg
 {
