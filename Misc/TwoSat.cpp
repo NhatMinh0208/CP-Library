@@ -138,6 +138,12 @@ int solveSAT(int n)
     return 1;
 }
 
+int add(int u, int v)
+{
+    gt[u].push_back(v);
+    gt[v^1].push_back(u^1);
+}
+
 // Example problem follows.
 // Problem source: https://judge.yosupo.jp/problem/two_sat
 int main()
@@ -152,10 +158,9 @@ int main()
         cin>>a>>b>>u;
         if ((a>0)and(b>0))
         {
-        a--;
-        b--;
-        gt[a*2+1].push_back(b*2);
-        gt[b*2+1].push_back(a*2);
+            a--;
+            b--;
+            add(a*2+1,b*2);
         }
         else
         if ((a>0)and(b<0))
@@ -163,8 +168,7 @@ int main()
             b=-b;
             a--;
             b--;
-            gt[a*2+1].push_back(b*2+1);
-            gt[b*2].push_back(a*2);
+            add(a*2+1,b*2+1);
         }
         else
         if ((a<0)and(b>0))
@@ -172,8 +176,7 @@ int main()
             a=-a;
             a--;
             b--;
-            gt[a*2].push_back(b*2);
-            gt[b*2+1].push_back(a*2+1);
+            add(a*2,b*2);
         }
         else
         {
@@ -181,8 +184,7 @@ int main()
             b=-b;
             a--;
             b--;
-            gt[a*2].push_back(b*2+1);
-            gt[b*2].push_back(a*2+1);
+            add(a*2,b*2+1);
         }
     }
     if (solveSAT(n))
