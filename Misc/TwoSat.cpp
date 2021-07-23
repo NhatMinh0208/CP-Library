@@ -1,7 +1,7 @@
 /*
-    2-SAT solver, version 1.0.
+    2-SAT solver, version 1.1.
     Given a 2-SAT problem in implication graph form, this algorithm solves it in O(N+M).
-    Vertices N through 2N-1 are inverses of vertices 0 through N-1.
+    Vertices x is inverse of vertex x^1.
     There should be an edge u->v if u<=v.
     Tested with https://judge.yosupo.jp/problem/two_sat
 */
@@ -107,10 +107,10 @@ void dfs1(int x)
     for (auto g : gt[x]) if (!reg[g]) dfs1(g);
     tout.push_back(x);
 }
-void dfs2(int x)
+void dfs2(int x, int& t)
 {
     reg[x]=t;
-    for (auto g : gtr[x]) if (!reg[g]) dfs2(g);
+    for (auto g : gtr[x]) if (!reg[g]) dfs2(g,t);
 }
 int solveSAT(int n)
 {
@@ -126,15 +126,14 @@ int solveSAT(int n)
     for (i=2*n-1;i>=0;i--) if (!reg[tout[i]])
     {
         t++;
-        dfs2(tout[i]);
+        dfs2(tout[i],t);
     }
-    for (i=0;i<n;i++) if (reg[i]==reg[i+n]) return 0;
+    for (i=0;i<n;i++) if (reg[i*2]==reg[i*2+1]) return 0;
     for (i=0;i<2*n;i++) res[i]=-1;
     for (i=0;i<2*n;i++) if (res[tout[i]]==-1)
     {
         res[tout[i]]=1;
-        if (tout[i]>=n) res[tout[i]-n]=0;
-        else res[tout[i]+n]=0;
+        res[tout[i]^1]=0;
     }
     return 1;
 }
@@ -155,8 +154,8 @@ int main()
         {
         a--;
         b--;
-        gt[a+n].push_back(b);
-        gt[b+n].push_back(a);
+        gt[a*2+1].push_back(b*2);
+        gt[b*2+1].push_back(a*2);
         }
         else
         if ((a>0)and(b<0))
@@ -164,8 +163,8 @@ int main()
             b=-b;
             a--;
             b--;
-            gt[a+n].push_back(b+n);
-            gt[b].push_back(a);
+            gt[a*2+1].push_back(b*2+1);
+            gt[b*2].push_back(a*2);
         }
         else
         if ((a<0)and(b>0))
@@ -173,8 +172,8 @@ int main()
             a=-a;
             a--;
             b--;
-            gt[a].push_back(b);
-            gt[b+n].push_back(a+n);
+            gt[a*2].push_back(b*2);
+            gt[b*2+1].push_back(a*2+1);
         }
         else
         {
@@ -182,15 +181,15 @@ int main()
             b=-b;
             a--;
             b--;
-            gt[a].push_back(b+n);
-            gt[b].push_back(a+n);
+            gt[a*2].push_back(b*2+1);
+            gt[b*2].push_back(a*2+1);
         }
     }
     if (solveSAT(n))
     {
         cout<<"s SATISFIABLE"<<endl;
         cout<<"v ";
-        for (i=0;i<n;i++) if (res[i]) cout<<(i+1)<<' '; else cout<<-(i+1)<<' ';
+        for (i=0;i<n;i++) if (res[i*2]) cout<<(i+1)<<' '; else cout<<-(i+1)<<' ';
         cout<<0;
     }
     else cout<<"s UNSATISFIABLE";
