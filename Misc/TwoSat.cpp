@@ -138,7 +138,7 @@ int solveSAT(int n)
     return 1;
 }
 
-int add(int u, int v)
+void add(int u, int v)
 {
     gt[u].push_back(v);
     gt[v^1].push_back(u^1);
