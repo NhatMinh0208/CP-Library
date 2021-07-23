@@ -112,8 +112,10 @@ void dfs2(int x)
     reg[x]=t;
     for (auto g : gtr[x]) if (!reg[g]) dfs2(g);
 }
-int solveSAT()
+int solveSAT(int n)
 {
+    int i;
+    int t;
     for (i=0;i<2*n;i++) gtr[i].clear();
     for (i=0;i<2*n;i++) for (auto g : gt[i]) gtr[g].push_back(i);
     tout.clear();
@@ -184,7 +186,7 @@ int main()
             gt[b].push_back(a+n);
         }
     }
-    if (solveSAT())
+    if (solveSAT(n))
     {
         cout<<"s SATISFIABLE"<<endl;
         cout<<"v ";
