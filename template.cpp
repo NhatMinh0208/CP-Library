@@ -1,9 +1,9 @@
 #ifndef CPL_TEMPLATE
 #define CPL_TEMPLATE
 /*
-	Normie's Template v2.4
+	Normie's Template v2.5
 	Changes:
-    Added include-guards to help with writing in multiple source files.
+    Added warning against using pragmas on USACO.
 */
 // Standard library in one include.
 #include <bits/stdc++.h>
@@ -18,8 +18,8 @@ using namespace __gnu_pbds;
 // AtCoder library. (Comment out these two lines if you're not submitting in AtCoder.) (Or if you want to use it in other judges, run expander.py first.)
 //#include <atcoder/all>
 //using namespace atcoder;
- 
-//Pragmas (Comment out these three lines if you're submitting in szkopul.)
+
+//Pragmas (Comment out these three lines if you're submitting in szkopul or USACO.)
 #pragma comment(linker, "/stack:200000000")
 #pragma GCC optimize("Ofast,unroll-loops,tree-vectorize")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,tune=native")
