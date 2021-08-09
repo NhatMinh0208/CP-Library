@@ -1,7 +1,8 @@
 /*
-        Normie's Template v2.0
+	Normie's implementation of suffix array and LCP, version 1.0.
+	This implementation will actually sort the cyclic shifts, so you should to put a marker that's lower than
+	any character (e.g. '$') at the end of the string.
 */
-
 // Standard library in one include.
 #include <bits/stdc++.h>
 using namespace std;
@@ -65,12 +66,6 @@ typedef long long ll;
 typedef long double ld;
 typedef short sh;
 //---------END-------//
-/*
-	Normie's implementation of suffix array.
-	This implementation will actually sort the cyclic shifts, so you should to put a marker that's lower than
-	any character (e.g. '$') at the end of the string.
-	Right now it's gonna be basic, with only sorting of the suffixes.
-*/
 struct suff
 {
 	string s; // The string we will be using
