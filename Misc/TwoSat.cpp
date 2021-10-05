@@ -97,6 +97,7 @@ ll INV(ll a, ll p)
 	return BOW(a,p-2,p);
 }
 //---------END-------//
+namespace CPL_2SAT {
 vector<int> gt[2000001],gtr[2000001],tout;
 int res[2000001];
 int reg[2000001];
@@ -143,7 +144,8 @@ void add(int u, int v)
     gt[u].push_back(v);
     gt[v^1].push_back(u^1);
 }
-
+}
+using namespace CPL_2SAT;
 // Example problem follows.
 // Problem source: https://judge.yosupo.jp/problem/two_sat
 int main()
