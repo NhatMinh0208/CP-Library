@@ -36,10 +36,10 @@ using namespace std;
 //------START-----------//
 struct dsu
 {
-	ll n,par[1000100],h[1000100],sz[1000100];
-	dsu (ll n)
+	int n,par[300100],h[300100],sz[300100];
+	dsu (int n)
 	{
-		for (ll i=1;i<=n;i++)
+		for (int i=1;i<=n;i++)
 		{
 			par[i]=i;
 			sz[i]=1;
@@ -48,9 +48,9 @@ struct dsu
 		this->n=n;
 	}
 	
-	void reset (ll n)
+	void reset (int n)
 	{
-		for (ll i=1;i<=n;i++)
+		for (int i=1;i<=n;i++)
 		{
 			par[i]=i;
 			sz[i]=1;
@@ -58,18 +58,18 @@ struct dsu
 		}
 		this->n=n;
 	}
-	ll get_par(ll x)
+	int get_par(int x)
 	{
 		if (par[par[x]]==par[x]) return par[x];
 		else return par[x]=get_par(par[x]);
 	}
-	ll check_same(ll a, ll b)
+	int check_same(int a, int b)
 	{
 		return (get_par(a)==get_par(b));
 	}
-	ll add_edge(ll a, ll b)
+	int add_edge(int a, int b)
 	{
-		ll ha=get_par(a),hb=get_par(b);
+		int ha=get_par(a),hb=get_par(b);
 		if (ha!=hb)
 		{
 			if (h[ha]<h[hb])
