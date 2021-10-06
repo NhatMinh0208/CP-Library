@@ -76,18 +76,21 @@ struct dsu
 			{
 				par[ha]=hb;
 				sz[hb]+=sz[ha];
+				return hb;
 			}
 			else
 			if (h[ha]>h[hb])
 			{
 				par[hb]=ha;
 				sz[ha]+=sz[hb];
+				return ha;
 			}
 			else
 			{
 				par[hb]=ha;
 				sz[ha]+=sz[hb];
 				h[ha]++;
+				return ha;
 			}
 			return 1;
 		}
