@@ -1,0 +1,1 @@
+cp ~/code/CP-Library/filerun.py ./filerun.py && chmod 777 ./filerun.py
