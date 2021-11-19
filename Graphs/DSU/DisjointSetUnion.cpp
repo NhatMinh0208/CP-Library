@@ -37,7 +37,7 @@ using namespace std;
 struct dsu
 {
 	int n,par[300100],h[300100],sz[300100];
-	dsu (int n)
+	dsu (int n=0)
 	{
 		for (int i=1;i<=n;i++)
 		{
