@@ -152,7 +152,7 @@ vector<ll> transform(vector<ll> x, ll mode, ll inv=0)
         {
         for (ll& g : res) 
         {
-            g*=(998244354/2);
+            g*=((MOD+1)/2);
             g%=MOD;
         }
         }
