@@ -1,12 +1,9 @@
 #ifndef CPL_TEMPLATE
 #define CPL_TEMPLATE
 /*
-    Treap version 1.0
-    Serves as a map with find-by-order operation, as well as sum of values of a key range. 
-    Can be easily extended to support segtree operations (for example, the sz field and sum_by_key.)
-    insert/erase/order_of_key tested with https://www.spoj.com/problems/ADACROP/.
-    insert/erase/get_by_key/sum_by_key tested with https://judge.yosupo.jp/problem/point_add_range_sum.
-    See TreapCommon.hpp for facilities used in this file.
+	Implicit treap, version 1.0.
+    Acts as a split/mergable array with built-in segtree sum operations.
+    Tested with https://codeforces.com/gym/102787/problem/A
 */
 // Standard library in one include.
 #include <bits/stdc++.h>
@@ -22,7 +19,7 @@ using namespace __gnu_pbds;
 //#include <atcoder/all>
 //using namespace atcoder;
  
-//Pragmas (Comment out these three lines if you're submitting in szkopul.)
+//Pragmas (Comment out these three lines if you're submitting in szkopul or USACO.)
 #pragma comment(linker, "/stack:200000000")
 #pragma GCC optimize("Ofast,unroll-loops,tree-vectorize")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,tune=native")
@@ -43,14 +40,14 @@ using namespace __gnu_pbds;
 //min/max redefines, so i dont have to resolve annoying compile errors.
 #define min(a,b) (((a)<(b))?(a):(b))
 #define max(a,b) (((a)>(b))?(a):(b))
-
+ 
 // Fast min/max assigns to use with AVX.
 // Requires g++ 9.2.0.
 template<typename T>
 __attribute__((always_inline)) void chkmin(T& a, const T& b) {
     a=(a<b)?a:b;
 }
-
+ 
 template<typename T>
 __attribute__((always_inline)) void chkmax(T& a, const T& b) {
     a=(a>b)?a:b;
@@ -80,10 +77,10 @@ const long double PI=3.14159265358979;
  
 //Typedefs.
 #define bi BigInt
-typedef long long ll;
+typedef int ll;
 typedef long double ld;
 typedef short sh;
-
+ 
 // Binpow and stuff
 ll BOW(ll a, ll x, ll p)
 {
@@ -102,42 +99,41 @@ ll INV(ll a, ll p)
 #endif
 
 #include "TreapCommon.hpp"
-
-
-namespace CPL_Treap
+ 
+namespace CPL_ITreap
 {
     using namespace CPL_TreapNode;
-    void split(p_node p, ll key, p_node& l, p_node& r)
+    void split(p_node p, ll key, p_node& l, p_node& r, int c=0)
     {
         if (!p)
         {
             l=r=NULL;
         }
-        else if (key<p->key)
+        else if (key<c+get_sz(p->l)+1)
         {
-            split(p->l,key,l,p->l), r=p;
+            split(p->l,key,l,p->l,c), r=p;
         }
         else
         {
-            split(p->r,key,p->r,r), l=p;
+            split(p->r,key,p->r,r,c+get_sz(p->l)+1), l=p;
         }
         update_sz(l), update_sz(r);
         update_sum(l), update_sum(r);
     }
-    void insert(p_node& p, p_node x)
+    void insert(p_node& p, p_node x, int c=0)
     {
         if (!p) p=x;
         else if (x->h>p->h) 
         {
-            split(p,x->key,x->l,x->r), p=x;
+            split(p,x->key,x->l,x->r,c), p=x;
         }
-        else if (x->key<p->key)
+        else if (x->key<c+get_sz(p->l)+1)
         {
-            insert(p->l,x);
+            insert(p->l,x,c);
         }
         else
         {
-            insert(p->r,x);
+            insert(p->r,x,c+get_sz(p->l)+1);
         }
         update_sz(p);
         update_sum(p);
@@ -161,9 +157,9 @@ namespace CPL_Treap
         update_sz(p);
         update_sum(p);
     }
-    void erase(p_node& p, ll key)
+    void erase(p_node& p, ll key, int c=0)
     {
-        if (p->key==key)
+        if ((c+get_sz(p->l)+1)==key)
         {
             auto x=p;
             merge(p,p->l,p->r);
@@ -171,38 +167,13 @@ namespace CPL_Treap
             x->r=NULL;
             if (x) delete x;
         }
-        else if (p->key>key)
+        else if ((c+get_sz(p->l)+1)>key)
         {
-            erase(p->l,key);
+            erase(p->l,key,c);
         }
-        else erase(p->r,key);
+        else erase(p->r,key,c+get_sz(p->l)+1);
         update_sz(p);
         update_sum(p);
-    }
-    p_node get_by_key(p_node root, ll key)
-    {
-        if (root->key==key) return root;
-        else if (root->key>key) return get_by_key(root->l,key);
-        else return get_by_key(root->r,key);
-    }
-    ll order_of_key(p_node root, ll key)
-    {
-        if (root->key==key) return (get_sz(root->l));
-        else if (root->key>key) return order_of_key(root->l,key);
-        else 
-        {
-            ll a=0,b=0;
-            a=order_of_key(root->r,key);
-            b=get_sz(root->l);
-            return (a+b+1);
-        }
-    }
-    p_node get_by_order(p_node root, ll l, ll r, ll ord)
-    {
-        ll x=l+get_sz(root->l);
-        if (x==ord) return root;
-        else if (x>ord) return get_by_order(root->l,l,x-1,ord);
-        else if (x<ord) return get_by_order(root->r,x+1,r,ord);
     }
     ll sum_by_key(p_node root, ll l, ll r, ll tl, ll tr)
     {
@@ -212,41 +183,43 @@ namespace CPL_Treap
         else 
         {
             ll res=0,a;
-            if ((tl<=root->key)and(root->key<=tr)) res+=root->val;
-            a=sum_by_key(root->l,l,root->key-1,tl,tr); res+=a;
-            a=sum_by_key(root->r,root->key+1,r,tl,tr); res+=a;   
+            if ((tl<=l+get_sz(root->l))and(l+get_sz(root->l)<=tr)) res+=root->val;
+            a=sum_by_key(root->l,l,l+get_sz(root->l)-1,tl,tr); res+=a;
+            a=sum_by_key(root->r,l+get_sz(root->l)+1,r,tl,tr); res+=a;   
             return res;         
         }
     }
 }
-
-// Example problem follows.
-// Source (insert/erase/order_of_key): https://www.spoj.com/problems/ADACROP/
-// Source (insert/erase/get_by_key/sum_of_key): https://judge.yosupo.jp/problem/point_add_range_sum
-
-ll n,m,i,j,k,t,t1,u,v,a,b,las;
-map<int,CPL_TreapNode::p_node> lmao;
-ll arr[200001];
+ 
+// Example problem follows. 
+vector<int> vec;
+int n,m,i,j,k,t,t1,u,v,a,b;
 int main()
 {
-    fio;
-    cin>>n;
-    cin>>m;
-    for (i=1;i<=n;i++)
-    {
-        cin>>arr[i];
-        CPL_Treap::insert(lmao[arr[i]],new CPL_TreapNode::node(i,0));
-    //    cout<<"insert "<<i<<endl;
-    //    cout<<lmao[arr[i]]<<endl;
-    }
-    for (i=1;i<=m;i++)
-    {
-        cin>>a>>b;
-        a++;
-        CPL_Treap::erase(lmao[arr[a]],a);
-        arr[a]=b;
-        CPL_Treap::insert(lmao[arr[a]],new CPL_TreapNode::node(a,0));
-    //    cout<<lmao[arr[a]]<<endl;
-        cout<<CPL_Treap::order_of_key(lmao[arr[a]],a)<<endl;
-    }
+	fio;
+	cin>>n;
+	auto tr = new CPL_TreapNode::node(1,1);
+	for (i=2;i<=n;i++) {
+		auto nu = new CPL_TreapNode::node(i,i);
+		CPL_ITreap::merge(tr,tr,nu);
+	}
+	for (i=1;i<=n;i++) {
+		cin>>a>>b;
+		u=min(b-a,n+1-b);
+		CPL_TreapNode::p_node t1,t2,t3,t4,t5;
+ 
+		CPL_ITreap::split(tr,a-1,t1,tr);
+		CPL_ITreap::split(tr,u,t2,tr);
+		CPL_ITreap::split(tr,b-1-(a-1)-u,t3,tr);
+		CPL_ITreap::split(tr,u,t4,tr);
+		CPL_ITreap::split(tr,n-(b-1)-u,t5,tr);
+ 
+		CPL_ITreap::merge(tr,tr,t1);
+		CPL_ITreap::merge(tr,tr,t4);
+		CPL_ITreap::merge(tr,tr,t3);
+		CPL_ITreap::merge(tr,tr,t2);
+		CPL_ITreap::merge(tr,tr,t5);
+	}
+ 
+	cout<<tr;
 }
