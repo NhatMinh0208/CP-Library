@@ -20,9 +20,9 @@ using namespace __gnu_pbds;
 //using namespace atcoder;
 
 //Pragmas (Comment out these three lines if you're submitting in szkopul or USACO.)
-#pragma comment(linker, "/stack:200000000")
-#pragma GCC optimize("Ofast,unroll-loops,tree-vectorize")
-#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,tune=native")
+// #pragma comment(linker, "/stack:200000000")
+// #pragma GCC optimize("Ofast,unroll-loops,tree-vectorize")
+// #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,tune=native")
  
 //File I/O.
 #define FILE_IN "cseq.inp"
