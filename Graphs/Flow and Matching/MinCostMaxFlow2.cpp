@@ -134,17 +134,14 @@ namespace CPL_MCF {
 		}
 
 		void add_edge(T u, T v, T cap, T cost) {
-			int i = lis.size();
-			adj[u].push_back(i);
-			adj[v].push_back(i+1);
-			lis.push_back(edge<T>(u,v,cap,cost,i+1));
-			lis.push_back(edge<T>(v,u,0,-cost,i));
+			lis.push_back(edge<T>(u,v,cap,cost,-1));
+			// lis.push_back(edge<T>(v,u,0,-cost,i));
 		}
 
 		void reduce() {
 			for (int i=0;i<m;i++) if (lis_t[i].rev>i) {
-				lis_t[i].cap+=dis[lis_t[i].u]-dis[lis_t[i].v];
-				lis_t[lis_t[i].rev].cap=0;
+				lis_t[i].cost+=dis[lis_t[i].u]-dis[lis_t[i].v];
+				lis_t[lis_t[i].rev].cost=0;
 			}
 		}
 
@@ -185,14 +182,15 @@ namespace CPL_MCF {
 
 		void disDIJ() {
 			priority_queue<pair<T,T>,vector<pair<T,T>>,greater<pair<T,T>>> pq;
-			pq.clear();
 			for (int i=0;i<n;i++) {
 				dis[i]=INF;
 			}
 			dis[s]=0;
 			pq.push({0,s});
 			while(pq.size()) {
+				// cout<<"dij loop\n";
 				auto pp = pq.top();
+				// cout<<pp.fi<<' '<<pp.se<<endl;
 				pq.pop();
 				if (dis[pp.se]<pp.fi) continue;
 				for (auto g : adj[pp.se]) {
@@ -210,6 +208,7 @@ namespace CPL_MCF {
 			vector<T> path;
 			T uu = t;
 			while (uu != s) {
+				// cout<<"augment loop\n";
 				path.push_back(lead[uu]);
 				uu = lis_t[lead[uu]].u;
 			}
@@ -226,8 +225,8 @@ namespace CPL_MCF {
 		}
 
 		void get_result() {
-			for (int i=0;i<m;i++) if (lis_t[i].rev>i) {
-				res.se += lis_t[lis_t[i].rev].cap * lis_t[i].cost;
+			for (int i=0;i<m/2;i++) {
+				res.se += lis_t[lis_t[i].rev].cap * lis[i].cost;
 			}
 		}
 
@@ -241,8 +240,17 @@ namespace CPL_MCF {
 
 			disBF();
 			reduce();
-
+			for (int i=0;i<m;i++) {
+				lis_t.push_back(edge<T>(lis_t[i].v,lis_t[i].u,0,-lis_t[i].cost,i));
+				lis_t[i].rev=i+m;
+			}
+			m=lis_t.size();
+			for (int i=0;i<m;i++) {
+				adj[lis_t[i].u].push_back(i);
+			}
 			while(true) {
+				// cout<<"outer loop\n";
+				// for (auto g : lis_t) cout<<g.u<<' '<<g.v<<' '<<g.cap<<' '<<g.cost<<endl;
 				disDIJ();
 				if (dis[t]==INF) break;
 				reduce();
@@ -256,11 +264,32 @@ namespace CPL_MCF {
 
 }
 
+CPL_MCF::mcf<ll> gr;
+
 
 
 vector<int> vec;
-int n,m,i,j,k,t,t1,u,v,a,b;
+ll n,m,i,j,k,t,t1,u,v,a,b;
+ll res[501];
 int main()
 {
-	fio;
+	// fio;
+	cin>>n;
+	gr.reset(2*n+2);
+	for (i=1;i<=n;i++) {
+		gr.add_edge(0,i,1,0);
+		gr.add_edge(n+i,2*n+1,1,0);
+	}
+	for (i=1;i<=n;i++) for (j=1;j<=n;j++) {
+		cin>>u;
+		gr.add_edge(i,n+j,1,u);
+	}
+	auto pp = gr.calc_flow(0,2*n+1,1e9);
+	cout<<pp.se<<endl;
+	for (auto g : gr.lis_t) {
+		if (1<=g.u && g.u<=n && n+1<=g.v && g.v<=2*n && g.cap==0) {
+			res[g.u-1]=g.v-1-n;
+		}
+	}
+	for (i=0;i<n;i++) cout<<res[i]<<' ';
 }

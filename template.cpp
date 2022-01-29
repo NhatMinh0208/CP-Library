@@ -10,10 +10,10 @@
 using namespace std;
  
 // ordered_set library.
-#include <ext/pb_ds/assoc_container.hpp>
-#include <ext/pb_ds/tree_policy.hpp>
-using namespace __gnu_pbds;
-#define ordered_set(el) tree<el,null_type,less<el>,rb_tree_tag,tree_order_statistics_node_update>
+// #include <ext/pb_ds/assoc_container.hpp>
+// #include <ext/pb_ds/tree_policy.hpp>
+// using namespace __gnu_pbds;
+// #define ordered_set(el) tree<el,null_type,less<el>,rb_tree_tag,tree_order_statistics_node_update>
  
 // AtCoder library. (Comment out these two lines if you're not submitting in AtCoder.) (Or if you want to use it in other judges, run expander.py first.)
 //#include <atcoder/all>
@@ -43,15 +43,15 @@ using namespace __gnu_pbds;
 
 // Fast min/max assigns to use with AVX.
 // Requires g++ 9.2.0.
-template<typename T>
-__attribute__((always_inline)) void chkmin(T& a, const T& b) {
-    a=(a<b)?a:b;
-}
+// template<typename T>
+// __attribute__((always_inline)) void chkmin(T& a, const T& b) {
+//     a=(a<b)?a:b;
+// }
 
-template<typename T>
-__attribute__((always_inline)) void chkmax(T& a, const T& b) {
-    a=(a>b)?a:b;
-}
+// template<typename T>
+// __attribute__((always_inline)) void chkmax(T& a, const T& b) {
+//     a=(a>b)?a:b;
+// }
  
 //Constants.
 #define MOD (ll(998244353))
