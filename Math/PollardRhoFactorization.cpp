@@ -184,16 +184,19 @@ long double get_height(long double x)
 }
 int main()
 {
-cin>>t1;
-for (t=0;t<t1;t++)
-{
-cin>>n;
-if (n==1) {cout<<0<<endl; continue;}
-vector<ll> res=factorize(n);
-sort(res.begin(),res.end());
-cout<<res.size();
-for (ll g : res) cout<<' '<<g;
-cout<<endl;
-}
+	cin>>t1;
+	for (t=0;t<t1;t++)
+	{
+		cin>>n;
+		if (n==1) {
+			cout<<0<<endl; 
+			continue;
+		}
+		vector<ll> res=factorize(n);
+		sort(res.begin(),res.end());
+		cout<<res.size();
+		for (ll g : res) cout<<' '<<g;
+		cout<<endl;
+	}
 }
 
