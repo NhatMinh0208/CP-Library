@@ -98,52 +98,52 @@ ll INV(ll a, ll p)
 }
 //---------END-------//
 namespace CPL_2SAT {
-vector<int> gt[2000001],gtr[2000001],tout;
-int res[2000001];
-int reg[2000001];
-int n,m,i,j,k,t,t1,u,v,a,b;
-void dfs1(int x)
-{
-    reg[x]=1;
-    for (auto g : gt[x]) if (!reg[g]) dfs1(g);
-    tout.push_back(x);
-}
-void dfs2(int x, int& t)
-{
-    reg[x]=t;
-    for (auto g : gtr[x]) if (!reg[g]) dfs2(g,t);
-}
-int solveSAT(int n)
-{
-    int i;
-    int t;
-    for (i=0;i<2*n;i++) gtr[i].clear();
-    for (i=0;i<2*n;i++) for (auto g : gt[i]) gtr[g].push_back(i);
-    tout.clear();
-    for (i=0;i<2*n;i++) reg[i]=0;
-    for (i=0;i<2*n;i++) if (!reg[i]) dfs1(i);
-    for (i=0;i<2*n;i++) reg[i]=0;
-    t=0;
-    for (i=2*n-1;i>=0;i--) if (!reg[tout[i]])
+    vector<int> gt[2000001],gtr[2000001],tout;
+    int res[2000001];
+    int reg[2000001];
+    int n,m,i,j,k,t,t1,u,v,a,b;
+    void dfs1(int x)
     {
-        t++;
-        dfs2(tout[i],t);
+        reg[x]=1;
+        for (auto g : gt[x]) if (!reg[g]) dfs1(g);
+        tout.push_back(x);
     }
-    for (i=0;i<n;i++) if (reg[i*2]==reg[i*2+1]) return 0;
-    for (i=0;i<2*n;i++) res[i]=-1;
-    for (i=0;i<2*n;i++) if (res[tout[i]]==-1)
+    void dfs2(int x, int& t)
     {
-        res[tout[i]]=1;
-        res[tout[i]^1]=0;
+        reg[x]=t;
+        for (auto g : gtr[x]) if (!reg[g]) dfs2(g,t);
     }
-    return 1;
-}
+    int solveSAT(int n)
+    {
+        int i;
+        int t;
+        for (i=0;i<2*n;i++) gtr[i].clear();
+        for (i=0;i<2*n;i++) for (auto g : gt[i]) gtr[g].push_back(i);
+        tout.clear();
+        for (i=0;i<2*n;i++) reg[i]=0;
+        for (i=0;i<2*n;i++) if (!reg[i]) dfs1(i);
+        for (i=0;i<2*n;i++) reg[i]=0;
+        t=0;
+        for (i=2*n-1;i>=0;i--) if (!reg[tout[i]])
+        {
+            t++;
+            dfs2(tout[i],t);
+        }
+        for (i=0;i<n;i++) if (reg[i*2]==reg[i*2+1]) return 0;
+        for (i=0;i<2*n;i++) res[i]=-1;
+        for (i=0;i<2*n;i++) if (res[tout[i]]==-1)
+        {
+            res[tout[i]]=1;
+            res[tout[i]^1]=0;
+        }
+        return 1;
+    }
 
-void add(int u, int v)
-{
-    gt[u].push_back(v);
-    gt[v^1].push_back(u^1);
-}
+    void add(int u, int v)
+    {
+        gt[u].push_back(v);
+        gt[v^1].push_back(u^1);
+    }
 }
 using namespace CPL_2SAT;
 // Example problem follows.
