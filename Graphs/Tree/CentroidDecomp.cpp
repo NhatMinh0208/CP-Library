@@ -71,7 +71,7 @@ struct edge
 	int v=0;
 	int used=0;
 	char c='0';
-	operator<(const edge& oth)
+	int operator<(const edge& oth)
 	{
 		return (v<oth.v);
 	}
