@@ -238,8 +238,7 @@ namespace CPL_MCF {
 			lis_t=lis;
 			res={0,0};
 
-			disBF();
-			reduce();
+			
 			for (int i=0;i<m;i++) {
 				lis_t.push_back(edge<T>(lis_t[i].v,lis_t[i].u,0,-lis_t[i].cost,i));
 				lis_t[i].rev=i+m;
@@ -248,6 +247,9 @@ namespace CPL_MCF {
 			for (int i=0;i<m;i++) {
 				adj[lis_t[i].u].push_back(i);
 			}
+
+			disBF();
+			reduce();
 			while(true) {
 				// cout<<"outer loop\n";
 				// for (auto g : lis_t) cout<<g.u<<' '<<g.v<<' '<<g.cap<<' '<<g.cost<<endl;
