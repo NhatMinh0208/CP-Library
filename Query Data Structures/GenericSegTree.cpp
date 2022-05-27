@@ -1,5 +1,5 @@
 /*
-//  Normie's lightweight segment tree implementation.
+//  Normie's generic segment tree implementation.
 //  Only supports point query and range update.
 //  Intended for simple applications.
 */
