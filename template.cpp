@@ -67,6 +67,9 @@ const long double PI=3.14159265358979;
 #define se second
 #define pii(element_type) pair<element_type,element_type>
 #define piii(element_type) pair<element_type,pii(element_type)>
+
+//Custom begin/end shorthand.
+#define rnge(rnge) rnge.begin(),rnge.end()
  
 //Quick power of 2.
 #define pow2(x) (ll(1)<<x)
