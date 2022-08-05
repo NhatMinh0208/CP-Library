@@ -1,9 +1,9 @@
 #ifndef CPL_TEMPLATE
 #define CPL_TEMPLATE
 /*
-	Normie's Template v2.5
+	Normie's Template v2.6
 	Changes:
-    Added warning against using pragmas on USACO.
+	Added range
 */
 // Standard library in one include.
 #include <bits/stdc++.h>
