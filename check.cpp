@@ -102,21 +102,21 @@ int main(int argc, char** argv)
 {
     t=atoi(argv[1]);
     cout<<"Compiling files..."<<endl;
-    system("g++ -o a gcd.cpp");
-    system("g++ -o b gcd_brute.cpp");
-    system("g++ -o c gcd_gen.cpp");
+    system("g++ -o a sol.cpp");
+    system("g++ -o b sol_brute.cpp");
+    system("g++ -o c sol_gen.cpp");
     for (t1=1;t1<=t;t1++) {
         cout<<"Running test "<<t1<<'/'<<t<<endl;
         system("./c");
-        system("time ./a");
-        // system("./b");
-        // if (system("cmp gcd.out gcd.ans")) {
-        //     cout<<"Failed\n";
-        //     system("rm ./a");
-        //     system("rm ./b");
-        //     system("rm ./c");
-        //     return 0;
-        // }
+        system("time ./a < in.txt > out.txt");
+        system("./b < in.txt > ans.txt");
+        if (system("cmp out.txt ans.txt")) {
+            cout<<"Failed\n";
+            system("rm ./a");
+            system("rm ./b");
+            system("rm ./c");
+            return 0;
+        }
     }
     cout<<"Accepted\n";
             system("rm ./a");

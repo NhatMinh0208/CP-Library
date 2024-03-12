@@ -101,16 +101,20 @@ ll INV(ll a, ll p)
 namespace CPL_Kuhn {
     vector<int> gt[200001];
     int used[200001];
+    vector<int> toclear;
     int matched[200001];
     int n,m,i,j,k,t,t1,u,v,a,b;
     vector<int> res1,res2;
-    int augment(int u)
+    int augment(int u, int p)
     {
+        // cout<<"aug "<<u<<' '<<p<<endl;
         if (used[u]) return 0;
         used[u]=1;
+        toclear.push_back(u);
         for (int v : gt[u])
         {
-            if ((matched[v]==-1)or(augment(matched[v])))
+            // cout<<v<<endl;
+            if ((v!=p)&&((matched[v]==-1)or(augment(matched[v], v))))
             {
                 matched[v]=u;
                 return 1;
@@ -124,13 +128,14 @@ namespace CPL_Kuhn {
     }
     void add_edge(int x, int y) {
         gt[x].push_back(a+y);
-        gt[a+y].push_back(x);
     }
     int solve() {
         int res=0;
         for (i=0;i<a;i++) {
-            for (j=0;j<a+b;j++) used[j]=0;
-            augment(i);
+            random_shuffle(gt[i].begin(), gt[i].end());
+            for (auto g : toclear) used[g] = 0;
+            toclear.clear();
+            augment(i,-1);
         }
         for (i=a;i<a+b;i++) if (matched[i]!=-1) res++;
         return res;
