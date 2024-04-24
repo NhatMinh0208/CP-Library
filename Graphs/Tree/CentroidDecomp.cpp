@@ -118,11 +118,6 @@ void postJob(int x) {
     }
 }
 
-int tmp;
-
-void prep(int x, int p) {
-}
-
 void solve(int x) {
     preJob(x);
     
@@ -143,11 +138,6 @@ void solve(int x) {
 
 
     // START SOLVING CODE
-
-    tmp = rt;
-    for (auto g : gt[rt]) {
-        prep(g.fi,rt);
-    }
 
     // END SOLVING CODE
 
@@ -172,4 +162,3 @@ int main()
 
     solve(1);
 }
-// a;
