@@ -96,17 +96,11 @@ ll INV(ll a, ll p)
 //---------END-------//
 #endif
 set<pii(int)> gt[200001];
-set<int> mrk[200001];
 ll n,m,i,j,k,t,t1,u,v,a,b;
-ll arr[200001];
 ll eu[200001],ev[200001],ec[200001];
-ll qu[200001],qv[200001],qr[200001];
 
 ll sz[200001];
 ll dep[200001];
-
-vector<int> curq;
-vector<int> curn;
 
 void preJob(int x) {
     sz[x]=1;
@@ -159,9 +153,6 @@ void solve(int x) {
 
     postJob(x);
     
-    curq.clear();
-    curn.clear();
-    
     for (auto g : gt[rt]) {
         gt[g.fi].erase({rt,g.se});
         solve(g.se);
@@ -172,23 +163,11 @@ int main()
 {
 	fio;
     cin>>n>>m;
-    for (i=1;i<=n;i++) {
-        cin>>arr[i];
-    }
+
     for (i=1;i<n;i++) {
         cin>>eu[i]>>ev[i]>>ec[i];
         gt[eu[i]].insert({ev[i],ec[i]});
         gt[ev[i]].insert({eu[i],ec[i]});
-    }
-    for (i=1;i<=m;i++) {
-        cin>>qu[i]>>qv[i];
-        if (qu[i]==qv[i]) {
-            if (arr[qu[i]]==0) qr[i]=0; else qr[i]=-1;
-        }
-        else {
-            mrk[qu[i]].insert(i);
-            mrk[qv[i]].insert(i);
-        }
     }
 
     solve(1);
