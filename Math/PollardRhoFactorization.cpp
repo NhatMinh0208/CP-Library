@@ -46,22 +46,18 @@ using namespace __gnu_pbds;
  #define generator std::uniform_int_distribution<std::mt19937::result_type> 
 //---------END---------//
 typedef long long ll;
+typedef unsigned long long ull;
 
-ll mul64(ll a, ll b, ll mo)
-// Function to multiply 2 long longs using binary exponentation and then return the result mod mo.
-// Input: a,b,mo
-// Output: (a*b)%mo
-{
-    ll res = 0;
-    while (b) {
-        if (b & 1)
-            res = (res + a) % mo;
-        a = (a + a) % mo;
-        b >>= 1;
-    }
-    return res;
+ull mul64(ull a, ull b, ull M) {
+	ll ret = a * b - M * ull(1.L / M * a * b);
+	return ret + M * (ret < 0) - M * (ret >= (ll)M);
 }
-
+ull bow64(ull b, ull e, ull mod) {
+	ull ans = 1;
+	for (; e; b = mul64(b, b, mod), e /= 2)
+		if (e & 1) ans = mul64(ans, b, mod);
+	return ans;
+}
 ll mul(ll a, ll b, ll mo)
 // Function to multiply 2 long longs using binary exponentation and then return the result mod mo.
 // Input: a,b,mo
@@ -77,17 +73,6 @@ ll bow (ll a, ll x, ll mo)
 	ll res=bow(a,x/2,mo);
 	res=mul(res,res,mo);
 	if (x%2) res=mul(res,a,mo);
-	return res;
-}
-
-ll bow64 (ll a, ll x, ll mo)
-// Input: a,x,mo
-// Output: (a^x)%mo
-{
-	if (x==0) return 1;
-	ll res=bow64(a,x/2,mo);
-	res=mul64(res,res,mo);
-	if (x%2) res=mul64(res,a,mo);
 	return res;
 }
 ll check (ll n, ll a, ll po, ll re)
