@@ -105,6 +105,7 @@ ll dep[200001];
 void preJob(int x) {
     sz[x]=1;
     for (auto g : gt[x]) if (!sz[g.fi]) {
+		dep[g.fi] = dep[x] + 1;
         preJob(g.fi);
         sz[x]+=sz[g.fi];
     }
@@ -136,12 +137,14 @@ void solve(int x) {
         }
     }
 
+	postJob(x);
+	preJob(rt);
 
     // START SOLVING CODE
 
     // END SOLVING CODE
 
-    postJob(x);
+    postJob(rt);
     
     for (auto g : gt[rt]) {
         gt[g.fi].erase({rt,g.se});
