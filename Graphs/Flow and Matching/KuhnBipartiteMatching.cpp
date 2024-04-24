@@ -124,6 +124,7 @@ namespace CPL_Kuhn {
     }
     void init(int _n, int _m) {
         a=_n,b=_m;
+	for (i=0;i<a;i++) gt[i].clear();
         for (i=a;i<a+b;i++) matched[i]=-1;
     }
     void add_edge(int x, int y) {
