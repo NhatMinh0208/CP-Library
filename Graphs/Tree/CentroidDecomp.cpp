@@ -155,7 +155,7 @@ void solve(int x) {
     
     for (auto g : gt[rt]) {
         gt[g.fi].erase({rt,g.se});
-        solve(g.se);
+        solve(g.fi);
     }
 }
 
